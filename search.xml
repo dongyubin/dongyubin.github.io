@@ -102,13 +102,25 @@
 <li>Mac下打开 <code>Clover Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li>
 </ol>
 <p><img src="/" class="lazyload" data-src="../images/mac/clover.jpg"  alt="Clover Configurator"></p>
-<ol start="8">
-<li>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</li>
-<li>将U盘里的【<code>BOOT</code>】文件夹和【<code>CLOVER</code>】文件夹拷贝到【<code>步骤8</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li>
-<li>直接使用社主【<code>GitHub上的clover文件夹</code>】拷贝到【<code>步骤8</code>】的EFI文件夹下的【<code>CLOVER</code>】文件夹下，替换即可（不用再做步骤11、12了）</li>
-<li>在此链接下，下载【<code>config_nuc8_bc.plist</code>】:<a href="https://github.com/RehabMan/Intel-NUC-DSDT-Patch" target="_blank" rel="noopener">https://github.com/RehabMan/Intel-NUC-DSDT-Patch</a></li>
-<li>下载完，重命名为：【<code>config.plist</code>】，拷贝到【<code>步骤8</code>】的EFI文件夹下的【<code>CLOVER</code>】文件夹下，替换即可。</li>
-<li>如有不懂的，可以参考外国大神的教程：<a href="https://www.tonymacx86.com/threads/guide-installing-macos-mojave-10-14-2-on-intel-nuci5beh-using-clover-uefi.268502/" target="_blank" rel="noopener">大神教程</a></li>
+<ol start="9">
+<li>
+<p>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</p>
+</li>
+<li>
+<p>将U盘里的【<code>BOOT</code>】文件夹和【<code>CLOVER</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</p>
+</li>
+<li>
+<p>直接使用社主【<code>GitHub上的clover文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>CLOVER</code>】文件夹下，替换即可（不用再做步骤12、13了）</p>
+</li>
+<li>
+<p>在此链接下，下载【<code>config_nuc8_bc.plist</code>】:<a href="https://github.com/RehabMan/Intel-NUC-DSDT-Patch" target="_blank" rel="noopener">https://github.com/RehabMan/Intel-NUC-DSDT-Patch</a></p>
+</li>
+<li>
+<p>下载完，重命名为：【<code>config.plist</code>】，拷贝到【<code>步骤8</code>】的EFI文件夹下的【<code>CLOVER</code>】文件夹下，替换即可。</p>
+</li>
+<li>
+<p>如有不懂的，可以参考外国大神的教程：<a href="https://www.tonymacx86.com/threads/guide-installing-macos-mojave-10-14-2-on-intel-nuci5beh-using-clover-uefi.268502/" target="_blank" rel="noopener">大神教程</a></p>
+</li>
 </ol>
 <h3 id="不足之处"><a class="header-anchor" href="#不足之处"></a>不足之处</h3>
 <ol>
