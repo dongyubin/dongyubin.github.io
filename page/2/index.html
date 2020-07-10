@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>文武科技社 - 一个有科技感的个人博客</title><meta name="description" content="文武科技社是一个致力于黑苹果安装、资源分享、软件测试教学的个人博客"><meta name="keywords" content="文武科技社,资源分享,软件测试,黑苹果安装,科技,黑苹果,python,java,程序小黑,nuc8i5beh,nuc8"><meta name="author" content="程序小黑"><meta name="copyright" content="程序小黑"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon-32x32.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="文武科技社"><meta name="twitter:description" content="文武科技社是一个致力于黑苹果安装、资源分享、软件测试教学的个人博客"><meta name="twitter:image" content="https://chengxuxiaohei.cn/img/avatar.gif"><meta property="og:type" content="website"><meta property="og:title" content="文武科技社"><meta property="og:url" content="https://chengxuxiaohei.cn/page/2/"><meta property="og:site_name" content="文武科技社"><meta property="og:description" content="文武科技社是一个致力于黑苹果安装、资源分享、软件测试教学的个人博客"><meta property="og:image" content="https://chengxuxiaohei.cn/img/avatar.gif"><meta property="article:published_time" content="2020-07-10T06:37:08.317Z"><meta property="article:modified_time" content="2020-07-10T06:37:08.317Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://chengxuxiaohei.cn/page/2/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><!--在线聊天--><script src="/" defer></script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://wangdudyb.gitee.io/blog/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: true,
+  isPhotoFigcaption: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dongyubin/cdn@master/githuBlog/css/custom.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/footer.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/flink.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/buttons.min.css"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="文武科技社" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.gif" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">47</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">102</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">27</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/software/"><i class="fa-fw fab fa-apple"></i><span> 软件下载</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 清单</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 娱乐</span></a></li></ul></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><div class="full_page" id="nav" style="background-image: url(https://www.aransw.com/acg/random.php)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">文武科技社</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/software/"><i class="fa-fw fab fa-apple"></i><span> 软件下载</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 清单</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 娱乐</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="site-info"><h1 id="site_title">文武科技社</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/dongyubin" target="_blank" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:itxh888@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div><div id="scroll_down"><i class="fa fa-angle-down scroll-down-effects"></i></div></div><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/wxgzh/wx-moban.html" title="微信公众号模板">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="微信公众号模板"></a></div><div class="recent-post-info"><a class="article-title" href="/wxgzh/wx-moban.html" title="微信公众号模板">微信公众号模板</a><div class="article-meta-wrap"><span class="article-meta"><i class="fa fa-thumb-tack article-meta__icon sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><time class="post-meta__date" title="发表于 2020-05-06 09:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-06</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/">公众号</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/%E6%8C%87%E5%8D%97/">指南</a></span></div><div class="content">
+  
+  
+    密码提示:微信公众号[文武科技社],回复[程序小黑]
+    
+  
+  cfa411ca85144f22e2b5d3128304bbe8073ebf41ddbc3356dfbc7932a9b0d6f3e7b396d95cf818a0a17e5d544102f1f82d990e ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/nuc-jzf-jjbf.html" title="nuci5beh开机出现禁止符号，解决办法">     <img class="post_bg lazyload" data-src="https://cdn.jsdelivr.net/gh/dongyubin/CDN@1.6/images-coding/mac/hpg.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="nuci5beh开机出现禁止符号，解决办法"></a></div><div class="recent-post-info"><a class="article-title" href="/nuc-jzf-jjbf.html" title="nuci5beh开机出现禁止符号，解决办法">nuci5beh开机出现禁止符号，解决办法</a><div class="article-meta-wrap"><span class="article-meta"><i class="fa fa-thumb-tack article-meta__icon sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><time class="post-meta__date" title="发表于 2019-05-06 09:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2019-05-06</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/">黑苹果</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/%E6%8C%87%E5%8D%97/">指南</a></span></div><div class="content">
+
+黑苹果开机有时会出现Error allocating 0x11c8d pages at 0x0000000???(每个人的都不同) alloc type 2 错误，每次还得强制重启，让人很烦😫
+博主也尝试了很多的办法，但是就是没用，又是一个不小心发现了一个解决办法，赶紧尝试了一下，不试不知道， ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/tools/typora-picgo-conn.html" title="Typora + PicGo，打造完美 markdown 编辑器">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Typora + PicGo，打造完美 markdown 编辑器"></a></div><div class="recent-post-info"><a class="article-title" href="/tools/typora-picgo-conn.html" title="Typora + PicGo，打造完美 markdown 编辑器">Typora + PicGo，打造完美 markdown 编辑器</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-09 09:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-07-09</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/win/">win</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/win/%E5%B7%A5%E5%85%B7/">工具</a></span></div><div class="content">工具下载
+
+typora
+picgo
+
+使用教程
+
+打开PicGo，选择插件设置，搜索web，安装
+
+
+
+在图床设置 - 自定义Web图床设置API地址、POST参数名、JSON路径
+
+
+接口组合
+1234567891011121314# 1API:https://images.ac.cn/api/ ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/mac-yingjian-share.html" title="黑苹果ITX配置">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="黑苹果ITX配置"></a></div><div class="recent-post-info"><a class="article-title" href="/mac-yingjian-share.html" title="黑苹果ITX配置">黑苹果ITX配置</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-19 09:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-19</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6/mac/">mac</a></span></div><div class="content">
+  
+  
+    Hey, password is required here.
+    
+  
+  c931aa2aa42fe4d35b1ec5acd5f25b097321f240aa8a972c20b25dc59f6fdd7e761c53d83f8f97a6ef82748eb68f6aa79 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/mac-yun-zhuangji.html" title="云装 一台 5K 的 黑苹果 ITX 主机">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="云装 一台 5K 的 黑苹果 ITX 主机"></a></div><div class="recent-post-info"><a class="article-title" href="/mac-yun-zhuangji.html" title="云装 一台 5K 的 黑苹果 ITX 主机">云装 一台 5K 的 黑苹果 ITX 主机</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-05-19 09:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-05-19</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6/mac/">mac</a></span></div><div class="content">
+
+大家好，欢迎来到文武科技社
+我是可耐的斌仔
+一个爱分享黑科技的程序员
+
+好久不见，甚是想念
+这几天忙的断更了几天
+实在抱歉
+今天，给大家写一下，我这几天的收获
+本来想买MacBook Pro的我，奈何价格劝退
+
+结果还是按耐不住折腾的心
+就想自己 Diy 一台 Itx 主机
+
+ITX 主机的优点 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/hexo/hexo-butterfly-tabs.html" title="hexo Butterfly 主题添加 tabs 标签功能">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo Butterfly 主题添加 tabs 标签功能"></a></div><div class="recent-post-info"><a class="article-title" href="/hexo/hexo-butterfly-tabs.html" title="hexo Butterfly 主题添加 tabs 标签功能">hexo Butterfly 主题添加 tabs 标签功能</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-04-27 10:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-04-27</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a></span></div><div class="content">
+
+1. 创建 tabs.styl
+路径：主题目录/source/css/_layout/tabs.styl
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/hexo/hexo-butterfly-zhihu.html" title="hexo Butterfly主题仿知乎卡片链接">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo Butterfly主题仿知乎卡片链接"></a></div><div class="recent-post-info"><a class="article-title" href="/hexo/hexo-butterfly-zhihu.html" title="hexo Butterfly主题仿知乎卡片链接">hexo Butterfly主题仿知乎卡片链接</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-27 10:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-27</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a></span></div><div class="content">
+
+新建文件
+在主题目录source/js下新建linkcard.js文件，内容如下
+1234567891011121314151617181920212223242526272829303132333435363738//里面包含了卡片样式和标题欺骗window.onload=function() ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/meihua/win-meihua-001.html" title="Windows桌面美化-001">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Windows桌面美化-001"></a></div><div class="recent-post-info"><a class="article-title" href="/meihua/win-meihua-001.html" title="Windows桌面美化-001">Windows桌面美化-001</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-23 11:26:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-23</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6/windows/">windows</a></span></div><div class="content">办公讲究的就是情绪
+如果情绪不好，那必定干啥啥没劲
+如何有一个好的情绪呢？问得好
+那当然是帅哥爱美女，美女爱帅哥了。
+在你的电脑桌面上，放一个漂亮妹子
+就问你提不提神
+
+男生你说不提神，别怪我说你，你该去hospital（医院）康康了
+当然壁纸是一方面
+那其他的是不是也该换一换
+比如桌面图标啊，鼠标 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/hexo/hexo-butterfly-anzhaung.html" title="hexo-theme Butterfly主题安装教程">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo-theme Butterfly主题安装教程"></a></div><div class="recent-post-info"><a class="article-title" href="/hexo/hexo-butterfly-anzhaung.html" title="hexo-theme Butterfly主题安装教程">hexo-theme Butterfly主题安装教程</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-20 10:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-20</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a></span></div><div class="content">
+
+小黑不喜欢重复造轮子，所以直接给出写的比较的好的文章地址，大家按照他们写的基本上安装没得问题，快快动起你小手，搭建属于自己的博客吧。
+
+如果没有你撰写
+主题的主人撰写：有时候打不开，可以用第1个
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/hexo/hexo-butterfly-daovoice.html" title="hexo Butterfly主题右侧添加DaoVoice">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo Butterfly主题右侧添加DaoVoice"></a></div><div class="recent-post-info"><a class="article-title" href="/hexo/hexo-butterfly-daovoice.html" title="hexo Butterfly主题右侧添加DaoVoice">hexo Butterfly主题右侧添加DaoVoice</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-19 20:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-19</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a></span></div><div class="content">
+
+安装教程
+
+先去 DaoVoice 注册账号，登录进去，创建应用
+
+
+
+公司名称：随便填（就是 应用名称）
+联系电话：自己的电话
+公司规模：随便填
+邀请码：不用填
+
+
+
+在创建的应用内找到 应用设置，可以修改 应用名称、应用logo
+
+
+
+点击 安装到网站 ，即可看到安装的编程语言
+
+
+
+我们选 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/hexo/hexo-butterfly-post.html" title="hexo Butterfly主题文章页添加结束语和公众号二维码">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo Butterfly主题文章页添加结束语和公众号二维码"></a></div><div class="recent-post-info"><a class="article-title" href="/hexo/hexo-butterfly-post.html" title="hexo Butterfly主题文章页添加结束语和公众号二维码">hexo Butterfly主题文章页添加结束语和公众号二维码</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-19 20:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-19</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a></span></div><div class="content">
+
+结束语
+
+在theme主题/layout/includes/post添加passage-end-tag.pug,代码如下：
+
+12345div  div(style='text-align:center;color: #ccc;font-size:14px;font-family: cursiv ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/wordpress/wp-art-npm.html" title="npm问题/ReferenceError：primordials is not defined">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="npm问题/ReferenceError：primordials is not defined"></a></div><div class="recent-post-info"><a class="article-title" href="/wordpress/wp-art-npm.html" title="npm问题/ReferenceError：primordials is not defined">npm问题/ReferenceError：primordials is not defined</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-03-15 16:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-03-15</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/npm/">npm</a></span></div><div class="content">今天在修改博客主题时使用到了npm，在安装依赖时，报错：ReferenceError: primordials is not defined,瞬间懵圈，没有百度解决不了的问题，如果解决不了，那就Google。
+
+百度一查，原来是node版本的问题
+卸载现在的再下载新的安装，这不是脱裤子放屁——多此一 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/mac-yjzc.html" title="黑苹果Catalina/Mojave硬件支持列表">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="黑苹果Catalina/Mojave硬件支持列表"></a></div><div class="recent-post-info"><a class="article-title" href="/mac-yjzc.html" title="黑苹果Catalina/Mojave硬件支持列表">黑苹果Catalina/Mojave硬件支持列表</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-05 19:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-02-05</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/">黑苹果</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/%E6%8C%87%E5%8D%97/">指南</a></span></div><div class="content">
+
+查看显卡型号
+
+下载鲁大师官网下载
+硬件检测，配置如下图，查看显卡型号
+
+
+AMD显卡支持列表
+
+
+
+
+免驱
+免驱或仿冒
+无法驱动
+
+
+
+
+5700XT（10.15.1 Beta2 起支持）
+
+
+
+
+Rx Vega VII
+R9 260/360
+RX5700/RX5700XT
+
+
+Vega 64 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/hexo/hexo-butterfly-3dmap.html" title="hexo Butterfly主题右侧栏添加3D星球显示效果（revolvermaps插件）">     <img class="post_bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo Butterfly主题右侧栏添加3D星球显示效果（revolvermaps插件）"></a></div><div class="recent-post-info"><a class="article-title" href="/hexo/hexo-butterfly-3dmap.html" title="hexo Butterfly主题右侧栏添加3D星球显示效果（revolvermaps插件）">hexo Butterfly主题右侧栏添加3D星球显示效果（revolvermaps插件）</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-01-06 20:00:00"><i class="fa fa-calendar" aria-hidden="true"></i>2020-01-06</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a></span></div><div class="content">
+
+先去revolvermaps官网选择一款你喜欢的样式，将代码拷贝出来
+
+此处为示例代码，可以自行切换
+1&lt;script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=549th73ngsi&amp;amp;s=22 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fa fa-fw fa-chevron-left" aria-hidden="true"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-fw fa-chevron-right" aria-hidden="true"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.gif" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">程序小黑</div><div class="author-info__description">文武科技社是一个致力于黑苹果安装、资源分享、软件测试教学的个人博客</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">47</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">102</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">27</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/dongyubin" target="_blank" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:itxh888@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>公告</span></div><div class="announcement_content">感謝訪問本站，若喜歡請收藏 ^_^</div><img class="aside-post-bg" src="undefined" onerror="this.onerror=null;this.src='https://imgkr.cn-bj.ufileos.com/498652bf-bddd-4364-b404-610ec916b143.png'"/></div></div><div class="card-widget card-weather"><div class="card-content"><div class="item_headline"><i class="fa fa-location-arrow card-weather-animation" aria-hidden="true"></i><span>实时天气</span><iframe allowtransparency="true" frameborder="0" width="200" height="55" scrolling="no" src="//i.tianqi.com/index.php?c=code&amp;a=getcode&amp;id=35&amp;h=55&amp;w=200"></iframe></div></div></div><div class="card-widget card-yq"><div class="card-content"><div class="item_headline"><i class="fa fa-location-arrow card-yq-animation" aria-hidden="true"></i><span>新型肺炎疫情数据</span><iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"></iframe></div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/tools/typora-picgo-conn.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Typora + PicGo，打造完美 markdown 编辑器" alt="Typora + PicGo，打造完美 markdown 编辑器"/></div><div class="aside-post-title"><div class="aside-post_title" href="/tools/typora-picgo-conn.html" title="Typora + PicGo，打造完美 markdown 编辑器">Typora + PicGo，打造完美 markdown 编辑器</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-09 09:00:00">2020-07-09</time></div></a></div><div class="aside-recent-post"><a href="/mac-yingjian-share.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" title="黑苹果ITX配置" alt="黑苹果ITX配置"/></div><div class="aside-post-title"><div class="aside-post_title" href="/mac-yingjian-share.html" title="黑苹果ITX配置">黑苹果ITX配置</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-19 09:00:00">2020-05-19</time></div></a></div><div class="aside-recent-post"><a href="/mac-yun-zhuangji.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" title="云装 一台 5K 的 黑苹果 ITX 主机" alt="云装 一台 5K 的 黑苹果 ITX 主机"/></div><div class="aside-post-title"><div class="aside-post_title" href="/mac-yun-zhuangji.html" title="云装 一台 5K 的 黑苹果 ITX 主机">云装 一台 5K 的 黑苹果 ITX 主机</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-19 09:00:00">2020-05-19</time></div></a></div><div class="aside-recent-post"><a href="/wxgzh/wx-moban.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" title="微信公众号模板" alt="微信公众号模板"/></div><div class="aside-post-title"><div class="aside-post_title" href="/wxgzh/wx-moban.html" title="微信公众号模板">微信公众号模板</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-06 09:00:00">2020-05-06</time></div></a></div><div class="aside-recent-post"><a href="/hexo/hexo-butterfly-tabs.html"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://api.ixiaowai.cn/mcapi/mcapi.php" onerror="this.onerror=null;this.src='/img/404.jpg'" title="hexo Butterfly 主题添加 tabs 标签功能" alt="hexo Butterfly 主题添加 tabs 标签功能"/></div><div class="aside-post-title"><div class="aside-post_title" href="/hexo/hexo-butterfly-tabs.html" title="hexo Butterfly 主题添加 tabs 标签功能">hexo Butterfly 主题添加 tabs 标签功能</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-27 10:00:00">2020-04-27</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="card-category-list">
+            <li class="card-category-list-item"><a class="card-category-list-link" href="/categories/mac/"><span class="card-category-list-name">mac</span><span class="card-category-list-count">1</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/mac/%E9%95%9C%E5%83%8F/"><span class="card-category-list-name">镜像</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/win/"><span class="card-category-list-name">win</span><span class="card-category-list-count">2</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/win/%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">工具</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/win/%E6%8C%87%E5%8D%97/"><span class="card-category-list-name">指南</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/"><span class="card-category-list-name">公众号</span><span class="card-category-list-count">1</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/%E6%8C%87%E5%8D%97/"><span class="card-category-list-name">指南</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/"><span class="card-category-list-name">技术</span><span class="card-category-list-count">16</span></a></li>
+            <li class="card-category-list-item more is-center"><a class="card-category-list-link-more" href="/categories">
+                <span>查看更多</span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>           
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href='/tags/1/' style='font-size:20px; color:rgb(193, 129, 10)'>1</a><a href='/tags/3D-%E6%98%9F%E7%90%83/' style='font-size:17px; color:rgb(25, 138, 45)'>3D 星球</a><a href='/tags/Android/' style='font-size:20px; color:rgb(195, 36, 25)'>Android</a><a href='/tags/Black-apple/' style='font-size:18px; color:rgb(143, 20, 123)'>Black apple</a><a href='/tags/Butterfly/' style='font-size:20px; color:rgb(140, 142, 189)'>Butterfly</a><a href='/tags/Catalina/' style='font-size:20px; color:rgb(112, 84, 109)'>Catalina</a><a href='/tags/D8/' style='font-size:20px; color:rgb(25, 189, 99)'>D8</a><a href='/tags/DaoVoice/' style='font-size:20px; color:rgb(143, 18, 127)'>DaoVoice</a><a href='/tags/GitHub/' style='font-size:16px; color:rgb(140, 77, 41)'>GitHub</a><a href='/tags/Gitee/' style='font-size:21px; color:rgb(59, 117, 57)'>Gitee</a><a href='/tags/Guide/' style='font-size:21px; color:rgb(152, 6, 31)'>Guide</a><a href='/tags/IT%E6%8A%80%E6%9C%AF/' style='font-size:18px; color:rgb(181, 151, 193)'>IT技术</a><a href='/tags/K660EI7/' style='font-size:21px; color:rgb(158, 36, 36)'>K660EI7</a><a href='/tags/Mojave/' style='font-size:17px; color:rgb(139, 122, 107)'>Mojave</a><a href='/tags/Mysql/' style='font-size:20px; color:rgb(160, 54, 181)'>Mysql</a><a href='/tags/QQ/' style='font-size:17px; color:rgb(94, 31, 6)'>QQ</a><a href='/tags/Tomcat/' style='font-size:18px; color:rgb(192, 148, 197)'>Tomcat</a><a href='/tags/apk/' style='font-size:21px; color:rgb(48, 146, 105)'>apk</a><a href='/tags/css/' style='font-size:17px; color:rgb(0, 33, 172)'>css</a><a href='/tags/emoji/' style='font-size:19px; color:rgb(180, 179, 1)'>emoji</a><a href='/tags/git/' style='font-size:17px; color:rgb(29, 61, 189)'>git</a><a href='/tags/gitee/' style='font-size:18px; color:rgb(47, 89, 75)'>gitee</a><a href='/tags/github/' style='font-size:21px; color:rgb(129, 45, 1)'>github</a><a href='/tags/hexo/' style='font-size:17px; color:rgb(145, 125, 70)'>hexo</a><a href='/tags/hosts/' style='font-size:20px; color:rgb(172, 11, 33)'>hosts</a><a href='/tags/html/' style='font-size:20px; color:rgb(171, 25, 188)'>html</a><a href='/tags/itx/' style='font-size:16px; color:rgb(191, 79, 148)'>itx</a><a href='/tags/linux/' style='font-size:17px; color:rgb(26, 0, 26)'>linux</a><a href='/tags/mac/' style='font-size:18px; color:rgb(0, 100, 72)'>mac</a><a href='/tags/next/' style='font-size:21px; color:rgb(46, 85, 199)'>next</a><a href='/tags/npm/' style='font-size:17px; color:rgb(8, 90, 87)'>npm</a><a href='/tags/nuc6/' style='font-size:20px; color:rgb(10, 144, 75)'>nuc6</a><a href='/tags/nuc6i7KYK/' style='font-size:19px; color:rgb(191, 120, 114)'>nuc6i7KYK</a><a href='/tags/nuc8/' style='font-size:20px; color:rgb(138, 19, 35)'>nuc8</a><a href='/tags/nuc8i5beh/' style='font-size:17px; color:rgb(54, 5, 36)'>nuc8i5beh</a><a href='/tags/package/' style='font-size:16px; color:rgb(168, 182, 152)'>package</a><a href='/tags/picgo/' style='font-size:18px; color:rgb(19, 192, 112)'>picgo</a><a href='/tags/revolvermaps/' style='font-size:21px; color:rgb(182, 143, 122)'>revolvermaps</a><a href='/tags/ss/' style='font-size:19px; color:rgb(114, 88, 72)'>ss</a><a href='/tags/ssr/' style='font-size:19px; color:rgb(143, 54, 128)'>ssr</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/04/"><span class="card-archive-list-date">四月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/03/"><span class="card-archive-list-date">三月 2020</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/02/"><span class="card-archive-list-date">二月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/01/"><span class="card-archive-list-date">一月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/12/"><span class="card-archive-list-date">十二月 2019</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/09/"><span class="card-archive-list-date">九月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item more is-center"><a class="card-archive-list-link-more" href="/archives">
+              <span>查看更多</span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">47</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="03/04/2019 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div><div class="card-widget card-maps"><div class="card-content"><div class="item_headline"><i class="fa fa-map-marker card-maps-animation" aria-hidden="true"></i><span>地球村</span><script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=580tmpo9j6f&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 程序小黑</div><div id="days"><script>function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("03/04/2019 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="我已在此等候你 "+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒";
+}
+function setzero(i) {
+if (i<10) {
+i="0" + i
+};
+return i;
+}
+show_date_time();</script></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode far fa-moon" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener('DOMContentLoaded', function() {
+      pangu.spacingElementById('content-inner')
+})</script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleType = function () {
+  var subtitleEffect = true
+  fetch('https://api.btstu.cn/yan/api.php?charset=utf-8&encode=json',)
+    .then(function (res) {
+      return res.json()
+    })
+    .then(function (data) {
+      if (subtitleEffect) {
+        var sub = ''.length == 0 ? new Array() : ''.split(',')
+        var both = sub.unshift(data.text)
+        var typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: false,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = data.text
+      }
+    })
+    .catch(function (err) {
+      console.error(err)
+    })
+}
+window.addEventListener('load', subtitleType)
+</script><script src="/blog/js/linkcard.js"></script><script src="/blog/js/daovoice.js"></script><script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script></body></html>
