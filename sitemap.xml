@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chengxuxiaohei.cn/software/index.html</loc>
+    
+    <lastmod>2020-07-13T01:07:27.905Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/mac/mac-nvm.html</loc>
+    
+    <lastmod>2020-07-13T01:07:27.897Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/mac/mac-iterm2.html</loc>
+    
+    <lastmod>2020-07-13T01:07:27.891Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/mac-bluetooth.html</loc>
+    
+    <lastmod>2020-07-13T01:07:27.880Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/git/git-connect.html</loc>
+    
+    <lastmod>2020-07-13T01:07:27.873Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/mac-anzhuang.html</loc>
     
     <lastmod>2020-07-10T08:51:18.796Z</lastmod>
@@ -30,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/git/git-connect.html</loc>
-    
-    <lastmod>2020-07-10T02:56:41.454Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chengxuxiaohei.cn/tools/typora-picgo-conn.html</loc>
     
     <lastmod>2020-07-10T01:30:15.643Z</lastmod>
@@ -61,13 +89,6 @@
     <loc>https://chengxuxiaohei.cn/tags/index.html</loc>
     
     <lastmod>2020-07-09T07:55:36.620Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/software/index.html</loc>
-    
-    <lastmod>2020-07-09T07:55:36.619Z</lastmod>
     
   </url>
   
