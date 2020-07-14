@@ -4005,6 +4005,17 @@ img {
 #article-container .aplayer {
   margin: 0 0 1rem;
 }
+#wechat_subscriber {
+  text-align: center;
+  display: inline-block;
+  line-height: 36px;
+  width: 100%;
+  margin: 0 auto;
+}
+#wechat_subscriber_qcode {
+  width: 200px;
+  max-width: 100%;
+}
 #article-container .btn-center {
   margin: 0 0 1rem;
   text-align: center;
