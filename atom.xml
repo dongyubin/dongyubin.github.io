@@ -432,11 +432,11 @@
     
       <category term="Butterfly" scheme="https://chengxuxiaohei.cn/tags/Butterfly/"/>
     
-      <category term="教程" scheme="https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="theme" scheme="https://chengxuxiaohei.cn/tags/theme/"/>
     
       <category term="安装" scheme="https://chengxuxiaohei.cn/tags/%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="教程" scheme="https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -639,9 +639,9 @@
       <category term="git" scheme="https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/git/"/>
     
     
-      <category term="git" scheme="https://chengxuxiaohei.cn/tags/git/"/>
-    
       <category term="教程" scheme="https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="git" scheme="https://chengxuxiaohei.cn/tags/git/"/>
     
       <category term="GitHub" scheme="https://chengxuxiaohei.cn/tags/GitHub/"/>
     
