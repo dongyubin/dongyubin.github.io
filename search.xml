@@ -185,10 +185,10 @@
     </iframe>
 </div>
 
-<a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/" target="_blank" rel="noopener" title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i> 打赏榜 </a>
 <h3 id="最后"><a class="header-anchor" href="#最后"></a>最后</h3>
 <h5 id="如有不懂之处-可在下方留言"><a class="header-anchor" href="#如有不懂之处-可在下方留言"></a>如有不懂之处，可在下方留言</h5>
 <h5 id="或者直接联系博主-code-ｑｑ-892457803-code"><a class="header-anchor" href="#或者直接联系博主-code-ｑｑ-892457803-code"></a>或者直接联系博主<code>ＱＱ:892457803</code></h5>
+<a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/" target="_blank" rel="noopener" title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i> 打赏榜 </a>
 <p><img src= "/img/loading.gif" data-src="http://img.soogif.com/AB10mZkftECBjsxOK5vVUmqc3MsrgQKE.gif" alt="好穷啊"></p>
 <p><img src= "/img/loading.gif" data-src="http://img.soogif.com/MJlNaP7GSNL3FcMa5tqjlEMSlMTY9KsV.gif" alt="三克油"></p>
 <h4 id="star走势图"><a class="header-anchor" href="#star走势图"></a>Star走势图</h4>
@@ -1464,61 +1464,11 @@
         <category>hexo</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>hexo</tag>
         <tag>Butterfly</tag>
+        <tag>教程</tag>
         <tag>theme</tag>
         <tag>安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo Butterfly主题文章页添加结束语和公众号二维码</title>
-    <url>/hexo/hexo-butterfly-post.html</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg" alt="hexo"></p>
-<a id="more"></a>
-<h3 id="结束语"><a class="header-anchor" href="#结束语"></a>结束语</h3>
-<ol>
-<li>在<code>theme主题/layout/includes/post</code>添加<code>passage-end-tag.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">div</span><br><span class="line">  div(style=<span class="string">'text-align:center;color: #ccc;font-size:14px;font-family: cursive;'</span>)</span><br><span class="line">    | -------------&amp;<span class="comment">#x7EB8;&amp;#x77ED;&amp;#x60C5;&amp;#x957F; </span></span><br><span class="line">    i.fa.fa-umbrella</span><br><span class="line">    |  &amp;<span class="comment">#x4E0B;&amp;#x6B21;&amp;#x518D;&amp;#x89C1;-------------</span></span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/passage-end-tag.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>完成</li>
-</ol>
-<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/U1487d5818dfc4a319c9369fbf90c3aae9.png" alt="效果图"></p>
-<h3 id="公众号二维码"><a class="header-anchor" href="#公众号二维码"></a>公众号二维码</h3>
-<ol>
-<li>在<code>theme主题/layout/includes/post</code>添加<code>wechat.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line"><span class="comment">#wechat_subscriber</span></span><br><span class="line">  center</span><br><span class="line">    img<span class="comment">#wechat_subscriber_qcode(src=`$&#123;post_cover&#125;` onerror=`onerror=null;src='$&#123;theme.wechat_subscriber.qcode&#125;'`,alt='文武科技社')</span></span><br><span class="line">  div=theme.wechat_subscriber.description</span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/wechat.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在<code>主目录/source/_data<code>下修改<code>butterfly.yml</code>,代码如下：</li>
-</ol>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+#订阅</span></span><br><span class="line"><span class="addition">+wechat_subscriber:</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"><span class="addition">+  qcode:  /img/wwgzh.png #ex. /uploads/wechat-qcode.jpg</span></span><br><span class="line"><span class="addition">+  description: 把好故事讲给你听</span></span><br></pre></td></tr></table></figure>
-<ol start="4">
-<li>在<code>theme主题/source/css/_layout</code>添加<code>wechat_subscriber.styl</code>,代码如下：</li>
-</ol>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">#wechat_subscriber</span><br><span class="line">  <span class="attribute">text-align</span>: center</span><br><span class="line">  <span class="attribute">display</span>: inline-block</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">36px</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto</span><br><span class="line"></span><br><span class="line">#wechat_subscriber_qcode</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">200px</span></span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span></span><br></pre></td></tr></table></figure>
-<ol start="5">
-<li>这就完成了，提交查看效果即可</li>
-</ol>
-<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/Uf8870f36204e4e2d864552cff6dcb40fn.png" alt="效果图"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Butterfly</tag>
-        <tag>DaoVoice</tag>
       </tags>
   </entry>
   <entry>
@@ -1578,6 +1528,56 @@
 <li>点开图标里面是否是自己的<strong>应用名</strong></li>
 </ol>
 <p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/dongyubin/CDN@1.8/images-coding/hexo/daovoice/007.png" alt="右边聊天图标"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>Butterfly</tag>
+        <tag>DaoVoice</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo Butterfly主题文章页添加结束语和公众号二维码</title>
+    <url>/hexo/hexo-butterfly-post.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg" alt="hexo"></p>
+<a id="more"></a>
+<h3 id="结束语"><a class="header-anchor" href="#结束语"></a>结束语</h3>
+<ol>
+<li>在<code>theme主题/layout/includes/post</code>添加<code>passage-end-tag.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">div</span><br><span class="line">  div(style=<span class="string">'text-align:center;color: #ccc;font-size:14px;font-family: cursive;'</span>)</span><br><span class="line">    | -------------&amp;<span class="comment">#x7EB8;&amp;#x77ED;&amp;#x60C5;&amp;#x957F; </span></span><br><span class="line">    i.fa.fa-umbrella</span><br><span class="line">    |  &amp;<span class="comment">#x4E0B;&amp;#x6B21;&amp;#x518D;&amp;#x89C1;-------------</span></span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/passage-end-tag.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>完成</li>
+</ol>
+<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/U1487d5818dfc4a319c9369fbf90c3aae9.png" alt="效果图"></p>
+<h3 id="公众号二维码"><a class="header-anchor" href="#公众号二维码"></a>公众号二维码</h3>
+<ol>
+<li>在<code>theme主题/layout/includes/post</code>添加<code>wechat.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line"><span class="comment">#wechat_subscriber</span></span><br><span class="line">  center</span><br><span class="line">    img<span class="comment">#wechat_subscriber_qcode(src=`$&#123;post_cover&#125;` onerror=`onerror=null;src='$&#123;theme.wechat_subscriber.qcode&#125;'`,alt='文武科技社')</span></span><br><span class="line">  div=theme.wechat_subscriber.description</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/wechat.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在<code>主目录/source/_data<code>下修改<code>butterfly.yml</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+#订阅</span></span><br><span class="line"><span class="addition">+wechat_subscriber:</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"><span class="addition">+  qcode:  /img/wwgzh.png #ex. /uploads/wechat-qcode.jpg</span></span><br><span class="line"><span class="addition">+  description: 把好故事讲给你听</span></span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>在<code>theme主题/source/css/_layout</code>添加<code>wechat_subscriber.styl</code>,代码如下：</li>
+</ol>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">#wechat_subscriber</span><br><span class="line">  <span class="attribute">text-align</span>: center</span><br><span class="line">  <span class="attribute">display</span>: inline-block</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">36px</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto</span><br><span class="line"></span><br><span class="line">#wechat_subscriber_qcode</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">200px</span></span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span></span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li>这就完成了，提交查看效果即可</li>
+</ol>
+<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/Uf8870f36204e4e2d864552cff6dcb40fn.png" alt="效果图"></p>
 ]]></content>
       <categories>
         <category>技术</category>
