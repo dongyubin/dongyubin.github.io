@@ -331,10 +331,10 @@
       </categories>
       <tags>
         <tag>mac</tag>
-        <tag>黑苹果</tag>
-        <tag>指南</tag>
         <tag>nuc6</tag>
         <tag>nuc6i7KYK</tag>
+        <tag>黑苹果</tag>
+        <tag>指南</tag>
       </tags>
   </entry>
   <entry>
@@ -1463,11 +1463,11 @@
         <category>hexo</category>
       </categories>
       <tags>
+        <tag>教程</tag>
         <tag>hexo</tag>
         <tag>Butterfly</tag>
         <tag>theme</tag>
         <tag>安装</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -2184,8 +2184,8 @@
         <category>git</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>git</tag>
+        <tag>教程</tag>
         <tag>GitHub</tag>
         <tag>Gitee</tag>
       </tags>
