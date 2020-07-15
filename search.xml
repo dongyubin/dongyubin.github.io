@@ -198,11 +198,11 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
-        <tag>mac</tag>
-        <tag>指南</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
+        <tag>mac</tag>
+        <tag>黑苹果</tag>
+        <tag>指南</tag>
       </tags>
   </entry>
   <entry>
@@ -330,11 +330,11 @@
         <category>指南</category>
       </categories>
       <tags>
+        <tag>mac</tag>
+        <tag>黑苹果</tag>
+        <tag>指南</tag>
         <tag>nuc6</tag>
         <tag>nuc6i7KYK</tag>
-        <tag>黑苹果</tag>
-        <tag>mac</tag>
-        <tag>指南</tag>
       </tags>
   </entry>
   <entry>
@@ -398,10 +398,10 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
-        <tag>mac</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
+        <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>Catalina</tag>
       </tags>
   </entry>
@@ -519,8 +519,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>指南</tag>
         <tag>恢复模式</tag>
       </tags>
@@ -734,8 +734,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>指南</tag>
         <tag>神舟</tag>
         <tag>战神</tag>
@@ -871,10 +871,10 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
         <tag>Black apple</tag>
+        <tag>mac</tag>
         <tag>Guide</tag>
       </tags>
   </entry>
@@ -910,8 +910,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>入门教程</tag>
         <tag>入门</tag>
       </tags>
@@ -956,11 +956,46 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
-        <tag>mac</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
+        <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>禁止符</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo Butterfly主题文章页添加疫情地图</title>
+    <url>/hexo/hexo-butterfly-yq.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg" alt="hexo"></p>
+<a id="more"></a>
+<h3 id="教程"><a class="header-anchor" href="#教程"></a>教程</h3>
+<ol>
+<li>在<code>theme主题/layout/includes/widget</code>添加<code>card-yq.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">.card-widget.card-yq</span><br><span class="line">    .card-content</span><br><span class="line">        .item_headline</span><br><span class="line">            i.fa.fa-location-arrow.card-yq-animation(aria-hidden=<span class="string">"true"</span>)</span><br><span class="line">            span= _p(<span class="string">'aside.card_yq'</span>)</span><br><span class="line">            iframe(src=<span class="string">'https://www.lovestu.com/api/project/cnmapyinqing/obj.php'</span>, height=<span class="string">'500'</span>, frameborder=<span class="string">'no'</span>, border=<span class="string">'0'</span>, width=<span class="string">'100%'</span>)</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在<code>theme主题/layout/includes/widget</code>下修改<code>index.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+      if theme.aside.card_yq</span></span><br><span class="line"><span class="addition">+        !=partial('includes/widget/card_yq', &#123;&#125;, &#123;cache:theme.fragment_cache&#125;)</span></span><br><span class="line">      if theme.aside.card_recent_post.enable</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在<code>theme主题/languages/</code>下修改<code>zh-CN.yml</code>,代码如下:</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">aside:</span><br><span class="line"><span class="addition">+  card_yq: 新型肺炎疫情数据</span></span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>修改主题的配置文件<code>butterfly.yml</code></li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">aside:</span><br><span class="line"><span class="addition">+  card_yq: true</span></span><br></pre></td></tr></table></figure>
+<h3 id="成果图"><a class="header-anchor" href="#成果图"></a>成果图</h3>
+<p><img src= "/img/loading.gif" data-src="https://imgkr.cn-bj.ufileos.com/b505163b-25a1-41a3-8260-dd79b8933918.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>Butterfly</tag>
+        <tag>疫情</tag>
       </tags>
   </entry>
   <entry>
@@ -1095,8 +1130,8 @@
         <category>mac</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>苹果</tag>
         <tag>配置</tag>
         <tag>itx</tag>
@@ -1264,8 +1299,8 @@
         <category>mac</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>苹果</tag>
         <tag>配置</tag>
         <tag>itx</tag>
@@ -1430,9 +1465,9 @@
       <tags>
         <tag>hexo</tag>
         <tag>Butterfly</tag>
-        <tag>教程</tag>
         <tag>theme</tag>
         <tag>安装</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -2149,8 +2184,8 @@
         <category>git</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>教程</tag>
+        <tag>git</tag>
         <tag>GitHub</tag>
         <tag>Gitee</tag>
       </tags>
@@ -3005,8 +3040,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
       </tags>
   </entry>
   <entry>
@@ -3064,8 +3099,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
       </tags>
   </entry>
   <entry>
@@ -3090,8 +3125,8 @@
         <category>推荐</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>软件</tag>
       </tags>
   </entry>
@@ -3119,8 +3154,8 @@
         <category>介绍</category>
       </categories>
       <tags>
-        <tag>黑苹果</tag>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
         <tag>IT技术</tag>
       </tags>
   </entry>
