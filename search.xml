@@ -192,11 +192,11 @@
         <category>指南</category>
       </categories>
       <tags>
+        <tag>黑苹果</tag>
+        <tag>mac</tag>
+        <tag>指南</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
-        <tag>mac</tag>
-        <tag>黑苹果</tag>
-        <tag>指南</tag>
       </tags>
   </entry>
   <entry>
@@ -236,7 +236,7 @@
   </entry>
   <entry>
     <title>指南：华擎z390安装黑苹果的教程，接近完美运行</title>
-    <url>/mac-anzhuang-z390.html</url>
+    <url>/mac-anzhuang-z370.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
 <a id="more"></a>
 <p><a href="https://github.com/dongyubin/Asrock-Z390" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://img.shields.io/github/stars/dongyubin/Asrock-Z390?style=flat-square" alt="img"></a></p>
@@ -405,11 +405,189 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
-        <tag>黑苹果</tag>
-        <tag>指南</tag>
         <tag>华擎</tag>
         <tag>z390</tag>
+        <tag>黑苹果</tag>
+        <tag>mac</tag>
+        <tag>指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指南：华擎z390安装黑苹果的教程，接近完美运行</title>
+    <url>/mac-anzhuang-z390.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
+<a id="more"></a>
+<p><a href="https://github.com/dongyubin/Asrock-Z390" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://img.shields.io/github/stars/dongyubin/Asrock-Z390?style=flat-square" alt="img"></a></p>
+<h3 id="采购硬件设施"><a class="header-anchor" href="#采购硬件设施"></a>采购硬件设施</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">配置</th>
+<th style="text-align:center">型号</th>
+<th style="text-align:center">价格</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">主板</td>
+<td style="text-align:center">华擎 Z390 phantom itx/ac</td>
+<td style="text-align:center">1380</td>
+</tr>
+<tr>
+<td style="text-align:center">显卡</td>
+<td style="text-align:center">蓝宝石 Rx580 8g 2304sp 超白金</td>
+<td style="text-align:center">824</td>
+</tr>
+<tr>
+<td style="text-align:center">CPU</td>
+<td style="text-align:center">i5 9600 中文版</td>
+<td style="text-align:center">1124</td>
+</tr>
+<tr>
+<td style="text-align:center">固态硬盘</td>
+<td style="text-align:center">intel 660P 1T</td>
+<td style="text-align:center">535</td>
+</tr>
+<tr>
+<td style="text-align:center">内存</td>
+<td style="text-align:center">酷兽 ddr4 2666 16G（2条）</td>
+<td style="text-align:center">412</td>
+</tr>
+<tr>
+<td style="text-align:center">电源</td>
+<td style="text-align:center">全汉 MS600G 全模组</td>
+<td style="text-align:center">650</td>
+</tr>
+<tr>
+<td style="text-align:center">CPU 散热器</td>
+<td style="text-align:center">玄冰 400</td>
+<td style="text-align:center">72</td>
+</tr>
+<tr>
+<td style="text-align:center">机箱</td>
+<td style="text-align:center">凌影</td>
+<td style="text-align:center">59</td>
+</tr>
+<tr>
+<td style="text-align:center">显示器</td>
+<td style="text-align:center">AOC Q2790PQU</td>
+<td style="text-align:center">1350</td>
+</tr>
+<tr>
+<td style="text-align:center">总共</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">6406</td>
+</tr>
+</tbody>
+</table>
+<h3 id="所需软件"><a class="header-anchor" href="#所需软件"></a>所需软件</h3>
+<ul>
+<li>
+<p>Mojave 10.15.6<br>
+<a href="https://cloud.189.cn/t/UzMVZfUFj6za" target="_blank" rel="noopener">网盘下载</a></p>
+</li>
+<li>
+<p>balenaEtcher：<br>
+<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html" target="_blank" rel="noopener">下载地址</a></p>
+</li>
+<li>
+<p>bios65文件：<br>
+<a href="https://www.tonymacx86.com/attachments/be0056-bio-zip.392463/" target="_blank" rel="noopener">下载地址</a></p>
+</li>
+<li>
+<p>nuc8 安装软件包：<br>
+<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html" target="_blank" rel="noopener">安装软件合集</a></p>
+<p><a href="https://www.lanzous.com/b737011/" target="_blank" rel="noopener">蓝奏云</a> 提取码：i21t</p>
+<p><a href="https://pan.baidu.com/s/1vdqQQkDnfmJY-Oweede5xw" target="_blank" rel="noopener">百度云</a> 提取码：r7xs</p>
+</li>
+<li>
+<p>EFI文件</p>
+<p><a href="https://gitee.com/wangdudyb/Asrock-Z390" target="_blank" rel="noopener">gitee地址</a></p>
+<p><a href="https://www.lanzoux.com/b073x7nuj" target="_blank" rel="noopener">蓝奏云</a>   密码:<strong>elam</strong></p>
+</li>
+</ul>
+<h3 id="安装过程"><a class="header-anchor" href="#安装过程"></a>安装过程</h3>
+<ol>
+<li>在Windows下插入U盘，启动balenaEtcher，“<code>select image</code>”选择“<code>Mojave 10.15.6</code>”镜像,选择U盘，点击“<code>Flash</code>”即可</li>
+</ol>
+<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/Ud374038a4ed24b6ea6f233a7d6bf499bj.png" alt="etcher"></p>
+<h3 id="显示efi分区-此处也可以使用diskgenius工具来查看u盘下的efi分区"><a class="header-anchor" href="#显示efi分区-此处也可以使用diskgenius工具来查看u盘下的efi分区"></a>显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）</h3>
+<p>Windows系统下，用【管理员身份】打开【CMD】窗口，输入以下命令：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">c:\&gt;<span class="title">diskpart</span></span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">disk</span>           # 磁盘列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">disk</span> <span class="title">n</span>       # 选择<span class="title">EFI</span>分区所在的磁盘，<span class="title">n</span>为磁盘号</span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">partition</span>      # 磁盘分区列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">partition</span> <span class="title">n</span>  # 选择<span class="title">EFI</span>分区，<span class="title">n</span>为<span class="title">EFI</span>分区号</span></span><br><span class="line"><span class="function"><span class="title">set</span> <span class="title">id</span>="<span class="title">ebd0a0a2</span>-<span class="title">b9e5</span>-4433-87<span class="title">c0</span>-68<span class="title">b6b72699c7</span>"	# 设置为基本数据分区</span></span><br><span class="line"><span class="function"><span class="title">assign</span> <span class="title">letter</span>=<span class="title">X</span>     # <span class="title">x</span>为<span class="title">EFI</span>分区盘符</span></span><br><span class="line"><span class="function"><span class="title">exit</span>				# 退出<span class="title">diskpart</span></span></span><br></pre></td></tr></table></figure>
+<h5 id="分区显示完后-将在-code-github-code-上下载文件里的-code-clover文件夹-code-替换-code-u盘efi分区下的clover文件夹-code-即可"><a class="header-anchor" href="#分区显示完后-将在-code-github-code-上下载文件里的-code-clover文件夹-code-替换-code-u盘efi分区下的clover文件夹-code-即可"></a>分区显示完后，将在<code>GitHub</code>上下载文件里的<code>clover文件夹</code>替换<code>U盘efi分区下的clover文件夹</code>即可。</h5>
+<h3 id="bios设置"><a class="header-anchor" href="#bios设置"></a>BIOS设置</h3>
+<ol>
+<li>按【<code>F2</code>】，进入BIOS设置界面</li>
+<li>BIOS设置如下：
+<ul>
+<li>高级（Advanced） &gt; USB 配置（USB Configuration） &gt; XHCI Hand-off -&gt; Enabled</li>
+</ul>
+</li>
+<li>按【<code>F10</code>】保存并退出</li>
+</ol>
+<h4 id="注意："><a class="header-anchor" href="#注意："></a>注意：</h4>
+<h5 id="不打勾为disable-打勾为enabled"><a class="header-anchor" href="#不打勾为disable-打勾为enabled"></a>不打勾为disable，打勾为enabled</h5>
+<h3 id="使用clover-uefi在asrock上引导macos安装程序"><a class="header-anchor" href="#使用clover-uefi在asrock上引导macos安装程序"></a>使用Clover UEFI在Asrock上引导macOS安装程序</h3>
+<ol>
+<li>将U盘插入需要安装系统的电脑</li>
+<li>选择« Boot macOS Install from install_osx »，按« Enter » 键即可</li>
+<li>出现安装界面，选择【<code>磁盘工具</code>】将你的SSD，格式化为【<code>APFS</code>】格式</li>
+<li>选择“<code>安装mac OS</code>”，安装系统即可【<code>重启后，请再次执行步骤2</code>】</li>
+<li>安装成功后，进入系统</li>
+<li><a href="https://chengxuxiaohei.cn/mac-software-anzhuang.html">mac安装Clover Configurator教程</a></li>
+<li>Mac下打开 <code>Clover Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li>
+</ol>
+<p><img src= "/img/loading.gif" data-src="https://gitee.com/wangdudyb/wechat-pictures/raw/master/img/clover.jpg" alt="Clover Configurator"></p>
+<ol start="9">
+<li>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</li>
+<li>将U盘里的【<code>BOOT</code>】文件夹和【<code>CLOVER</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li>
+<li>直接使用社主【<code>GitHub上的clover文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>CLOVER</code>】文件夹下，替换即可。</li>
+</ol>
+<h3 id="不足之处"><a class="header-anchor" href="#不足之处"></a>不足之处</h3>
+<ol>
+<li>无线网（无解）</li>
+<li>没有麦克风</li>
+<li>蓝牙使用原生的，不稳定</li>
+</ol>
+<h3 id="体验效果"><a class="header-anchor" href="#体验效果"></a>体验效果</h3>
+<ol>
+<li>运行流畅​</li>
+<li>icloud也可以使用（心里美滋滋😃 ）</li>
+</ol>
+<h3 id="成功展示图"><a class="header-anchor" href="#成功展示图"></a>成功展示图</h3>
+<p><img src= "/img/loading.gif" data-src="https://imgkr.cn-bj.ufileos.com/00cbb24f-b056-4c1b-8daa-48a40722b2ce.png" alt="iMac"></p>
+<p><img src= "/img/loading.gif" data-src="https://imgkr.cn-bj.ufileos.com/b826ed14-de21-420f-a936-db8839a1d4ef.png" alt="显示器"></p>
+<h3 id="安装视频："><a class="header-anchor" href="#安装视频："></a>安装视频：</h3>
+
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=65290789&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
+    </iframe>
+</div>
+<h3>成功视频</h3>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1st4y197d8&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
+    </iframe>
+</div>
+
+<h3 id="最后"><a class="header-anchor" href="#最后"></a>最后</h3>
+<h5 id="如有不懂之处-可在下方留言"><a class="header-anchor" href="#如有不懂之处-可在下方留言"></a>如有不懂之处，可在下方留言</h5>
+<h5 id="或者直接联系博主-code-ｑｑ-892457803-code"><a class="header-anchor" href="#或者直接联系博主-code-ｑｑ-892457803-code"></a>或者直接联系博主<code>ＱＱ:892457803</code></h5>
+<a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/" target="_blank" rel="noopener" title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i> 打赏榜 </a>
+<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/Hdeeaadcd442e40dea16ddf5ce55a6047s.jpeg" alt="好穷啊"></p>
+<h4 id="star走势图"><a class="header-anchor" href="#star走势图"></a>Star走势图</h4>
+<p><a href="https://github.com/dongyubin/Asrock-Z390" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://starchart.cc/dongyubin/Asrock-Z390.svg" alt=""></a></p>
+]]></content>
+      <categories>
+        <category>黑苹果</category>
+        <category>指南</category>
+      </categories>
+      <tags>
+        <tag>华擎</tag>
+        <tag>z390</tag>
+        <tag>黑苹果</tag>
+        <tag>mac</tag>
+        <tag>指南</tag>
       </tags>
   </entry>
   <entry>
@@ -533,8 +711,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>指南</tag>
         <tag>nuc6</tag>
         <tag>nuc6i7KYK</tag>
@@ -601,10 +779,10 @@
         <category>指南</category>
       </categories>
       <tags>
+        <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
-        <tag>mac</tag>
-        <tag>黑苹果</tag>
         <tag>Catalina</tag>
       </tags>
   </entry>
@@ -722,8 +900,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>指南</tag>
         <tag>恢复模式</tag>
       </tags>
@@ -937,8 +1115,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>指南</tag>
         <tag>神舟</tag>
         <tag>战神</tag>
@@ -1074,10 +1252,10 @@
         <category>指南</category>
       </categories>
       <tags>
+        <tag>mac</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
         <tag>Black apple</tag>
-        <tag>mac</tag>
         <tag>Guide</tag>
       </tags>
   </entry>
@@ -1113,8 +1291,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>入门教程</tag>
         <tag>入门</tag>
       </tags>
@@ -1159,10 +1337,10 @@
         <category>指南</category>
       </categories>
       <tags>
+        <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>nuc8</tag>
         <tag>nuc8i5beh</tag>
-        <tag>mac</tag>
-        <tag>黑苹果</tag>
         <tag>禁止符</tag>
       </tags>
   </entry>
@@ -1333,8 +1511,8 @@
         <category>mac</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>苹果</tag>
         <tag>配置</tag>
         <tag>itx</tag>
@@ -1502,8 +1680,8 @@
         <category>mac</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>苹果</tag>
         <tag>配置</tag>
         <tag>itx</tag>
@@ -1664,11 +1842,61 @@
         <category>hexo</category>
       </categories>
       <tags>
+        <tag>教程</tag>
         <tag>hexo</tag>
         <tag>Butterfly</tag>
         <tag>theme</tag>
         <tag>安装</tag>
-        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo Butterfly主题文章页添加结束语和公众号二维码</title>
+    <url>/hexo/hexo-butterfly-post.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg" alt="hexo"></p>
+<a id="more"></a>
+<h3 id="结束语"><a class="header-anchor" href="#结束语"></a>结束语</h3>
+<ol>
+<li>在<code>theme主题/layout/includes/post</code>添加<code>passage-end-tag.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">div</span><br><span class="line">  div(style=<span class="string">'text-align:center;color: #ccc;font-size:14px;font-family: cursive;'</span>)</span><br><span class="line">    | -------------&amp;<span class="comment">#x7EB8;&amp;#x77ED;&amp;#x60C5;&amp;#x957F; </span></span><br><span class="line">    i.fa.fa-umbrella</span><br><span class="line">    |  &amp;<span class="comment">#x4E0B;&amp;#x6B21;&amp;#x518D;&amp;#x89C1;-------------</span></span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/passage-end-tag.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>完成</li>
+</ol>
+<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/U1487d5818dfc4a319c9369fbf90c3aae9.png" alt="效果图"></p>
+<h3 id="公众号二维码"><a class="header-anchor" href="#公众号二维码"></a>公众号二维码</h3>
+<ol>
+<li>在<code>theme主题/layout/includes/post</code>添加<code>wechat.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line"><span class="comment">#wechat_subscriber</span></span><br><span class="line">  center</span><br><span class="line">    img<span class="comment">#wechat_subscriber_qcode(src=`$&#123;post_cover&#125;` onerror=`onerror=null;src='$&#123;theme.wechat_subscriber.qcode&#125;'`,alt='文武科技社')</span></span><br><span class="line">  div=theme.wechat_subscriber.description</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/wechat.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在<code>主目录/source/_data<code>下修改<code>butterfly.yml</code>,代码如下：</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+#订阅</span></span><br><span class="line"><span class="addition">+wechat_subscriber:</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"><span class="addition">+  qcode:  /img/wwgzh.png #ex. /uploads/wechat-qcode.jpg</span></span><br><span class="line"><span class="addition">+  description: 把好故事讲给你听</span></span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>在<code>theme主题/source/css/_layout</code>添加<code>wechat_subscriber.styl</code>,代码如下：</li>
+</ol>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">#wechat_subscriber</span><br><span class="line">  <span class="attribute">text-align</span>: center</span><br><span class="line">  <span class="attribute">display</span>: inline-block</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">36px</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto</span><br><span class="line"></span><br><span class="line">#wechat_subscriber_qcode</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">200px</span></span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span></span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li>这就完成了，提交查看效果即可</li>
+</ol>
+<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/Uf8870f36204e4e2d864552cff6dcb40fn.png" alt="效果图"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>Butterfly</tag>
+        <tag>DaoVoice</tag>
       </tags>
   </entry>
   <entry>
@@ -1728,56 +1956,6 @@
 <li>点开图标里面是否是自己的<strong>应用名</strong></li>
 </ol>
 <p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/dongyubin/CDN@1.8/images-coding/hexo/daovoice/007.png" alt="右边聊天图标"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Butterfly</tag>
-        <tag>DaoVoice</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo Butterfly主题文章页添加结束语和公众号二维码</title>
-    <url>/hexo/hexo-butterfly-post.html</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg" alt="hexo"></p>
-<a id="more"></a>
-<h3 id="结束语"><a class="header-anchor" href="#结束语"></a>结束语</h3>
-<ol>
-<li>在<code>theme主题/layout/includes/post</code>添加<code>passage-end-tag.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">div</span><br><span class="line">  div(style=<span class="string">'text-align:center;color: #ccc;font-size:14px;font-family: cursive;'</span>)</span><br><span class="line">    | -------------&amp;<span class="comment">#x7EB8;&amp;#x77ED;&amp;#x60C5;&amp;#x957F; </span></span><br><span class="line">    i.fa.fa-umbrella</span><br><span class="line">    |  &amp;<span class="comment">#x4E0B;&amp;#x6B21;&amp;#x518D;&amp;#x89C1;-------------</span></span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/passage-end-tag.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>完成</li>
-</ol>
-<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/U1487d5818dfc4a319c9369fbf90c3aae9.png" alt="效果图"></p>
-<h3 id="公众号二维码"><a class="header-anchor" href="#公众号二维码"></a>公众号二维码</h3>
-<ol>
-<li>在<code>theme主题/layout/includes/post</code>添加<code>wechat.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line"><span class="comment">#wechat_subscriber</span></span><br><span class="line">  center</span><br><span class="line">    img<span class="comment">#wechat_subscriber_qcode(src=`$&#123;post_cover&#125;` onerror=`onerror=null;src='$&#123;theme.wechat_subscriber.qcode&#125;'`,alt='文武科技社')</span></span><br><span class="line">  div=theme.wechat_subscriber.description</span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>在<code>theme主题/layout</code>下修改<code>post.pug</code>,代码如下：</li>
-</ol>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+include includes/post/wechat.pug</span></span><br><span class="line">include includes/post/post-copyright.pug</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在<code>主目录/source/_data<code>下修改<code>butterfly.yml</code>,代码如下：</li>
-</ol>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+#订阅</span></span><br><span class="line"><span class="addition">+wechat_subscriber:</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"><span class="addition">+  qcode:  /img/wwgzh.png #ex. /uploads/wechat-qcode.jpg</span></span><br><span class="line"><span class="addition">+  description: 把好故事讲给你听</span></span><br></pre></td></tr></table></figure>
-<ol start="4">
-<li>在<code>theme主题/source/css/_layout</code>添加<code>wechat_subscriber.styl</code>,代码如下：</li>
-</ol>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">#wechat_subscriber</span><br><span class="line">  <span class="attribute">text-align</span>: center</span><br><span class="line">  <span class="attribute">display</span>: inline-block</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">36px</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto</span><br><span class="line"></span><br><span class="line">#wechat_subscriber_qcode</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">200px</span></span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span></span><br></pre></td></tr></table></figure>
-<ol start="5">
-<li>这就完成了，提交查看效果即可</li>
-</ol>
-<p><img src= "/img/loading.gif" data-src="https://ae01.alicdn.com/kf/Uf8870f36204e4e2d864552cff6dcb40fn.png" alt="效果图"></p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -2385,8 +2563,8 @@
         <category>git</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>git</tag>
+        <tag>教程</tag>
         <tag>GitHub</tag>
         <tag>Gitee</tag>
       </tags>
@@ -3241,8 +3419,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
       </tags>
   </entry>
   <entry>
@@ -3300,8 +3478,8 @@
         <category>指南</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
       </tags>
   </entry>
   <entry>
@@ -3326,8 +3504,8 @@
         <category>推荐</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>软件</tag>
       </tags>
   </entry>
@@ -3355,8 +3533,8 @@
         <category>介绍</category>
       </categories>
       <tags>
-        <tag>mac</tag>
         <tag>黑苹果</tag>
+        <tag>mac</tag>
         <tag>IT技术</tag>
       </tags>
   </entry>
