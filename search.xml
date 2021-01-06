@@ -1943,16 +1943,17 @@
 <p>果断下载试一试，果然解决了😄</p>
 <h3 id="解决办法"><a class="header-anchor" href="#解决办法"></a>解决办法</h3>
 <ol>
-<li>卸载本机已安装的nodejs</li>
-<li>安装nvm
-<ol>
+<li>卸载本机已安装的<strong>nodejs</strong></li>
+<li>安装nvm</li>
+</ol>
+<ul>
 <li><a href="https://github.com/coreybutler/nvm-windows/releases">windows版</a></li>
 <li><a href="https://github.com/nvm-sh/nvm/releases">mac版</a></li>
+</ul>
+<ol start="3">
+<li>安装完成后，使用下面命令管理自己的<strong>nodejs</strong>即可</li>
 </ol>
-</li>
-<li></li>
-</ol>
-]]></content>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看本地安装的所有版本；有可选参数available，显示所有可下载的版本。</span></span><br><span class="line">nvm list [available]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装，命令中的版本号可自定义，具体参考命令1查询出来的列表</span></span><br><span class="line">nvm install 11.13.0</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用特定版本</span></span><br><span class="line">nvm use 11.13.0</span><br><span class="line"></span><br><span class="line"><span class="comment"># 卸载</span></span><br><span class="line">nvm uninstall 11.13.0</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>技术</category>
         <category>npm</category>
