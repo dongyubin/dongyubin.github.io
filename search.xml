@@ -3392,7 +3392,7 @@
 <li>主板方面，和普通PC选购原则一样，就是要一线大厂的，也就是华硕、技嘉、微星这些、建议用Z370、Z390、B360系列，如果不需要超频用B360就足够了，钱多就没所谓。如果你用I7 8700K那么就建议用Z370，因为现在的Mac OS 10.14.X Mojave是支持超频的。 选择好芯片组，还要主意固态硬盘的接口是否有M.2和支持NVME协议。</li>
 </ul>
 <h3 id="显卡"><a class="header-anchor" href="#显卡"></a>显卡</h3>
-<p><img src= "/img/loading.gif" data-lazy-src="https://static.xmt.cn/91c737f7982a4f8298597ba292edd183.png" alt="显卡"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://tvax2.sinaimg.cn/large/006xxuvply1gme2fgmr7uj30hs0buq3g.jpg" alt="显卡"></p>
 <ul>
 <li>显卡最好是用<strong>A卡</strong>，因为很多A卡都可以免驱，Mac OS 10.14以后对N卡的支持都不是很好 ，所以还是建议用A卡，建议用Rx580/570/560，高端用 Vega64/56。这些都是可以给Mac OS直接驱动，也就是免驱了。品牌用一线的迪兰恒进，蓝宝石。如果装黑苹果是用来做视频渲染的话建议显卡的预算要比CPU的多。</li>
 <li>两种显卡问题，有两种笔记本显卡配置装黑苹果时肯定会有问题。一种是显卡为HDGraphics，使用Intel第一代酷睿i系列处理器的笔记本，集显都是这种。由于苹果官方没有使用第一代酷睿处理器，所以显卡也没有官方驱动支持。</li>
