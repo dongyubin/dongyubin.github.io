@@ -236,11 +236,11 @@
       </tags>
   </entry>
   <entry>
-    <title>指南：华擎z390安装黑苹果的教程，接近完美运行</title>
+    <title>指南：MSI Z370 A Pro安装黑苹果的教程，接近完美运行</title>
     <url>/mac-anzhuang-z370.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
 <a id="more"></a>
-<p><a href="https://github.com/dongyubin/Asrock-Z390"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/Asrock-Z390?style=flat-square" alt="img"></a></p>
+<p><a href="https://github.com/dongyubin/msi-z370-a-pro"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/msi-z370-a-pro?style=flat-square" alt="img"></a></p>
 <h3 id="采购硬件设施"><a class="header-anchor" href="#采购硬件设施"></a>采购硬件设施</h3>
 <table>
 <thead>
@@ -253,18 +253,18 @@
 <tbody>
 <tr>
 <td style="text-align:center">主板</td>
-<td style="text-align:center">华擎 Z390 phantom itx/ac</td>
-<td style="text-align:center">1380</td>
+<td style="text-align:center">MSI Z370 A Pro</td>
+<td style="text-align:center">300</td>
 </tr>
 <tr>
 <td style="text-align:center">显卡</td>
-<td style="text-align:center">蓝宝石 Rx580 8g 2304sp 超白金</td>
-<td style="text-align:center">824</td>
+<td style="text-align:center">蓝宝石 Rx590 8g 超白金</td>
+<td style="text-align:center">1300</td>
 </tr>
 <tr>
 <td style="text-align:center">CPU</td>
 <td style="text-align:center">i5 9600 中文版</td>
-<td style="text-align:center">1124</td>
+<td style="text-align:center">1000</td>
 </tr>
 <tr>
 <td style="text-align:center">固态硬盘</td>
@@ -299,7 +299,7 @@
 <tr>
 <td style="text-align:center">总共</td>
 <td style="text-align:center"></td>
-<td style="text-align:center">6406</td>
+<td style="text-align:center">5678</td>
 </tr>
 </tbody>
 </table>
@@ -337,49 +337,34 @@
 <h3 id="显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"><a class="header-anchor" href="#显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"></a>显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）</h3>
 <p>Windows系统下，用【管理员身份】打开【CMD】窗口，输入以下命令：</p>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">c:\&gt;<span class="title">diskpart</span></span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">disk</span>           # 磁盘列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">disk</span> <span class="title">n</span>       # 选择<span class="title">EFI</span>分区所在的磁盘，<span class="title">n</span>为磁盘号</span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">partition</span>      # 磁盘分区列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">partition</span> <span class="title">n</span>  # 选择<span class="title">EFI</span>分区，<span class="title">n</span>为<span class="title">EFI</span>分区号</span></span><br><span class="line"><span class="function"><span class="title">set</span> <span class="title">id</span>=&quot;<span class="title">ebd0a0a2</span>-<span class="title">b9e5</span>-4433-87<span class="title">c0</span>-68<span class="title">b6b72699c7</span>&quot;	# 设置为基本数据分区</span></span><br><span class="line"><span class="function"><span class="title">assign</span> <span class="title">letter</span>=<span class="title">X</span>     # <span class="title">x</span>为<span class="title">EFI</span>分区盘符</span></span><br><span class="line"><span class="function"><span class="title">exit</span>				# 退出<span class="title">diskpart</span></span></span><br></pre></td></tr></table></figure>
-<h5 id="分区显示完后，将在-code-GitHub-code-上下载文件里的-code-clover文件夹-code-替换-code-U盘efi分区下的clover文件夹-code-即可。"><a class="header-anchor" href="#分区显示完后，将在-code-GitHub-code-上下载文件里的-code-clover文件夹-code-替换-code-U盘efi分区下的clover文件夹-code-即可。"></a>分区显示完后，将在<code>GitHub</code>上下载文件里的<code>clover文件夹</code>替换<code>U盘efi分区下的clover文件夹</code>即可。</h5>
-<h3 id="BIOS设置"><a class="header-anchor" href="#BIOS设置"></a>BIOS设置</h3>
-<ol>
-<li>按【<code>F2</code>】，进入BIOS设置界面</li>
-<li>BIOS设置如下：
-<ul>
-<li>高级（Advanced） &gt; USB 配置（USB Configuration） &gt; XHCI Hand-off -&gt; Enabled</li>
-</ul>
-</li>
-<li>按【<code>F10</code>】保存并退出</li>
-</ol>
-<h4 id="注意："><a class="header-anchor" href="#注意："></a>注意：</h4>
-<h5 id="不打勾为disable，打勾为enabled"><a class="header-anchor" href="#不打勾为disable，打勾为enabled"></a>不打勾为disable，打勾为enabled</h5>
-<h3 id="使用Clover-UEFI在Asrock上引导macOS安装程序"><a class="header-anchor" href="#使用Clover-UEFI在Asrock上引导macOS安装程序"></a>使用Clover UEFI在Asrock上引导macOS安装程序</h3>
+<h5 id="分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"><a class="header-anchor" href="#分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"></a>分区显示完后，将在<code>GitHub</code>上下载文件里的<code>OC文件夹</code>替换<code>U盘efi分区下的OC文件夹</code>即可。</h5>
+<h3 id="使用OC-UEFI在MSI上引导macOS安装程序"><a class="header-anchor" href="#使用OC-UEFI在MSI上引导macOS安装程序"></a>使用OC UEFI在MSI上引导macOS安装程序</h3>
 <ol>
 <li>将U盘插入需要安装系统的电脑</li>
 <li>选择« Boot macOS Install from install_osx »，按« Enter » 键即可</li>
 <li>出现安装界面，选择【<code>磁盘工具</code>】将你的SSD，格式化为【<code>APFS</code>】格式</li>
 <li>选择“<code>安装mac OS</code>”，安装系统即可【<code>重启后，请再次执行步骤2</code>】</li>
 <li>安装成功后，进入系统</li>
-<li><a href="https://chengxuxiaohei.cn/mac-software-anzhuang.html">mac安装Clover Configurator教程</a></li>
-<li>Mac下打开 <code>Clover Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li>
+<li><a href="https://chengxuxiaohei.cn/mac-software-anzhuang.html">mac安装OC Configurator教程</a></li>
+<li>Mac下打开 <code>OC Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li>
 </ol>
-<p><img src= "/img/loading.gif" data-lazy-src="../images/mac/clover.jpg" alt="Clover Configurator"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wangdudyb/cdn-blog/raw/master/github/images/mac/clover.jpg" alt="Clover Configurator"></p>
 <ol start="9">
 <li>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</li>
-<li>将U盘里的【<code>BOOT</code>】文件夹和【<code>CLOVER</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li>
-<li>直接使用社主【<code>GitHub上的clover文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>CLOVER</code>】文件夹下，替换即可。</li>
+<li>将U盘里的【<code>BOOT</code>】文件夹和【<code>OC</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li>
+<li>直接使用社主【<code>GitHub上的OC文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>OC</code>】文件夹下，替换即可。</li>
 </ol>
 <h3 id="不足之处"><a class="header-anchor" href="#不足之处"></a>不足之处</h3>
 <ol>
-<li>无线网（无解）</li>
-<li>没有麦克风</li>
-<li>蓝牙使用原生的，不稳定</li>
+<li>无线网没用到，直接用的有线</li>
+<li>没有麦克风，只能输出音频</li>
+<li>蓝牙不能用</li>
 </ol>
 <h3 id="体验效果"><a class="header-anchor" href="#体验效果"></a>体验效果</h3>
 <ol>
 <li>运行流畅​</li>
 <li>icloud也可以使用（心里美滋滋😃 ）</li>
 </ol>
-<h3 id="成功展示图"><a class="header-anchor" href="#成功展示图"></a>成功展示图</h3>
-<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/00cbb24f-b056-4c1b-8daa-48a40722b2ce.png" alt="iMac"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/b826ed14-de21-420f-a936-db8839a1d4ef.png" alt="显示器"></p>
 <h3 id="安装视频："><a class="header-anchor" href="#安装视频："></a>安装视频：</h3>
 
 
@@ -410,8 +395,8 @@
         <tag>mac</tag>
         <tag>黑苹果</tag>
         <tag>指南</tag>
-        <tag>华擎</tag>
-        <tag>z390</tag>
+        <tag>微星</tag>
+        <tag>z370</tag>
       </tags>
   </entry>
   <entry>
