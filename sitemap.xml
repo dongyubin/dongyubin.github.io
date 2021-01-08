@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chengxuxiaohei.cn/gzh/mac/mac-cmm.html</loc>
+    
+    <lastmod>2021-01-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/gzh/mac/mac-pd.html</loc>
+    
+    <lastmod>2021-01-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/mac-anzhuang.html</loc>
     
     <lastmod>2021-01-08</lastmod>
@@ -1187,6 +1201,20 @@
   </url>
   
   <url>
+    <loc>https://chengxuxiaohei.cn/tags/Parallels-Desktop/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/%E5%89%AA%E8%BE%91/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/tags/%E9%95%9C%E5%83%8F/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1223,13 +1251,6 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/tags/fcp/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/%E5%89%AA%E8%BE%91/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
