@@ -579,6 +579,101 @@
       </tags>
   </entry>
   <entry>
+    <title>「黑苹果」安装软件、驱动合集</title>
+    <url>/gzh/mac/mac-anzhuang-software.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/dongyubin/cdn-imgs/imgs-public/mac.jpeg" alt="mac"></p>
+<a id="more"></a>
+<h3 id="版本实时更新列表（下载地址👇）"><a class="header-anchor" href="#版本实时更新列表（下载地址👇）"></a>版本实时更新列表（下载地址👇）</h3>
+<table>
+<thead>
+ <tr>
+<th>软件名</th>
+<th>网盘地址</th>
+</tr>
+</thead>
+<tbody id="tbMain1">
+</tbody>
+</table>
+<script src="https://cdn.jsdelivr.net/gh/dongyubin/CDN@master/blog/js/update.js"></script>
+<h3 id="软件篇"><a class="header-anchor" href="#软件篇"></a>软件篇</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">软件名</th>
+<th style="text-align:center">下载地址</th>
+<th style="text-align:center">教程</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">balenaEtcher（win/v1.5.104）</td>
+<td style="text-align:center"><a href="https://cloud.189.cn/t/fERNfqRVvUBj">https://cloud.189.cn/t/fERNfqRVvUBj</a></td>
+<td style="text-align:center"><a href="https://wangdudyb.gitee.io/blog/mac-anzhuang.html">指南：nuc8i5beh安装黑苹果的教程，接近完美运行</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Hackintool（3.4.4）</td>
+<td style="text-align:center"><a href="https://itxh.lanzous.com/b073n08kh">https://itxh.lanzous.com/b073n08kh</a><br/>密码:eysn</td>
+<td style="text-align:center"><a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a></td>
+</tr>
+<tr>
+<td style="text-align:center">clover-configurator（5.15.2.0）</td>
+<td style="text-align:center"><a href="https://itxh.lanzous.com/b073n08na">https://itxh.lanzous.com/b073n08na</a><br/>密码:84qa</td>
+<td style="text-align:center"><a href="https://www.cnblogs.com/SemiconductorKING/p/6534821.html">黑苹果引导工具 Clover 配置详解及Clover Configurator使用</a></td>
+</tr>
+<tr>
+<td style="text-align:center">clover（5119）</td>
+<td style="text-align:center"><a href="https://itxh.lanzous.com/b073n096j">https://itxh.lanzous.com/b073n096j</a><br/>密码:fgul</td>
+<td style="text-align:center"><a href="https://blog.daliansky.net/clover-user-manual.html">clover使用教程</a></td>
+</tr>
+<tr>
+<td style="text-align:center">OpenCore-Configurator(2.10.0.0)</td>
+<td style="text-align:center"><a href="https://lanzous.com/b073o79yf">https://lanzous.com/b073o79yf</a><br/>密码:6pa6</td>
+<td style="text-align:center"><a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="驱动篇"><a class="header-anchor" href="#驱动篇"></a>驱动篇</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">驱动名</th>
+<th style="text-align:center">下载地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Lilu（1.4.7）</td>
+<td style="text-align:center"><a href="https://www.lanzoux.com/b0742ppti">https://www.lanzoux.com/b0742ppti</a><br/>密码:6kp8</td>
+</tr>
+<tr>
+<td style="text-align:center">WhateverGreen（1.4.2）</td>
+<td style="text-align:center"><a href="https://www.lanzoux.com/b0742pprg">https://www.lanzoux.com/b0742pprg</a><br/>密码:cd5x</td>
+</tr>
+<tr>
+<td style="text-align:center">AppleALC（1.5.2）</td>
+<td style="text-align:center"><a href="https://www.lanzoux.com/b0742pozi">https://www.lanzoux.com/b0742pozi</a><br/>密码:csc4</td>
+</tr>
+</tbody>
+</table>
+<h3 id="注意"><a class="header-anchor" href="#注意"></a>注意</h3>
+<ol>
+<li>这些软件都是在GitHub上下载下来的，为的是方便大家快速下载</li>
+<li>软件更新根据作者更新而来，都是最新的</li>
+<li><code>教程</code>是为了大家更加容易上手软件</li>
+</ol>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>黑苹果</tag>
+        <tag>软件</tag>
+        <tag>安装工具</tag>
+        <tag>合集</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>指南：NUC6I7KYK安装黑苹果的教程，接近完美运行</title>
     <url>/mac-anzhuang-nuc6.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
@@ -707,6 +802,40 @@
       </tags>
   </entry>
   <entry>
+    <title>「黑苹果」全系列引导镜像,你想要的都在这里</title>
+    <url>/gzh/mac/mac-jx-download.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1576221603355&amp;di=afc363da80cdf2efff60f5f04cd9a4cc&amp;imgtype=0&amp;src=http%3A%2F%2Farticle.fd.zol-img.com.cn%2Ft_s640x2000%2Fg4%2FM07%2F05%2F0A%2FCg-4WVPrMtWIC4YEAABvBneaZEoAAQd4ACxseMAAG8e999.jpg" alt="Mac"></p>
+<a id="more"></a>
+<h3 id="macOS-系列"><a class="header-anchor" href="#macOS-系列"></a>macOS 系列</h3>
+<ul>
+<li>
+<p><a href="https://cloud.189.cn/t/aiIR7zb6VbUj">天翼网盘</a> （访问码：<strong>6vft</strong>）</p>
+</li>
+<li>
+<p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/">请点击下载</a></p>
+</li>
+</ul>
+<p><strong>PS</strong>：</p>
+<ol>
+<li>
+<p>http下载链接会报红，直接访问此网站就可以</p>
+</li>
+<li>
+<p>天翼网站收录了<strong>Big sur、Catalina、Mojave、Sierra</strong></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>Catalina</tag>
+        <tag>Mojave</tag>
+        <tag>镜像</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nuc8i5beh如何升级macOS Catalina 10.15,以及问题解决方法</title>
     <url>/nuc-catalina-bug.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
@@ -772,7 +901,7 @@
   </entry>
   <entry>
     <title>Windows/MacOS/App——学科网上</title>
-    <url>/win/win-ssr-wsxk.html</url>
+    <url>/gzh/win/win-ssr-wsxk.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="28e3e976d0c0e5699cd5b250d739e044e0a483d92cac3634e23b2579a402f60b">bc325542f371a9e5901f3b2e18472d4cf0e43206028e3905deedfba9a404d985727cfa885b98316c085b7d7cb95761aab4a2db5ae5d2ea8952425f16dd4d22486764026d5d78805805c7d289b3d7f091ed36a8441eb57ec2ef93744be32b6897981acba64c5e9e65d4c6d802662d1871353ff7aa060afd385360d817f8ffd9af00fc0f5e5e2e69990e1978d589aee4fa67cb70fc042f72c2e25194e0a672e26a51529d5e013eb43afac0c13a6a2bf123a65381ae1bcf0c0aedb78c199e2fb4ab9ab5b461193d99457276eadc975b25ab73d48aa8994104db04f5f760ec2b572aea8f2a66ad0d2ed7b450bc40d6870ae47a361e590f07444bc2f382c1752dc59d721594e7b01169ee664b83cd746582c3ba33fd8791a2edfe94c7eb10fe08e8e881847051dde76e3af444899d3d73b0b59e3daf9c2fd9548813ced4eeaabf1154e4078796e446c6556af077fa649890f0934912023d61e0defa4c16c039c05c3da7341be8a12b7a746dcf0e5535e86e33336eb512ff834e1f5e1e73c5412ef8fcf6cf43beb229d35e38ada2a8f6b5b6780d881e2378ab536990276a4817fc1189060d31030b3c992f08212f4a8e3e5bd6fbaad8c1ef2e735043483be72e486568358d0406d73cfe6b74b6f196c264fe2ec49d2a55aba3c36b98d3e072a562aeb50bf0f6e2eb0dae60b06e0c9364fa14884e0282d4d03829665101db7358c04c8e051a4d7ab058b97b5a3f6dcb307349081356a01ed77d4f10f48c5993eeaf5a5909c10aa7d8092b140f7caba37281ea5a8791777d797d608c515fe0f75371105f9171ef6b8e4928112e2d7aaf4ad8d0c2681c98c3e4099b96e0afc3e4aa490f99cae7d65d182516f2812a06909500e41ea3b469330ccfda6d35dc4cd592726e9aeeea9cf65afa6e92412d8670264f037718de82cd757b6b93e407f446a6702a487f44cd39c41ae4a0de2bcf9781e738187f6191daab885034214ce73334afeedb2f2ad745d6ddce2432186150734acc2794de6029931ef375323288973345e0ff99a37dbb7815d756d4473a2e97a8bdc367b571764b6bb6f3bd114bcf010c20382f4fc67c29b815e15d20fd89f557f1dde4d95510a549080ab59000274d07938e522360e07a7238bb33c7938d1fd7c0fc4244692016c0b35d089c19656513a4cc1f11a336a426716a5d17a67db2396de9037d8bf38281177170db2e4dc37b72563778348b88554bdc8f3c17a8357176b285006abeb1e0749d451d82d06c7080256c4a5d51374dde96f41219ea2cfc5d7189afd5363275fa4f0f6201e30907fe5cff4eae0f8e6f6f8ca94a5deaecaeef02d8c18cafe59484aca5c2861562f26af194a2382ceff1c21cceae59b25eda62213514ec433a0968acde198725dbaf3a02638d5bff5a187d29a8414002529d767d98100b89191cd5c2315cee1313eea0be3554d6e18d8d9efd8fdca29b9aa82f2558c64b28aac238ac6460046630ebcbeff084f4a6bc013845f8c52da1b287eb4a8e66e1a38ad4418dfe16c9130fd250f824f00a8e247002501073a6eb3fa70a523dcc1795e51100a17f9494df51fe78e2ed5b79d98626a19789e59c92285dec2bd8497ce17955962d4ad375077dc473cf6295e60fac2cee92820bdaacf90a2b915b0261d53d65f50ce3d64b61095171c51b0d95be6c7c44a42643823e61441820cf018dbcc0179851a49c837d631557c0d9d9545e86746d402f18dc7d75cb4d0ae53264d6f8874ac2e61c23415f69a20ee27e388c4b9d28c65914d6603360951b2c98d4c1ba98086d1e855b7797e9e3c33ca2457b2b9c3d7d04448f8dff0bf874a763024a09f71c40cefc32a73094633945a47a09407cc2a1f0978862f5d7649f8ce09160e547f51595fa5d5a3a136788adb3cf71a9fbc3b1f2e9ed0804f26ba45caa01b6e7d908336b03fba8e7181f4d69e7159face57b02f3c1cd79935c915877535cda3dbc1c74775e461e2078b7b3974352c410c3b3f2c05a7655dc2972be7d5fed4ba79ec81e4d4b00c174cd0fb5c368ddc1d590adef6d328fff23f33f90dee2a68aa4d3cd7617448b1c14f93cbb7d21e0ba544beeae6c0ab486e608a29e9216dd47463d3a07898ed280b18b05a30aa7c7492bc110e40116efbeaf8aac9516bac084b5fb83469231b329f4fa1e037478de54769169e59d39db23ad48776abac780f71656dfd2b940f7d58badf7d9ef20a4eb8b2d326390813b34edcb8df34d754a91fe88edb187201f8cb9df8cb9602b2b43291eb998997e638049dbd084d87bca9b9dcc1f52fb10535d5a3f7a8d20bdb0511415b9d1056d6ac7e437b39894904897cb2c775f08d1d51c7e9b8c7aea414d84443c890412ee66cac4703639fca17ffbf6fedbbaba3da001ad7cc3ac846ca3783b58ec308ca42d4f734deee00789d84b9d318c87be516d61917fbcb093e1e4a0880df21621a05c319ab4a67af82df1abc8e6dd763a53ffec046db780a1a674e2d96a1b6b9b2f06df3fb7417b528265f3e2425b52b72ad4c75f2d888933e121b38a025b04f6a7680aaa269f048f37dff05776dde53af63d9eb4667b5eb4d9ba29ea2008b8bd0abc9f4c7b63d284fe7879fa32cc14beacd7aa67d83e089963e092380dddce5800b1850d246ab2ef5a7b5e2d577c2af23b762003a63557a48e53984278cd94707119c7131f4c4311dadcbffdce0ed364c0d9524b8d83d98b68b6dd230955b69855b837e39a20ee9799dac6b804a870aefff3f8ff4d44cc9b3a8e5897ffbbc42a2ff165b63b7d1027a9e6d9689eb9de267ca0445f7fd443cf30e9fd543953688932900511f0f4fcbbb4d791a850897e0fc6903de412de89cee689d218d5043c3a4dd694e74c896d09304889e2c9a1f95081669ec99fb61e2fd87fc4b1d7c06a410513e0278483390f6fd70ef1030bbcf80cd187221bf4d9c9c1f3ba54b9e9f00616476c1d1851ec6cbf110da17c5f5cd58251d7c217cc70f8da06b622bf604861252dc818403b37eab2bf9795fbf5cd73db5e20d11ee760af6f1b583ffcb374a1aa735fcaaedc50dba159e2a04a553e47017c3f9448baf501e754b4d672450d945fe0a8f62745c46f0fe5bc13c01af985f85a4760d7e55ce0bce2595a0872989ce60f1df16a224e48d550cd37702cfe76de41a09c3cf50fbaf56307fe5a67266ee35fdf62ab8606aef071821f0ffb1cbec88bc1b4473a46b1aec80380614813ed3c00cea2a74a36bda15b6ebaad9a64057b697b032d661dee3183aad69617c09849b7b86a85425051deab0b68e857da6f518d31833aeb0171820b2e516c27c9a90f053a5736d06833d7e26ab479704d22a75a37b94a4006fa0684b99497a5f5436c9334aa767f5812c3e73fe3eb74389c1827eed50c72b80979cc2e627969ef97c79d76b242fd22b224af505bc24e9a2c68fb8b2a956f94eed56d4cae819bd501e2f696966f63ea4cd593f22916a7f28755028a1df935885e1a3cede8030e724b8ef0fb4c800096557808b202dd15f0292ef4af3c844e413d360e47f3ae2fa7cb49470cb7254d30a4aaa30583abaa78298b221261fdff65dc3c5e3c616e2ca3d2fd6ab86d5ca382a49c6e253672bc70cf8028c9a6a617c053e9d744acd06f6eb3dfbfcd43b700204ade308c978ac1f975cb63219251968ea3ff199b1e47a0d20605ac7932d6061c28f6f1af762b107bf048218e18346cd210599b03999cd2ba66807b2f8fcb16c3db917e1a97236844571225f8ec7e839c304b29eb22730d39e908a28ce73b7f5a499c9365aec374b8734372c892235998ae257eead5c6af096def0aec627ad3dd4ab2fce239ea0e5a80bc6cbd86c2bdb20a4b6c9f75907a5912e64ad4394eca8f7a8f102748446809e51cd9d8524b266633dd8ffe20abfacc370d9a956dc832713d9535057918db090f04882ee7b5eaccf5d3f49d0b38256f2ca6e9d23628ae41fab9fb2064b791d34bdb6cd40f9ac29de1f2f5e86d7defbc079f1d47aa3289c017ce607c04cec7fb52eea86c47f5bcc85f30150320cafcd8863282975d5e8658d51930345a7a578e5f3109a4de11e2462b6e58a9f95be8bb3afb57c8ab067b300ee5beabf979637de182220b43f3d95288b6726a34495aa77090dbc1d13869ff871380f06577e103fe5d076125e4917f6ebd168c6142347b6d7f042159cc1e2ad9dad80731c9a2b54769db7b87f38299c0df7d913c8268f3efb51d23c25ec009c8ec1bcf2c26c120c4d989d95528b452dd8bdd8649a330914c7e07fa848c35aa984f8992f6b31bb78da80c99f41c2ac19213b7fb2302fe1e2b7b5a5ad5717659092730304bb0685e4d23aaee94c79368eb3fbe517c26b46c38f828cb22992b0ea8d0589c0238753edb005dca88a546f0aa9710559a1775d5115e528f5477b31cfddfcc6610832dfd0bbcfd17e2687d5f9b5f7cb0d5b2f12b2c13ca3566774ff8dc5bb7591a9cf11f4b6f78273889bce2b340eddc08632c2933824cae87ad5a01dd071eae594fb1b8a4b25ff1e2d1335c4dfda8438065a45b9b0cac1154ef978d1c27b46b0144d7748d7f959e56d0724d7dbec4c1bdd63b722e1b11164a03d6250513c7ddd5c144bad22a884d18a8998a38d115e078237eda88fddf29837f61940c482e4cdb8e515d3a0162c53322998c48698305c1a85638718c80d08aaa304a17ba85c783e768a7bd8088108e16bf9b8a095ffcfe1021436c799ac8f526782d103734adb1f43dde6ceaa035365844c0f70fff35ff6a9b3f99a3636122bab1b05931f0d9c02278a9298fd07f1d4c3b6d72d2ee37e07aa373ec7467e235935e646a01eed30ead444dd2e9e5bee5d54f3692825208ae78f682725bb35c4e2987f2310c6cfef7b1cca15aff9009db1d98c6ec4d7c8a3cfb8e5c96abc1c0166245aca76824c2c595ea70d1df8b8edb0468f891df37f0f141c0fd318f38c76829b7039e2b01ea44cb0826a85545c6dfcfe62f7953c80be1c21a83c95a3e3a247debb0700374406771d1ea5fde771839a839313900702666021765bff150fcbe83b9d3ba6dadf13a3608fb32111b56329ec7848aa5635b95aac7d5867daeb6e13ef0dd66e326c54e45eca49d2ce65f71f25d2e8d846233d12b47db7f84a19fdf0ae5cf93c92f4d63aa0e2e0ed9019a25abfe0ebc57029cb2cbc487625f13791f2110f0d686ff434eab3086a6b55b6a47a8d431fd4fd7113009d2b872699f49843296cfcce595da6819fc73a5b83de6a4d729aa97173ea76b806558ec95ee51681abc061413ba5e804f65460a88b01c53ef634b7548164d640c02f37a6a131f73b62e5f97473cc4167c11d9a87081f47c440a243c8882fc7e560cf1f52b00607a9cbe4ca4aaa54936429f6fca02f6c6e174a236fac783e54cafd5c50e20b1907095973cce75f5cd9692d38d37973d656b3b1c85af9e11bbb8ed8d97b24a7e3bc8d437da69ed902594b5912ba90f72844cc5f14dbfcf4c4afc19746777ffe0434316d92a771b0b2e423e6791f370ed7cd7797146582f2e8648b6549f66dd838ea0af045e59abb6c3a69551c196c904c532add17855e927546f853aa9aa44be725e0008698bb32639e1725cdc05ece68b5a51c5d1bb6b9f8811ad9b1974d93f238ecf1c8378658b564ab1d829d00b15a18026022f56b24b02d7b4a6d54fe91ad0e0ad35d233383e5789bb77354780f2a4d4b8526b8334e8994d96a9f54b80fb56006ee8614d1763a36af2140d12ffc66c3545d10b4175205e63609bf93a89873782f672963968d83e78b8b0f18ac2f70c8f64fbafe84c92e0e999d1fcd7eafeb2bb256a39e2032c8dc2718ccf41df1b06a18382b61a40537339fe179341ca3e4043e1f54999f8682e5fa27a64b14487cf1d9567f63ba54b448180bfdcfb488d0251a976256c8ebfc87b72e4207b768489e8b7b6063cdf6801279badee66f2ac469b0bb3b33135167b9fff16ed4c8a74955caba95a575f6adea7997f712c475ae2ccdace94b39ebcb491a907d18934552dad5fa5e24af755545445230db6bdaaff9f597b20acdb064d4c0c0f76b99a0a2a07948a81031aee499bf87c30353ef5090cf4c15cd2508553ae42b51d9b4d8caaf326a1bdb3ba4a7397d2e2b8472b3647603745a77b5c2aed378813241f066eaf3f6a3fae139673dd4af1fb3b8b160cd14d6da1a872909ca7c2c0b3c200340c2e8de4852ae4e423e67404b9abfa42e26653280b13635a2064e28992ed491ed02b874eed6f1fff9908a6142fc0ff2d564b9dc9203fea56b9ce959fac18602298c6e5d456d2b6fd847c52173b0a257ee9dff7381e592f192e94951b42bcbd277a63a5a3555325c04485e560e2a2ddd8f9641aa22c90ac856a0edc3dd2dcc9c2fc594bc23cd8e1db226cdddaaf254a4be603c608c19863f3cd826d039579c53d177e08120f6baa84def7a0a9ee093245e75a454d05b46c588cb0e6cf31abf8542691db7b7b379167f2fbfc6ea690cebb0b09ccbf71c1ec30c2074645490502364dfcfa4f1f027e32a816b93f4092eecb9ad954fd7ca3bec3d10f72e0c7c0e72c8d556a427d2a2e7e6b101183f32305ca0782ad1905e1bf97854536d683c6cbb59e8e6e4753ffe8faf1eb172bb47a9bbb1291ad2d4cf612d5a833faea7ec78d4a3a13e858d645b31f6427e2798ab30c700112fe7e7a03cddb8bd03d3b93bde0bb53dadaed00667d310dd0dbfda8590a0dc0b58101fc2897b5c061235f5dd43c83a75580db7c32bf2ff698132df54fce9f2de366ae31017fc4cec7a0ba0f55f9d533d1ec074c1ad477dfef39b97717e26c799c5460bdc346f311bb1b37b5c2824c68282eaa692499cd4e762d5bd8ed3b9b993eb7798e06a592f3d6655ffb442f8d6f7cd3587c29330f831f187c83ae7bce61a6cba052b508b7d1f8ff201af05d34972bd0d140f89fbd498d569d15cc0bb4a396664bc89808fef23d96a54da018cb7a1f4a187c0c22b22e9bcde52263d3872939630ee4e26046a9dbf6c9c5e935163b4ab191a5e0ef7cccd7966cb0b5feedc7af2b3c733f4c5c1a1bf6735b80c7c72dfb7359357b5e00b58ecf4709309489c229c17272dfc38bbe95fc0083e2b3bbf3fbd10a38dad28da830285907efa17eb4ecf1a829b2dee59bf30984aa800ff0fdabfab397b4a18b71c28653d04c966ba5ce0e385e94e3f9afbdbaeebf6c99b502dc94ea1fa56a98f029ea1a5b354cbb6e17aaf3ae0b0d5fd827fee9b109a96aad3b450fda0d7d7f160cb36c5140d03139308f56230018af552e1641ea65ad86492ef6c7426e27cf24b973b98b7997f4e3d371ecf99eb77415072813195821e081e2ccab77eda070b0f1cf05b0728485b9f1457e41acae8bc9978cb7597c7e2e86f77e7fc2f80d2e74761cb286bce69b85cb5a70cee46b5dabc57d2017c3552ff5e984691364e8901b42149df2280caf35623b450c99893df9e58f8c61a972ee933222eccc0fce250746aa1a98aa2512d99eb28b9bd326a2067bb08b4da2732dc294ef867b14b10a096d996a1371b6d4cc2115d95289baae18085ff15ff8413373ab1ba9939a7f414a93295c99bd832ff9f6e5093d5cf260e9622240fa0abe6241b22691010a6bc64d11bf5948ac8efc7b546abc22206346b07724ea4ad7ed6ee0504a7079a257bfa73100c7f75ce1d34d12a7f5d55a7334cab7323c120deaef71b630153367331c56c7926a9a8cc33055fd968c994a3010da452d95a247e09c6664a520ef658298a1f2a5e411c7921f8243e63fc0d37a9878d0af912e5709ded9933150396b343e69d3fde2a8a865a59d7ffd0d99ba798116e88a055ce558fba98b465cbacda2b599b8ad186965c6a421fdaad316070938457f6a9631c404f84e155ec005351ddf47874193a95acf874c46b3f7dd05a8f8d684928e8ab26d18d2ef9ee55ec84c229cac136abdc68e3492bfe2e43a1f69735546c38c7563a2b814a7783546de78dc53ca83c553418bd9df11534489fd671a0abddcbd85ea1d6a63d60dac50766939281431d5e8e9a0e204720f0b6cc2015e63522776d4947976e3e6a251d7740f7a719c9764de5d0a3c11480cd483e0e19df9f95c2aa0c9844a7092169d8bf7226ae4ea49b453c1a632dfdc7c5224fabed3717fc6c9e1692fba3dfc675b2da945427f8be35aa64ae623b3e7e95f22d6854b4131513e9c32ad229d23373c821d276816a2de2abb1326592065c35a84698b64c5224a8422de20474eb762400776949f58a62a31b536fd79502e11bcfba51306c88c894a0d2cc44cb500f53a89853ff7b079dd2ffe770c05458f09c9d466e717a34d4296dd829fc7ae3401bcd502182a48c405452ff98f575fe358b35f02a4197ae858c18cfcc43bd7c911d8b382debef5c2024ba9065a68d9637f49fa194483f89c36ce46ba82f778125fa0db959af2657dcec84625b97bfc3cbec9214451de9f621bdf4c024392aa4434547a5617a18c06f7be1d277e44626883d58c5978203c65495ec8341244789efecf3c6f2e938eb069e875be2a06d49c96550a0edebd7f002122f17ab6b83f99186df07387564bbf3105f89d7a5cd8a1a8c295075babf0be5d1c553fd45dc421685744a8bf35b034974e7c953b5e27aaef9d22b699d4ceb7ee974e4a8c4b12f84b69c6190e293f44a1cdca9685a47dc2e6cf194416fc9bd16069cc17766730edd7a45c163a920255ca99f0af8c95bba9ce70096995fe7b79e282ae116f01d60aa656fd41d501da0c8360cc814f29344db18e85db0d5f88e54d853728792ab6d45e920154faee05ce6deecf063271d9863cd1a90759c2b673c14ee1550bf5077c816554317dca7cfc7d7115507814794607a1fd7de1dd30d75d0f7421e23f58251a97988c1a6268cd802d4188aa984c6b45cf5f1cc3c591abee5b6db91eee8d2810c3a64d2282142c0839a4692893afcac15b7f1672ae05734edb496114f7b53d1fbecdb8f0b6552b4faae415fc486f042c89533656f8b845794699b6d41b3fd6349077dcf00a8ec4be6b62f67edb81e5dab007ab2fc61e78233818ccd5af9679f74a6a91447405c79df67af1f57ff42cdb67bf9d47dc00c280906e3e794f253c52f248b1369a393f426a032c17c84f2ffbd67cca1aae27525d74c5b53aee4ed00438593a95f42b57299ed3d05445de1617e3694a4a3a9380ef43d7f8e33943e1ffb5c0ff6359ebb464b8276004d6dc3c459072cce8ff2b79129100e5f00d2a4ddc45093f68220811e3e04b0857be490aecd58a1d0aabd55283c56eb0e393156b41eea312053ef5c2e9a185dce1232166964749392e65e0daeb58babbae54e7410e268b68cd6f4a8030cc56958cb0218f3f0df3e778acb34808daf14acc0d91b00ad4e575301aac91aad57f6d84f0c4506da3a03d785430abeb4995f588b8338df0efdd67cc6275ff3b0b73052b7c5b1a86f49a8b17b8b6af429482ad1af29a9ef1b7d74734c25512c1a2059f46877b45a998334647b4e7031501f54ff2174fae9356feaebe5d2782f62d418969011e7ea23b4d61e1de6c1d62e51f171b1a989c87e7bd8b0b3a1eccca0247b47165a1bb48aa992fdb82ba49103f7c5715b7472f1c727f701af99a5cd9a71a8a791635d097a32b47dd097d32c36775d44103aa4bac1d1c8dee7a48f53a6c5ae394f82eb101953d4ff1c3610b2b0c07abdf5d705eed6cb5909420788f0e5cafffda3a3a976304d8ac490b1d370a28fb058bb49a200560171942ac8d7368e166e2e2656bfad520ea5acd2edce70e7411947ce2cdd802bf223a417e1cc3319b6631d4608214358deff5d050f81e47b6698f9aee0c2ebb7398c9</script>
   <div class="hbe hbe-content">
@@ -786,10 +915,7 @@
 </div>
 <script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>软件</category>
-        <category>mac</category>
-        <category>windows</category>
-        <category>app</category>
+        <category>公众号</category>
       </categories>
       <tags>
         <tag>mac</tag>
@@ -1282,6 +1408,276 @@
       </tags>
   </entry>
   <entry>
+    <title>让你BD网盘，不再受限制</title>
+    <url>/gzh/win/bdwangpan-share.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="bd3b671a4f0d74cf9af9335338fce34f11a251cef1bf682715b6ad1588883d10">50b8f3139232a86d79d42fd8cec46c3d54563e94e486aff13fce9568df28c94849d8131ef643c56667a45b27a1299740665fb1d856b7615ec03d53472075f94e04572919a5530a9ae0c67d20bf13b2ac0d8ec8dcbd1f5e3e6aa9d84c5a7e9a4c9950905cfe9e78a042ca77d47fff4357b1fcdd2bfffdcf43ab1fa8876b60735dee96922bffd1aee4a4e99dcdeddffbae2bcfaf005c105dc3487986a85ba271c067e9dd7d4f89a2c6c2b0a6abccfc52e76e7b2435fba6dda44d3831b830cf04ed4cbd2f5622ab29866eca248cf370489d6fe62e9d0ac980d1bb191011830bb53357d8df4f1700dfb52fb21cad1ba6bd6fe599e70147622f5ea52abd3cf5f1c9419664d3edeaed9c46904d0171c15b2ba43f5dd1fc5bad2d6afc6cb0453e2f975e0ba56a0a79efbc961a18160f34696fcc86d4862388635fe8132f176077ba952cf89b9cdd4e776fbd262ff2625f620d23536ab0e9fde6f04d5aa6fc9eb1566eba077b657283e246b1b8d15dfe729a9c3ef060a46c84d8f664e97fcde5f3615b23a6cef8db9b068c36a2c13fbee324d3768c089a615515df5f0169818d0de0665f137590291e8532a733f3cca2d7f28a7ff880e2377b896f8dc678500d86ac7118b9f220399f5351e310449440a3333e331dfacf71fd87c402c0730d55863ff137dfe8930be6eb8efa1cf5f2d56e09e008c52f337550b24232d8141bce503eab5a5d63429f0b0feb4d0be1d39b61900741026b50a4a7cf8e94b87889585269aedaed920b322ff1861921da95d59ca1838a296e4424ec114a4e90f0fd878045642887667c2ee06ecf5b4baa9129eabdac25da966a7de38f13fedce0ffd5428bea433eb1f26f54b60593e3bdd4531bdd434aa331b9dcb1fa0eba3d42725c5da127bec9038d656dc0399e767a86e63cfbc09acaeb3a802cafdba20a2e6e372aef6e2c4a7fb19d48b147d00e3d6ee480e65587dc404b36faf128ebb554183895b4a7ed44e8a274196d4d6a81347724990d4d24ad23b0c8edcc2c75e88d869b33ae23f3e2f8962b02fcb106291072078c8219785db561bd198bd4d933425801286077bf893b397b373aeabd77d15a5f578b724897013030937d1dacafa8bbae6cc202f035568923105251aec29e3baec5551d6086d18345aebcb48f7753dd85b0f70c01f0245f911c48bbeb3efd959dbd42dc27eb6c9c19f631b50be3f3f80f28fd84f392463975046add62c8edd443d43c0a272fe7b5bed58c0c8be5c06715d5ce8cf4305bb7df7fe5c4d427ece410edd74e9ad1db9492d7b664dc996355e85c97bcf377a3156839be2eccbc54c4019434b7607053d17506522758fcfbbe71d1e51ddadfc7eba3b8f5e33458dee8a72eb91a1ac752a3de119eae98312426f6ed83728b75b2ff1b922af6f2644572e5e95a218a2a60ddbdb14a0d04541c77e0d4bf25bba2cd147fd1ce0b7939eed86bcd57091045a60f998ee0c78fddf49c08868151fd723bb01e4310a7e4760d412d50b3028e8eac380f6cf6987aff7346d57616a191b174246ef99e6c63a7acec271198befe2e852b6a8dd1fec14a4db7cb8d2a24e2b762799d35e7250a2d1d511b8811b46a0159263f700e9b3f8ce6bf4c4bf17de9b49a8756f586146835a92bbf3a81f5e0f1a268f21a4cfda41737a888f274fa524c48a5aaa892056606617837fe0c60fe9e29a3a82b290a867b54a17f4d5a4a2e482e25d4f5a429b21c77e892e39a749eebc7acb3a48e33b4d9d1cca2b350806bcde5a5aba80d748be027b08a478a8b3c6e2c00c1cc1fe49fde1d9b848c3cb4a22e6b89eac7b903d534c4f08b07a1d15449b378d532857fbabf08f9951147b131ce2ac755ce6a2cedf3e1a037ff9f3cc14d0e86a66bf7afd5b408392912b18fefa57d883b683d8f2f64d37e86d20a4712fbb83fbbf92e0b669f48338a1771d7747027b21d1a5c0d770d240dda5209cdc60ed2cdfeadea96017b2c45ab25ea37005dd5ddf6048e4d230a4d7b95a19d442523a1296f00a26ca2c6ee7f33ac99466fe841955cf608e68cda796746d450c8e1d1268b42831b05e31d072d4716f2f96232c847a9e760d8110b846e08e808181e633eaaaba40e8e5f794f2016a7b9195f8d3453f05353cdf0196b9d6a49dbd01661f8f54cbc2b99ac90760065aadfee6b63c4ea4558da1dc246a5050407f67d64e835e921cb5b8d8c39e328f97bb007961a042854a5d8eadde036390fbd24098792b3160b6dcfd054fdb09771b6d2777f0be1b285ba02bbdb4c65ab9d9a9f84d81777c04b7f6a7f8d67339edbf15d90e3fce745ebbed18e508274a158081f75f8904fe74d8cd83308446500b221765a916aa34c3469db5589b901e28730c89b9a017b1d65612351b7b3ed664ccbffe774f429bed1c869d0ca0e616d89610944224bbbb202c2758e58d2d27afd58ff4c6239d6ebe0607637ecc5fcd369e093319f7e1b40c6dbe9184de36a4f1881338c3210eb7edbc4e9581ccfbedce779154169abd0c8a48952772140d1dae9da9769460876de9390a51c076683d615ac9b4231e3347573da986b2b2fd4e670b6c39bb30ecd42060380d1f8641b929dee995dfdbe91c1788675a8badacf6c725db86a5e22a0afd796b6707a48d0ad22f79c6a0cd52be3718fc06efdc9ddf9f2e893686a96290abd89dd8079f644c8a744bb0163187acd2dca7f184063d27dfacefdcc51c2e1a7b81df74ebd72b44b3f4c1cbddbf8f0d095faf3e5349e2540e577f9660d8542c2eec15dbbb39ccae08ce495baef63ddfa1113aed261c70599f2ccc717fcd4f47790031d194bceb61794992bfd1ecdf828df5960c76dea243b7c7102889d180b0f0debc6666ed2e57eed2c2b483ca7a7a193c78f84bf86e32a5e353ed3c598932c5101fbdb51b42eb7de8c1548ac77d737d346547888ff6e903fe9d80a637368f8b2315f52064e99ac4ef9f887f7a62b24932fd56e083ecf2beec4057a47a7d83787fb1b3456f105ea111fc8ecd06292b4405126147660206c7c257c2d50b240ad02c505204247d5a034bf2948d6c86a049afeee77c9b617e43ef341349d4a6f006d545474d0621b48e6b109a7346aedcedb6fe0c40db14953cf93daac33</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码提示:微信公众号[文武科技社],回复[专属服务]</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>win</tag>
+        <tag>网盘</tag>
+        <tag>百度网盘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「Win」Office Tool Plus - 一款部署 Office 的小工具</title>
+    <url>/gzh/win/win-office-tool.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tvax2.sinaimg.cn/large/006xxuvply1gm4tk7pz71g30dc07stbe.gif" alt=""></p>
+<h2 id="功能介绍"><a class="header-anchor" href="#功能介绍"></a>功能介绍</h2>
+<ul>
+<li>强大的自定义：Office Tool Plus 支持 Office 部署工具的全部特性，同时还强化了某些功能，给您带来更佳的体验</li>
+<li>丰富的功能：Office Tool Plus 除了支持 ODT 的全部特性外，还加入了许多实用、方便的功能，堪称一站式的 Office 管理平台</li>
+<li>一键生成配置：Office Tool Plus 支持创建 XML 文件，因此您可以使用 OTP 快速生成 XML 文件并在其他计算机上部署 Office</li>
+<li>始终保持最新：Office Tool Plus 从微软服务器获取 Office 的版本信息以及安装文件，确保您下载、安装的 Office 始终为最新版本</li>
+</ul>
+<p><img src= "/img/loading.gif" data-lazy-src="https://tvax2.sinaimg.cn/large/006xxuvply1gm4ssze4uxj31hc0gotng.jpg" alt=""></p>
+<h3 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h3>
+<p><a href="https://otp.landian.vip/zh-cn/download.html">官网下载</a></p>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>win</tag>
+        <tag>windows</tag>
+        <tag>office</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Quick Cut - 一款轻量、强大、好用的「Windows」视频处理软件</title>
+    <url>/gzh/win/win-qcut.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tva2.sinaimg.cn/large/006xxuvply1gm3utr123zj31hc0tj4dj.jpg" alt=""></p>
+<blockquote>
+<p>Quick Cut 是一款轻量、强大、好用的视频处理软件。它是一个轻量的工具，而不是像 Davinci Resolve、Adobe Premiere 那样专业的、复杂的庞然大物。Quick Cut 可以满足普通人一般的视频处理需求：压缩视频、转码视频、倒放视频、合并片段、根据字幕裁切片段、自动配字幕、自动剪辑……</p>
+</blockquote>
+<h2 id="✨-特性"><a class="header-anchor" href="#✨-特性"></a>✨ 特性</h2>
+<p>简单的界面<br>
+FFmpeg 预设丰富<br>
+可自定义预设<br>
+合并视频片段<br>
+逐句提取每句字幕对应的视频片段<br>
+自动转字幕<br>
+自动剪辑<br>
+……更多待探索</p>
+<h2 id="教程"><a class="header-anchor" href="#教程"></a>教程</h2>
+<p><a href="https://www.bilibili.com/video/BV18T4y1E7FF">视频教程</a></p>
+<h3 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h3>
+<p><a href="https://wwe.lanzous.com/b015n2n5a">Win64 绿色版</a>  密码:<code>f4t3</code><br>
+<a href="https://gitee.com/haujet/QuickCut">开源地址</a></p>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>win</tag>
+        <tag>windows</tag>
+        <tag>视频处理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>好用的远程控制桌面合集</title>
+    <url>/gzh/win/yc-desktop.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tva1.sinaimg.cn/large/006xxuvply1gm09h3cty5j31c00u0tix.jpg" alt=""></p>
+<h2 id="GotoHTTP"><a class="header-anchor" href="#GotoHTTP"></a>GotoHTTP</h2>
+<blockquote>
+<p>不同于传统C2C模式的远程控制软件，GotoHTTP工作在B2C模式。使用远程控制时，您不必在每一台电脑上都安装远程软件。不管身处何处，有浏览器就能访问远程电脑。 即使公司网络管控，仍然可以控制或被控制。支持文件传输、无人值守、剪切板同步、远程语音、多显示器支持 …</p>
+</blockquote>
+<h3 id="支持系统"><a class="header-anchor" href="#支持系统"></a>支持系统</h3>
+<ul>
+<li>Win</li>
+<li>Mac</li>
+<li>App</li>
+<li>Linux</li>
+</ul>
+<h3 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h3>
+<p><a href="https://gotohttp.com/">GotoHTTP</a></p>
+<h2 id="ToDesk"><a class="header-anchor" href="#ToDesk"></a>ToDesk</h2>
+<blockquote>
+<p>通讯数据使用端到端加密,连接密码仅存于您的设备。<br>
+安全可靠,简单易用,稳定流畅是ToDesk坚定不移的目标。</p>
+</blockquote>
+<h3 id="支持系统-v2"><a class="header-anchor" href="#支持系统-v2"></a>支持系统</h3>
+<ul>
+<li>Win</li>
+<li>Mac</li>
+<li>App</li>
+<li>IOS</li>
+<li>Linux</li>
+</ul>
+<h3 id="下载地址-v2"><a class="header-anchor" href="#下载地址-v2"></a>下载地址</h3>
+<p><a href="https://www.todesk.com/">ToDesk</a></p>
+<h2 id="AnyDesk（Win、Mac、IOS、App、Linux）"><a class="header-anchor" href="#AnyDesk（Win、Mac、IOS、App、Linux）"></a>AnyDesk（Win、Mac、IOS、App、Linux）</h2>
+<blockquote>
+<p>远程连接到您的计算机，无论是从办公室的另一层还是世界的另一端。 AnyDesk为IT专业人员和移动用户提供安全可靠的远程桌面连接。</p>
+</blockquote>
+<h3 id="支持系统-v3"><a class="header-anchor" href="#支持系统-v3"></a>支持系统</h3>
+<ul>
+<li>Win</li>
+<li>Mac</li>
+<li>App</li>
+<li>IOS</li>
+<li>Linux</li>
+</ul>
+<h3 id="下载地址-v3"><a class="header-anchor" href="#下载地址-v3"></a>下载地址</h3>
+<p><a href="https://anydesk.com/zhs">AnyDesk</a></p>
+<h2 id="向日葵"><a class="header-anchor" href="#向日葵"></a>向日葵</h2>
+<blockquote>
+<p>安装一个软件即可同时实现：<br>
+通过Windows远程控制macOS、Linux、Android、Windows设备<br>
+随时接受其他设备远程协助</p>
+</blockquote>
+<h3 id="支持系统-v4"><a class="header-anchor" href="#支持系统-v4"></a>支持系统</h3>
+<ul>
+<li>Win</li>
+<li>Mac</li>
+<li>App</li>
+<li>IOS</li>
+<li>Linux</li>
+</ul>
+<h3 id="下载地址-v4"><a class="header-anchor" href="#下载地址-v4"></a>下载地址</h3>
+<p><a href="https://sunlogin.oray.com/download/">向日葵</a></p>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>win</tag>
+        <tag>windows</tag>
+        <tag>app</tag>
+        <tag>远程桌面</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mos - 一个丝滑的鼠标滚轮「Mac」工具</title>
+    <url>/gzh/mac/mac-mos.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://mos.caldis.me/resources/image/logo-big.png" alt=""></p>
+<blockquote>
+<p>一个用于在 MacOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-lazy-src="https://mos.caldis.me/resources/image/cn/PreferencesGeneral.png" alt=""><br>
+<img src= "/img/loading.gif" data-lazy-src="https://mos.caldis.me/resources/image/cn/PreferencesAdvanced.png" alt=""><br>
+<img src= "/img/loading.gif" data-lazy-src="https://mos.caldis.me/resources/image/cn/PreferencesExceptionFull.png" alt=""></p>
+<h3 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h3>
+<p><a href="https://mos.caldis.me/">官网下载</a></p>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>mos</tag>
+        <tag>鼠标</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线工具合集001</title>
+    <url>/gzh/web/zx-tools.html</url>
+    <content><![CDATA[<h3 id="在线工具"><a class="header-anchor" href="#在线工具"></a>在线工具</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">视频转 Gif</th>
+<th style="text-align:center">视频音频提取</th>
+<th style="text-align:center">短链接生成</th>
+<th style="text-align:center">html转Markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://ezgif.com/">EZGif</a></td>
+<td style="text-align:center"><a href="http://tools.bugscaner.com/convert/">bugscaner</a></td>
+<td style="text-align:center"><a href="https://www.mynb8.com/">新浪短链接</a></td>
+<td style="text-align:center"><a href="https://www.toolnb.com/tools/htmlToMd.html">爱资料工具</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="http://www.92sucai.com/gif/video.html">92素材网</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://www.sojson.com/dwz.html">新浪短链接</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="http://www.atoolbox.net/Tool.php?Id=772">一个工具箱</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://dwz.cn/console/operation">百度短网址</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://www.aconvert.com/cn/video/mp4-to-gif/">AConvert</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Flv转MP3</th>
+<th style="text-align:center">去除图片背景</th>
+<th style="text-align:center">文字转语音</th>
+<th>Markdown转html</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="http://www.bejson.com/convert/video2audio/">MP4转MP3</a></td>
+<td style="text-align:center"><a href="https://www.remove.bg/zh">去除图片背景</a></td>
+<td style="text-align:center"><a href="http://tools.bugscaner.com/tts/">在线文字转语音</a></td>
+<td><a href="https://www.toolnb.com/tools/markdowntohtml.html">爱资料工具</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://www.toolfk.com/tool-online-text2video">在线语音合成</a></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://www.zaixianai.cn/voiceCompose">在线语音合成</a></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="http://cn.piliapp.com/text-to-speech/">文字转语音</a></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://uutool.cn/text2voice/">在线文字转语音</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>1</tag>
+        <tag>合集</tag>
+        <tag>在线</tag>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo Butterfly主题文章页添加疫情地图</title>
     <url>/hexo/hexo-butterfly-yq.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg" alt="hexo"></p>
@@ -1424,7 +1820,7 @@
 ]]></content>
       <categories>
         <category>win</category>
-        <category>工具</category>
+        <category>指南</category>
       </categories>
       <tags>
         <tag>typora</tag>
@@ -1534,8 +1930,8 @@
 </ol>
 ]]></content>
       <categories>
-        <category>软件</category>
-        <category>mac</category>
+        <category>黑苹果</category>
+        <category>指南</category>
       </categories>
       <tags>
         <tag>mac</tag>
@@ -1703,8 +2099,8 @@
 <p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/8c72cecf-1865-4be9-87de-a744726cb701.gif" alt=""></p>
 ]]></content>
       <categories>
-        <category>软件</category>
-        <category>mac</category>
+        <category>黑苹果</category>
+        <category>指南</category>
       </categories>
       <tags>
         <tag>mac</tag>
@@ -1745,6 +2141,46 @@
         <tag>Butterfly</tag>
         <tag>tabs</tag>
         <tag>标签</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows视频桌面软件 —— wallpaper maker</title>
+    <url>/gzh/win/win-wallpaper-maker.html</url>
+    <content><![CDATA[<p>今天这款软件绝对让你惊艳到。</p>
+<p>首先是躯体：<strong>14.6M</strong></p>
+<p>跟 <strong>火萤（52.9M）</strong> 的一比简直就是太娇小了。</p>
+<p>再就是软件 免费🆓、无广告、操作简单</p>
+<p>占用CPU：不到 1% （我的是这样，电脑配置不同，有所偏差）</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/U0ccd55424b564dbc8cf52b272c5166c2j.png" alt="CPU占用"></p>
+<p>主页不知何原因，一直在加载中</p>
+<p>那都不重要，重要的是可以将 <strong>视频</strong> 设置为 <strong>壁纸</strong> 就行了（你觉得呢？）</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/U6630f3a758a440939c679df06985dae6x.png" alt="资源界面"></p>
+<p>这里面的 <strong>视频壁纸</strong> 都是我自己添加的</p>
+<p>大家有好看的也可以在下方评论发送给我哦（鞠躬感谢🙇‍）</p>
+<p>你只要点击一款壁纸，即可轻松体验 <strong>动态桌面的既视感</strong></p>
+<h3 id="发现的问题"><a class="header-anchor" href="#发现的问题"></a>发现的问题</h3>
+<ol>
+<li>win10会有覆盖任务栏图标的现象</li>
+<li>WIn7安装需要 <strong>.NET framework</strong></li>
+</ol>
+<h3 id="Win7安装的解决办法"><a class="header-anchor" href="#Win7安装的解决办法"></a>Win7安装的解决办法</h3>
+<ol>
+<li>安装<a href="https://lanzous.com/ib89lrg">.NET framework</a></li>
+<li>报错：证书……<a href="https://blog.csdn.net/CrazyBull2012/article/details/82875263">教程</a></li>
+</ol>
+<h3 id="获取地址"><a class="header-anchor" href="#获取地址"></a>获取地址</h3>
+<p><a href="http://itxh.ys168.com/">文武科技柜</a></p>
+<p>第 <strong>06</strong> 栏：<strong>精品软件</strong> → 第 <strong>06</strong> 栏：<strong>视频桌面软件</strong></p>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>win</tag>
+        <tag>windows</tag>
+        <tag>视频桌面</tag>
+        <tag>wallpaper maker</tag>
+        <tag>免费</tag>
       </tags>
   </entry>
   <entry>
@@ -2439,6 +2875,283 @@
       </tags>
   </entry>
   <entry>
+    <title>免费在Windows上使用苹果macOS Catalina 动态桌面壁纸</title>
+    <url>/gzh/win/windynamicdestop-share.html</url>
+    <content><![CDATA[<p>在最新的 macOS Catalina 系统上，苹果推出了一款全新的动态变化桌面壁纸，它能根据时间来更换桌面壁纸的样式，从白天到黑夜的风景，光暗颜色的变化看起来非常有趣。</p>
+<p>那么在 Windows 上能否体验到同样的动态壁纸呢？当然是可以了， <strong>WinDynamicDesktop</strong> 这款免费的小工具，就能达到这种的效果了……</p>
+<a id="more"></a>
+<h3 id="安装教程"><a class="header-anchor" href="#安装教程"></a>安装教程</h3>
+<p>1.先选择语言，此处先选择<strong>English</strong>，点击<strong>OK</strong>按钮，进行下一步</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/f10aaaec-2bb6-4361-9ef8-e0d7f8dcc64e.png" alt="选择语言"></p>
+<p>2.选择同意证书，点击<strong>Next</strong>，进行下一步</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/e3ea5b0b-709a-4fdf-9959-2734757d97dd.png" alt="同意证书"></p>
+<p>3.选择安装位置后，点击<strong>Next</strong>，进行下一步</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/5d049c17-68c2-4a47-81cb-86f676479a68.png" alt="安装位置"></p>
+<p>4.是否需要桌面图标，点击<strong>Next</strong>，进行下一步</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/3aca40ac-4558-4894-8ceb-37a151f9b739.png" alt="桌面图标的选择"></p>
+<p>5.点击<strong>install</strong>按钮安装应用</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/49042b13-954b-4eb8-a354-7b2058fdfb75.png" alt="安装"></p>
+<p>6.安装成功，点击<strong>Finish</strong>按钮，打开应用</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/695827a4-4210-448d-ba16-02e4e33b4f69.png" alt="安装成功"></p>
+<p>7.选择程序语言，此处可选择<strong>中文（简体）</strong></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/91ccd95b-a7e9-42b1-83c0-ed23d0adf4ab.png" alt="语言选择"></p>
+<p>8.输入你所在的位置，以便确定日出日落时间，点击<strong>确定</strong>按钮，进入下一步<br>
+<img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/add1be7e-1cc7-4642-829c-c8c48628af88.png" alt="位置"></p>
+<p>9.位置确认提示框，点击<strong>确定</strong>按钮，进入下一步<br>
+<img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/22b5ac61-485a-4449-87ea-adc18f7dc640.png" alt="提示框"></p>
+<p>10.应用主页，选择主题应用，就会下载对应主题<br>
+<img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/f540cd11-9c5c-42ba-baed-5bc5191d7b4b.png" alt="主页"></p>
+<h3 id="应用效果展示"><a class="header-anchor" href="#应用效果展示"></a>应用效果展示</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/c8325f04-5613-49be-b162-5e52913f835d.png" alt="Catalina"></p>
+<h3 id="使用体验"><a class="header-anchor" href="#使用体验"></a>使用体验</h3>
+<ul>
+<li>体积小，占用内存小（下面有图，有真相）</li>
+</ul>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/0d66ee33-491d-424f-a4fe-ae9ad9e10e3c.png" alt="内存占比"></p>
+<ul>
+<li>可扩展性强，不仅自带Catalina和Mojave的动态桌面壁纸，还可以自定义哦！</li>
+</ul>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/805d3b09-4a79-4630-9d60-3a55992bcb46.png" alt="选择主题"></p>
+<h3 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h3>
+<blockquote>
+<p><a href="https://github.com/t1m0thyj/WinDynamicDesktop/releases">https://github.com/t1m0thyj/WinDynamicDesktop/releases</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>Catalina</tag>
+        <tag>Mojave</tag>
+        <tag>windows</tag>
+        <tag>macOS</tag>
+        <tag>桌面软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「MacOS」剪辑软件 —— Final Cut Pro 10.4.8</title>
+    <url>/gzh/mac/mac-software-fcp.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Uc7c64e423cf746e08355d80cea357d26K.jpg" alt="FCP"></p>
+<a id="more"></a>
+<p><img src= "/img/loading.gif" data-lazy-src="http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/892457803@qq.com/20191229/2pJdWQYkMh.jpeg" alt="FCP"></p>
+<h3 id="应用介绍"><a class="header-anchor" href="#应用介绍"></a>应用介绍</h3>
+<p>经过彻底的重新设计后，Final Cut Pro 将革命性的视频编辑与强大的媒体整理和难以置信的性能相结合，可让您极速创作。</p>
+<h4 id="创新的视频编辑"><a class="header-anchor" href="#创新的视频编辑"></a>创新的视频编辑</h4>
+<ul>
+<li>
+<p>相对于传统轨道，Magnetic Timeline 2 使用高级元数据以进行更加快速便捷的编辑</p>
+</li>
+<li>
+<p>增强型“时间线索引”可让您拖放音频角色以重新排列时间线的布局</p>
+</li>
+<li>
+<p>使用“片段连接”功能将 B-roll、声音效果和音乐附加到时间线</p>
+</li>
+<li>
+<p>通过将片段分组到复合片段来减少混乱</p>
+</li>
+<li>
+<p>通过“试演”功能在时间线中的一个位置循环显示不同镜头、图形或效果 基于音频波形，通过自动同步编辑多机位项目，支持多达 64 个机位角度</p>
+</li>
+<li>
+<p>导入和编辑各种格式和帧大小的 360° 等距柱状投影视频</p>
+</li>
+</ul>
+<h4 id="强大的媒体整理"><a class="header-anchor" href="#强大的媒体整理"></a>强大的媒体整理</h4>
+<ul>
+<li>在资源库中整理您的作业，以有效地进行媒体管理和协作</li>
+<li>“内容自动分析”采集摄像机元数据并在后台分析镜头</li>
+<li>随着在您选择片段范围的过程创建并应用自定关键词或个人收藏</li>
+<li>“智能精选”可为您动态整理内容，只需几次点按即可查找任何镜头</li>
+</ul>
+<h4 id="非凡的性能"><a class="header-anchor" href="#非凡的性能"></a>非凡的性能</h4>
+<ul>
+<li>Final Cut Pro 充分利用了 Mac 中的 GPU，从而实现了无可比拟的实时播放性能和快速后台渲染功能</li>
+<li>64 位架构充分利用了系统中的所有内存，可处理更大的项目以及更丰富的效果</li>
+<li>后台处理可让您实现无间断工作</li>
+<li>原生处理众多格式，包括 ProRes、RED、XAVC、AVCHD、来自 DSLR 的 H.264 等等</li>
+</ul>
+<h4 id="引人注目的可自定效果"><a class="header-anchor" href="#引人注目的可自定效果"></a>引人注目的可自定效果</h4>
+<ul>
+<li>精美的 2D 和 3D 字幕动画，自定字幕变得如此简单</li>
+<li>使用直观的控制来更改字幕、转场和效果的外观</li>
+<li>在广泛的第三方 FxPlug 插件生态系统中，选择带自定界面的插件</li>
+</ul>
+<h4 id="集成的音频编辑"><a class="header-anchor" href="#集成的音频编辑"></a>集成的音频编辑</h4>
+<ul>
+<li>在导入过程中分配角色，其中包括对白、音乐、效果和自定选项，以便轻松跟踪和整理项目</li>
+<li>直接在时间线中展开和编辑多通道音频文件</li>
+<li>让 Final Cut Pro 来帮您修正音频问题，如嗡嗡声、过多的背景噪音等等</li>
+<li>只需一步即可通过音频波形匹配将 DSLR 视频与单独的音频进行同步</li>
+</ul>
+<h4 id="直观的颜色分级"><a class="header-anchor" href="#直观的颜色分级"></a>直观的颜色分级</h4>
+<ul>
+<li>导入、编辑和交付标准颜色空间视频或宽色域 Rec. 2020 颜色空间的视频</li>
+<li>通过一键点按“平衡颜色”来改善任何片段的外观</li>
+<li>使用“颜色板”处理颜色、饱和度和曝光</li>
+<li>使用抠像和遮罩可对特定颜色或屏幕的特定区域进行颜色微调</li>
+<li>用于精确调整抠像和遮罩的强大色轮和曲线</li>
+</ul>
+<h4 id="一步优化输出"><a class="header-anchor" href="#一步优化输出"></a>一步优化输出</h4>
+<ul>
+<li>极速导出以在 Apple 设备上播放，以及上传到 Vimeo、YouTube 和 Facebook 等网站</li>
+<li>使用主题菜单添加制作者信息以及刻录 DVD 或 Blu-ray 光盘</li>
+<li>使用角色元数据导出音频主干和多个版本的已完成视频</li>
+<li>针对第三方工作流程，例如颜色分级和混音，导入和导出 XML</li>
+</ul>
+<p>系统要求：macOS 10.12.4 或更高版本、4GB 内存（建议 8GB 以用于 4K 编辑、3D 字幕和 360° 视频编辑）、支持 OpenCL 的 GPU 图形卡或者 Intel HD Graphics 3000 或更好的图形卡、256MB 显存（建议 1GB 以用于 4K 编辑、3D 字幕和 360° 视频编辑）、4GB 可用磁盘空间。</p>
+<p>某些功能需要互联网连接；上网可能需要付费。刻录 Blu-ray 光盘需要 Blu-ray 刻录机。将视频输出到 VR 头显要求运行 macOS High Sierra 10.13 并配备独立显卡的 Mac 电脑。建议使用配备 Radeon Pro 580 显卡的 27 英寸 iMac。HEVC 和 HEIF 支持要求 macOS High Sierra。</p>
+<h3 id="安装方法"><a class="header-anchor" href="#安装方法"></a>安装方法</h3>
+<p>直接安装，右键打开即可</p>
+<h3 id="版本下载"><a class="header-anchor" href="#版本下载"></a>版本下载</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">版本号</th>
+<th style="text-align:center">文件大小</th>
+<th style="text-align:center">下载地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">10.4.8</td>
+<td style="text-align:center">2.71G</td>
+<td style="text-align:center"><a href="https://cloud.189.cn/t/JjyY7fnQJfEb">天翼网盘</a>   提取码:2tcz</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>软件</tag>
+        <tag>Final Cut Pro 10.4.8</tag>
+        <tag>Final Cut Pro</tag>
+        <tag>fcp</tag>
+        <tag>剪辑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费图床第001期</title>
+    <url>/gzh/win/photos-share-001.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1577271227464&amp;di=97f75c6dc49526120d71c2254a41275e&amp;imgtype=0&amp;src=http%3A%2F%2Fww1.sinaimg.cn%2Flarge%2F005BYqpgly1fu2ltqeu9lj30q90a2ar0.jpg" alt="图床"></p>
+<a id="more"></a>
+<p>大家在写博客或者写文章时，都会用到图片，但是又不想占用自己的服务器资源，所以就有了<code>图床</code>（百度百科：图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。）。</p>
+<p><code>图床</code>即节省了自己服务器的资源，又能很方便的使用到自己的博客等地方，下面就是小黑为大家推荐的几款图床地址，大家使用时最好压缩一下图片，让那些默默做贡献的人可以持续的服务于你我他。</p>
+<h2 id="如优图床"><a class="header-anchor" href="#如优图床"></a>如优图床</h2>
+<h3 id="应用简介"><a class="header-anchor" href="#应用简介"></a>应用简介</h3>
+<p>如优图床，是一个高速稳定聚合十多个外链的免费图床，多接口聚合分发免费图床，采用阿里图床、Vim_Cn、Upload_Cc、Catbox、SMMS、搜狗、小米、百度、奇虎、京东、苏宁、掘金论坛、网易、头条、牛图等十多种接口分发上传！</p>
+<h3 id="应用截图"><a class="header-anchor" href="#应用截图"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/9884eacd-07e2-4a4e-a5b2-9f6cf6913460.png" alt="如优图床"></p>
+<h3 id="使用感受"><a class="header-anchor" href="#使用感受"></a>使用感受</h3>
+<p>上传了一张接近1M的图片，也就几秒就上传成功了，而且接口众多，大家可以自行使用。</p>
+<h3 id="图床地址"><a class="header-anchor" href="#图床地址"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://img.rruu.net/">https://img.rruu.net/</a></p>
+</blockquote>
+<h2 id="缩狗图床"><a class="header-anchor" href="#缩狗图床"></a>缩狗图床</h2>
+<h3 id="应用简介-v2"><a class="header-anchor" href="#应用简介-v2"></a>应用简介</h3>
+<ul>
+<li>缩狗图床聚合了阿里、百度、360、淘宝、<a href="http://SM.MS">SM.MS</a>、搜狐、京东这些大厂的接口。</li>
+</ul>
+<h3 id="应用截图-v2"><a class="header-anchor" href="#应用截图-v2"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/f0b68d7a-2ec7-443e-ba10-ee1a93deb184.png" alt="缩狗图床"></p>
+<h3 id="使用感受-v2"><a class="header-anchor" href="#使用感受-v2"></a>使用感受</h3>
+<p>本人测试了3M的图片，上传时间也就几秒，很不错。</p>
+<h3 id="图床地址-v2"><a class="header-anchor" href="#图床地址-v2"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://suo.dog/tc.html">https://suo.dog/tc.html</a></p>
+</blockquote>
+<h2 id="962免费图床"><a class="header-anchor" href="#962免费图床"></a>962免费图床</h2>
+<h3 id="应用简介-v3"><a class="header-anchor" href="#应用简介-v3"></a>应用简介</h3>
+<ul>
+<li>962v图床提供高速稳定的图片上传和图片外链服务,全球CDN加速</li>
+<li>任意拖放图片到这里，即可开始上传图片，最大单张支持 10 MB, 支持批量上传</li>
+<li>本站启用自动检测技术，请遵守法律法规，禁止上传违法违规图片</li>
+</ul>
+<h3 id="应用截图-v3"><a class="header-anchor" href="#应用截图-v3"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/e602e844-453b-4cda-9212-27d3450aa39e.png" alt="962"></p>
+<h3 id="使用感受-v3"><a class="header-anchor" href="#使用感受-v3"></a>使用感受</h3>
+<p>这个图床有限制，必须登录才能上传大于3M的照片，上传速度一般，免费的，还要啥自行车啊！</p>
+<h3 id="图床地址-v3"><a class="header-anchor" href="#图床地址-v3"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://www.962v.com/">https://www.962v.com/</a></p>
+</blockquote>
+<h2 id="云图在线"><a class="header-anchor" href="#云图在线"></a>云图在线</h2>
+<h3 id="应用简介-v4"><a class="header-anchor" href="#应用简介-v4"></a>应用简介</h3>
+<ul>
+<li>将页面上的图片或者本地的图片收藏到云端，方便在电脑、手机、PAD等各种设备查看。无限空间，永久免费！</li>
+<li>云空间存储量不限制、终身免费使用！</li>
+<li>收藏图片方法</li>
+</ul>
+<ol>
+<li>右键菜单中的“批量收藏“，“收藏”</li>
+<li>拖拽图片会出现一个收藏面板</li>
+</ol>
+<h3 id="应用截图-v4"><a class="header-anchor" href="#应用截图-v4"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://lh3.googleusercontent.com/kEHC68t52u_PDQPLkYIE3WH8IVhXkhgr0EpqpAnoYRBp6gL2qfbOV0NxnS2pipXDHTg4TU5C-Q=w640-h400-e365" alt="云图在线"></p>
+<h3 id="使用感受-v4"><a class="header-anchor" href="#使用感受-v4"></a>使用感受</h3>
+<p>可以安装在谷歌浏览器插件里的图床，上传简单，还有管理页面，找图片很方便，只需要注册一个账号，空间随便用。</p>
+<h3 id="图床地址-v4"><a class="header-anchor" href="#图床地址-v4"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://yt.tbyuantu.com/#/user/login">https://yt.tbyuantu.com/#/user/login</a></p>
+</blockquote>
+<h2 id="免费图床"><a class="header-anchor" href="#免费图床"></a>免费图床</h2>
+<h3 id="应用简介-v5"><a class="header-anchor" href="#应用简介-v5"></a>应用简介</h3>
+<ul>
+<li>可拖拽图片上传，单张图片不能大于5MB</li>
+<li>上传后图片外链地址和预览图将显示在下方</li>
+</ul>
+<h3 id="应用截图-v5"><a class="header-anchor" href="#应用截图-v5"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/451df96c-add7-4ad4-be1b-4a8ad4ae7a7c.png" alt="免费图床"></p>
+<h3 id="使用感受-v5"><a class="header-anchor" href="#使用感受-v5"></a>使用感受</h3>
+<p>很简约的图床页面，上传也不慢，就是缺少进度的可视化页面，所以上传时，要静静的等，不要刷新哦！！！</p>
+<h3 id="图床地址-v5"><a class="header-anchor" href="#图床地址-v5"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://ai.ls/alitc.html">https://ai.ls/alitc.html</a></p>
+</blockquote>
+<h2 id="ImgURL免费图床"><a class="header-anchor" href="#ImgURL免费图床"></a>ImgURL免费图床</h2>
+<h3 id="应用简介-v6"><a class="header-anchor" href="#应用简介-v6"></a>应用简介</h3>
+<p>游客限制每日上传10张，单张图片不能超过5M，上传的图片将公开显示</p>
+<h3 id="应用截图-v6"><a class="header-anchor" href="#应用截图-v6"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://imgkr.cn-bj.ufileos.com/95064755-8dfd-408e-9e70-dbc7f6ed1c2b.png" alt="ImgURL免费图床"></p>
+<h3 id="使用感受-v6"><a class="header-anchor" href="#使用感受-v6"></a>使用感受</h3>
+<p>速度还可以，但是隐私性不是很强，自行尝试。</p>
+<h3 id="图床地址-v6"><a class="header-anchor" href="#图床地址-v6"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://imgurl.org/">https://imgurl.org/</a></p>
+</blockquote>
+<h2 id="haosu（不死鸟-分享为王）"><a class="header-anchor" href="#haosu（不死鸟-分享为王）"></a>haosu（不死鸟 - 分享为王）</h2>
+<h3 id="应用简介-v7"><a class="header-anchor" href="#应用简介-v7"></a>应用简介</h3>
+<p>阿里巴巴服务器</p>
+<h3 id="应用截图-v7"><a class="header-anchor" href="#应用截图-v7"></a>应用截图</h3>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/dongyubin/cdn-imgs/imgs-public/haosu.png" alt=""></p>
+<h3 id="使用感受-v7"><a class="header-anchor" href="#使用感受-v7"></a>使用感受</h3>
+<p>4M的图片秒传，而且界面简单,稳定性（博主说未知）</p>
+<h3 id="图床地址-v7"><a class="header-anchor" href="#图床地址-v7"></a>图床地址</h3>
+<blockquote>
+<p><a href="https://hao.su/tu/">https://hao.su/tu/</a></p>
+</blockquote>
+<h2 id="共享"><a class="header-anchor" href="#共享"></a>共享</h2>
+<ul>
+<li>如果你有更多<code>免费图床</code>,可以通过下方评论，我会添加到网页中以帮助更多人</li>
+</ul>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>1</tag>
+        <tag>图床</tag>
+        <tag>分享</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>教程：git连接GitHub/Gitee,这一篇就够了</title>
     <url>/git/git-connect.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1565689577477&amp;di=11043ae304934fb3e12f637802850904&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.linux.net.cn%2Fdata%2Fattachment%2Falbum%2F201709%2F09%2F165851b7yv8bkcv7jwm8ww.jpeg" alt="GitHub"></p>
@@ -2502,6 +3215,103 @@
         <tag>教程</tag>
         <tag>GitHub</tag>
         <tag>Gitee</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「Win」VMware Workstation Pro v16.1.0 官方版本及激活密钥</title>
+    <url>/gzh/win/vmware-workstation.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tvax2.sinaimg.cn/large/006xxuvply1glbmwi9welj31900u0kjm.jpg" alt=""></p>
+<a id="more"></a>
+<p><strong>VMware Workstation</strong> 产品允许用户将 Linux、Windows 等多个操作系统作为虚拟机在单台 PC 上运行。用户可以在虚拟机上重现服务器、桌面和平板电脑环境，无需重新启动即可跨不同操作系统同时运行应用。Workstation 还提供隔离的安全环境，用于评估新的操作系统（如 Windows 10）、测试软件应用和补丁程序以及参考体系结构。</p>
+<p>借助 Workstation 产品，可以仅从一台本地 PC 轻松测试几乎任何操作系统和应用。构建面向 Windows 10 的应用、使用任何浏览器测试兼容性，或者在无需使用移动设备的情况下部署 Android-x86 以查看移动设备行为。</p>
+<h2 id="系统要求"><a class="header-anchor" href="#系统要求"></a>系统要求</h2>
+<p>支持使用 2011 年或更晚发布的处理器 (CPU) 的系统，但以下系统<strong>除外</strong>：</p>
+<ul>
+<li>使用基于 2011 年 Bonnell 微架构的 Intel Atom 处理器的系统。例如，Atom Z670/Z650 和 Atom N570。</li>
+<li>使用基于 2012 年 Saltwell 微架构的 Intel Atom 处理器的系统。例如，Atom S1200、Atom D2700/D2500 和 Atom N2800/N2600。</li>
+<li>使用基于 Llano 和 Bobcat 微架构的 AMD 处理器的系统。例如，代号为 Hondo、Ontario、Zacate 和 Llano 的处理器。</li>
+</ul>
+<p>此外，还<strong>支持</strong>以下系统：使用基于 2010 年 Westmere 微架构的 Intel 处理器的系统。例如，Xeon 5600、Xeon 3600、Core i7-970、Core i7-980 和 Core i7-990。</p>
+<h3 id="主要功能"><a class="header-anchor" href="#主要功能"></a>主要功能</h3>
+<ol>
+<li>
+<p>在一台 PC 上运行多个操作系统<br>
+借助 VMware Workstation Pro，您可以在同一台 Windows 或 Linux PC 上同时运行多个操作系统。创建真实的 Linux 和 Windows 虚拟机以及其他桌面、服务器和平板电脑环境（包括可配置的虚拟网络连接和网络条件模拟），用于代码开发、解决方案构建、应用测试、产品演示等。</p>
+</li>
+<li>
+<p>可针对任何平台进行开发和测试<br>
+Workstation Pro 支持数百种操作系统，可与云技术和容器技术（如 Docker 和 Kubernetes）协同工作。</p>
+</li>
+<li>
+<p>可连接到 VMware vSphere<br>
+可安全地与 vSphere、ESXi 或其他 Workstation 服务器连接，以启动、控制和管理虚拟机 (VM) 和物理主机。常见的 VMware hypervisor 可最大限度地提高工作效率，实现与本地 PC 之间轻松传输虚拟机。</p>
+</li>
+<li>
+<p>安全的隔离环境<br>
+运行具有不同隐私设置、工具和网络连接配置的第二个安全桌面，或使用取证工具调查操作系统漏洞。Workstation 可提供业界最安全的 hypervisor 之一，还可为 IT 安全专业人员提供强大功能。</p>
+</li>
+</ol>
+<h3 id="功能特性"><a class="header-anchor" href="#功能特性"></a>功能特性</h3>
+<ol>
+<li>
+<p>vSphere 集成<br>
+Workstation 是 vSphere 的首要配套组件。共享的 hypervisor 可为用户提供与众不同的逼真虚拟环境，从而确保应用轻松地在桌面设备、数据中心和云环境之间移动。Workstation 能够为远程集群、数据中心和虚拟机提供洞察信息，同时还使用户可以在本地实验室的单台 PC 上将 ESXi 和 vCenter Server Appliance 快速部署为虚拟机。</p>
+</li>
+<li>
+<p>全新的虚拟机自动化 REST API<br>
+可在本地作为工作流增强功能使用，也可在远程用来命令异地虚拟服务器，这一全新 RESTAPI 所利用的 API 框架与 VMware Fusion 引入的框架相同。可提供 20 多个用于控制主机和客户机虚拟网络连接、虚拟机电源以及共享文件夹管理的运维控件，以便以编程方式直接挂载来自主机的源代码。</p>
+</li>
+<li>
+<p>高性能 3D 图形<br>
+VMware Workstation Pro 支持 DirectX 10.1 和 OpenGL 3.3，可在运行 3D 应用时提供顺畅且响应迅速的体验。可在 Windows 虚拟机中以接近本机的性能运行 AutoCAD 或 SOLIDWORKS 等要求最为严苛的 3D 应用。</p>
+</li>
+<li>
+<p>强大的虚拟网络连接<br>
+可使用真实的路由软件和工具，为虚拟机创建复杂的 IPv4 或 IPv6 虚拟网络，或通过与第三方软件集成来设计完整的数据中心拓扑。通过引入数据包丢失、延迟和带宽限制来测试虚拟网络模拟的应用恢复能力。</p>
+</li>
+<li>
+<p>使用克隆进行快速复制<br>
+重复创建相同虚拟机设置时，可节省时间和精力，确保副本完全相同。使用“链接克隆”快速复制虚拟机，同时可显著减少所需的物理磁盘空间。使用“完整克隆”可创建能够与其他人共享的完全独立的副本。</p>
+</li>
+<li>
+<p>创建回滚快照<br>
+创建回滚点以便实时还原，这非常适合于测试未知软件或创建客户演示。可以利用多个快照轻松测试各种不同的场景，无需安装多个操作系统。</p>
+</li>
+<li>
+<p>巨型虚拟机<br>
+创建拥有多达 16 个虚拟 CPU、8 TB 虚拟磁盘以及 64 GB 内存的大规模虚拟机，以便在虚拟化环境中运行要求最严苛的桌面和服务器应用。通过为虚拟机分配主机提供的多达 3GB 的显存，可以使图形密集型应用的处理能力更上一层楼。</p>
+</li>
+<li>
+<p>支持高分辨率显示屏<br>
+Workstation Pro 已经过最新优化，可支持用于台式机的高分辨率 4K UHD (3840 x 2160) 显示屏，以及用于笔记本电脑和 x86 平板电脑的 QHD+ (3200 x 1800) 显示屏。它还支持具有不同 DPI 设置的多个显示屏，例如新的 4K UHD 显示屏以及现有的 1080P 高清显示屏。</p>
+</li>
+<li>
+<p>限制对虚拟机的访问<br>
+通过限制对 Workstation 虚拟机设置（例如拖放、复制和粘贴以及连接到 USB 设备）的访问来保护公司内容。可以对虚拟机进行加密和密码保护，确保只有授权用户才能访问。</p>
+</li>
+<li>
+<p>交叉兼容性<br>
+可创建能够跨 VMware 产品组合运行的 Linux 或 Windows 虚拟机，也可创建受限虚拟机以提高“离线”虚拟机安全性。Workstation 还支持开放虚拟机标准，便于您创建虚拟机和使用来自其他供应商的虚拟机。</p>
+</li>
+<li>
+<p>共享虚拟机<br>
+在模拟生产环境中快速共享和测试应用。将 VMware Workstation Pro 作为一个服务器运行，以便与您的团队成员、部门或组织共享具有各种所需配置的预加载 Linux 和 Windows 虚拟机的存储库。</p>
+</li>
+</ol>
+<h2 id="激活密钥："><a class="header-anchor" href="#激活密钥："></a><strong>激活密钥：</strong></h2>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ZF3R0-FHED2-M80TY-8QYGC-NPKYF</span><br></pre></td></tr></table></figure>
+<h2 id="下载地址："><a class="header-anchor" href="#下载地址："></a>下载地址：</h2>
+<p><a href="https://dl.softmgr.qq.com/original/System/VMware-workstation-full_16.1.0_17198959.exe">Workstation 16 Pro for Windows</a></p>
+]]></content>
+      <categories>
+        <category>公众号</category>
+      </categories>
+      <tags>
+        <tag>win</tag>
+        <tag>VMware Workstation Pro</tag>
+        <tag>VMware Workstation</tag>
+        <tag>VMware</tag>
+        <tag>激活密钥</tag>
       </tags>
   </entry>
   <entry>
