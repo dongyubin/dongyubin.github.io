@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chengxuxiaohei.cn/mac-anzhuang.html</loc>
+    
+    <lastmod>2021-01-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/gzh/win/win-office-tool.html</loc>
     
     <lastmod>2021-01-08</lastmod>
@@ -212,13 +219,6 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/mac-anzhuang.html</loc>
-    
-    <lastmod>2021-01-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chengxuxiaohei.cn/hexo/hexo-butterfly-yq.html</loc>
     
     <lastmod>2021-01-06</lastmod>
@@ -234,13 +234,6 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/ceshi/android-package-key.html</loc>
-    
-    <lastmod>2021-01-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/software/index.html</loc>
     
     <lastmod>2021-01-06</lastmod>
     
@@ -886,34 +879,6 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/tags/git/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/GitHub/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/Gitee/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chengxuxiaohei.cn/tags/%E6%90%9E%E7%AC%91/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -936,6 +901,34 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/tags/%E4%B8%8A%E7%BA%BF/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/git/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/GitHub/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/Gitee/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1434,14 +1427,14 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1476,21 +1469,7 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/web/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/git/</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/linux/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/%E9%9A%8F%E7%AC%94/%E6%90%9E%E7%AC%91/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1504,7 +1483,7 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E9%9A%8F%E7%AC%94/%E6%90%9E%E7%AC%91/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/git/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1519,6 +1498,20 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/web/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/linux/</loc>
     <lastmod>2021-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
