@@ -1,0 +1,102 @@
+.header {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 1px 7px;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.vditor {
+    margin-top: 45px;
+}
+
+.vditor-reset a {
+    color: rgb(99, 141, 213);
+}
+
+.vditor-reset p {
+    margin: 20px;
+}
+
+section {
+    font-family: PingfangSC-LIGHT, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left_zong {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 5px 5px 3px;
+    width: 50%;
+    border-right: 1px solid #372E72;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.left_zong_zp img {
+    width: 6em;
+    height: 6em;
+    display: inline-block;
+    vertical-align: bottom;
+    /* background-image: url("https://gitee.com/wangdudyb/wechat-pictures/raw/master/img/QRcode_C1.jpg"); */
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.left_zong p {
+    font-size: 14px;
+    color: #372E72;
+    line-height: 1.6;
+    margin: 0px;
+}
+
+.right_zong {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px;
+    width: 50%;
+}
+
+.right_zong_bk {
+    border: 1px solid #372E72;
+    padding: 8px 5px 8px 5px;
+    width: 120px;
+    color: #372E72;
+    border-radius: 2px;
+    margin: auto;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 6px
+}
+
+.right_zong_bk section {
+    font-size: 30px;
+    color: #666;
+    line-height: 32px;
+}
+
+.right_zong_bk p {
+    margin: 0px;
+}
+
+.sudu {
+    font-size: 11px;
+    color: #aaa;
+    padding-top: 3px;
+}
+
+strong {
+    background: linear-gradient(to right, rgb(166, 189, 231), rgb(127, 164, 230));
+    color: white;
+    white-space: pre-wrap;
+    border-width: 0.25em 0;
+    display: inline;
+    font-weight: normal;
+    padding: 2px 4px 2px 4px;
+}
+
+li {
+    color: rgb(77, 124, 207);
+}
