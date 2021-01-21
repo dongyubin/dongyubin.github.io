@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chengxuxiaohei.cn/gzh/other/bitebi.html</loc>
+    
+    <lastmod>2021-01-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/mac-anzhuang.html</loc>
     
     <lastmod>2021-01-21</lastmod>
@@ -1300,6 +1307,27 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/tags/fcp/</loc>
+    <lastmod>2021-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
+    <lastmod>2021-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</loc>
+    <lastmod>2021-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/CryptoTab/</loc>
     <lastmod>2021-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
