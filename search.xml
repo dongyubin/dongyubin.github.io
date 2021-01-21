@@ -5,7 +5,7 @@
     <url>/mac-anzhuang.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
 <a id="more"></a>
-<p><a href="https://github.com/dongyubin/nuc8i5beh"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/nuc8i5beh.svg?color=ff69b4&amp;label=%E7%82%B9%E8%B5%9E&amp;logoColor=ff69b4&amp;style=social" alt="img"></a></p>
+<p><a href="https://github.com/dongyubin/nuc8i5beh"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/nuc8i5beh.svg?color=ff69b4&amp;label=%E7%82%B9%E8%B5%9E&amp;logoColor=ff69b4&amp;style=social" alt=""></a></p>
 <h3 id="采购硬件设施"><a class="header-anchor" href="#采购硬件设施"></a>采购硬件设施</h3>
 <ul>
 <li>nuc8i5beh</li>
@@ -18,7 +18,7 @@
 <ul>
 <li>
 <p>黑苹果镜像全系列</p>
-<p><a href="https://wangdudyb.gitee.io/blog/mac/mac-jx-download.html">天翼网盘</a></p>
+<p><a href="https://chengxuxiaohei.cn/gzh/mac/mac-jx-download.html">天翼网盘</a></p>
 </li>
 <li>
 <p>balenaEtcher：<br>
@@ -30,9 +30,7 @@
 </li>
 <li>
 <p>nuc8 安装软件包：<br>
-<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">安装软件合集</a></p>
-<p><a href="https://www.lanzous.com/b737011/">蓝奏云</a> 提取码：i21t</p>
-<p><a href="https://pan.baidu.com/s/1vdqQQkDnfmJY-Oweede5xw">百度云</a> 提取码：r7xs</p>
+<a href="https://chengxuxiaohei.cn/gzh/mac/mac-anzhuang-software.html">安装软件合集</a></p>
 </li>
 <li>
 <p>EFI文件</p>
@@ -47,16 +45,13 @@
 <p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Ud374038a4ed24b6ea6f233a7d6bf499bj.png" alt="etcher"></p>
 <h3 id="注意："><a class="header-anchor" href="#注意："></a>注意：</h3>
 <ul>
-<li>BIOS更新到版本<code>0056</code>（可以升级<code>0071</code>）</li>
 <li>在SSD上选择<code>APFS</code>分区</li>
-<li>最好先安装<code>10.14.6</code>，再升级</li>
-<li>蓝牙：需要在<code>Windows</code>下启动，才能在<code>Mac</code>下使用（不想装双系统的，可以使用<code>Windows to go</code>）</li>
 </ul>
 <h3 id="显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"><a class="header-anchor" href="#显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"></a>显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）</h3>
 <p>Windows系统下，用【管理员身份】打开【CMD】窗口，输入以下命令：</p>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">c:\&gt;<span class="title">diskpart</span></span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">disk</span>           # 磁盘列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">disk</span> <span class="title">n</span>       # 选择<span class="title">EFI</span>分区所在的磁盘，<span class="title">n</span>为磁盘号</span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">partition</span>      # 磁盘分区列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">partition</span> <span class="title">n</span>  # 选择<span class="title">EFI</span>分区，<span class="title">n</span>为<span class="title">EFI</span>分区号</span></span><br><span class="line"><span class="function"><span class="title">set</span> <span class="title">id</span>=&quot;<span class="title">ebd0a0a2</span>-<span class="title">b9e5</span>-4433-87<span class="title">c0</span>-68<span class="title">b6b72699c7</span>&quot;	# 设置为基本数据分区</span></span><br><span class="line"><span class="function"><span class="title">assign</span> <span class="title">letter</span>=<span class="title">X</span>     # <span class="title">x</span>为<span class="title">EFI</span>分区盘符</span></span><br><span class="line"><span class="function"><span class="title">exit</span>				# 退出<span class="title">diskpart</span></span></span><br></pre></td></tr></table></figure>
 <h5 id="分区显示完后，将在-code-GitHub-code-上下载的对应系统版本文件里的-code-clover文件夹-code-替换-code-U盘efi分区下的clover文件夹-code-即可。"><a class="header-anchor" href="#分区显示完后，将在-code-GitHub-code-上下载的对应系统版本文件里的-code-clover文件夹-code-替换-code-U盘efi分区下的clover文件夹-code-即可。"></a>分区显示完后，将在<code>GitHub</code>上下载的对应系统版本文件里的<code>clover文件夹</code>替换<code>U盘efi分区下的clover文件夹</code>即可。</h5>
-<h3 id="BIOS设置"><a class="header-anchor" href="#BIOS设置"></a>BIOS设置</h3>
+<h3 id="BIOS设置-可以不进行BIOS更新操作"><a class="header-anchor" href="#BIOS设置-可以不进行BIOS更新操作"></a>BIOS设置(可以不进行BIOS更新操作)</h3>
 <ol>
 <li>将下载好的BIOS56文件里的【<code>BE0056.bio</code>】拷贝到一个空白U盘根目录</li>
 <li>启动nuc，按【<code>F7</code>】，选择BE0056.bio，去更新BIOS</li>
@@ -79,7 +74,7 @@
 </ol>
 <h4 id="注意：-v2"><a class="header-anchor" href="#注意：-v2"></a>注意：</h4>
 <h5 id="不打勾为disable，打勾为enabled"><a class="header-anchor" href="#不打勾为disable，打勾为enabled"></a>不打勾为disable，打勾为enabled</h5>
-<h3 id="使用Clover-UEFI在NUC上引导macOS安装程序"><a class="header-anchor" href="#使用Clover-UEFI在NUC上引导macOS安装程序"></a>使用Clover UEFI在NUC上引导macOS安装程序</h3>
+<h3 id="使用Clover-UEFI在NUC上引导macOS安装程序（OC操作步骤类似）"><a class="header-anchor" href="#使用Clover-UEFI在NUC上引导macOS安装程序（OC操作步骤类似）"></a>使用Clover UEFI在NUC上引导macOS安装程序（OC操作步骤类似）</h3>
 <ol>
 <li>将U盘插入需要安装系统的电脑</li>
 <li>显示Clover引导界面，需要设置FakeID（<code>Clover Options -&gt; Graphics Injector -&gt; FakeID</code>）
@@ -181,8 +176,23 @@
 
 <h3 id="最后"><a class="header-anchor" href="#最后"></a>最后</h3>
 <h5 id="300287087-a-target-blank-href-shang-qq-com-wpa-qunwpa-idkey-0fced924c58ee0997c8560a01bcf4bf34ea684952a90c2bf8094fc2b0903711a-文武科技社-a-交流群，有空位"><a class="header-anchor" href="#300287087-a-target-blank-href-shang-qq-com-wpa-qunwpa-idkey-0fced924c58ee0997c8560a01bcf4bf34ea684952a90c2bf8094fc2b0903711a-文武科技社-a-交流群，有空位"></a><strong>300287087</strong>        <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=0fced924c58ee0997c8560a01bcf4bf34ea684952a90c2bf8094fc2b0903711a">文武科技社</a>   交流群，有空位</h5>
-<a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/" 
-  title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i><span>打赏榜</span></a>
+<h2 id="0元赞助斌仔，一分也是爱！"><a class="header-anchor" href="#0元赞助斌仔，一分也是爱！"></a>0元赞助斌仔，一分也是爱！</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">第一步：支付宝扫码领红包</th>
+<th>第二步：支付宝扫码付款即可</th>
+<th style="text-align:center">微信（象征性的放个码）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/dongyubin/WP-CDN/20210121091834.jpg" alt=""></td>
+<td><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/dongyubin/WP-CDN/20210121091845.jpg" alt=""></td>
+<td style="text-align:center"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/dongyubin/cdn-imgs@1.1/imgs-public/wechatpay.png" alt="微信"></td>
+</tr>
+</tbody>
+</table>
 <h4 id="Star走势图"><a class="header-anchor" href="#Star走势图"></a>Star走势图</h4>
 <p><a href="https://github.com/dongyubin/nuc8i5beh"><img src= "/img/loading.gif" data-lazy-src="https://starchart.cc/dongyubin/nuc8i5beh.svg" alt=""></a></p>
 ]]></content>
@@ -231,6 +241,170 @@
         <tag>cmder</tag>
         <tag>cmd</tag>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指南：MSI Z370 A Pro安装黑苹果的教程，接近完美运行</title>
+    <url>/mac-anzhuang-z370.html</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
+<a id="more"></a>
+<p><a href="https://github.com/dongyubin/msi-z370-a-pro"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/msi-z370-a-pro?style=flat-square" alt="img"></a></p>
+<h3 id="采购硬件设施"><a class="header-anchor" href="#采购硬件设施"></a>采购硬件设施</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">配置</th>
+<th style="text-align:center">型号</th>
+<th style="text-align:center">价格</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">主板</td>
+<td style="text-align:center">MSI Z370 A Pro</td>
+<td style="text-align:center">300</td>
+</tr>
+<tr>
+<td style="text-align:center">显卡</td>
+<td style="text-align:center">蓝宝石 Rx590 8g 超白金</td>
+<td style="text-align:center">1300</td>
+</tr>
+<tr>
+<td style="text-align:center">CPU</td>
+<td style="text-align:center">i5 9600 中文版</td>
+<td style="text-align:center">1000</td>
+</tr>
+<tr>
+<td style="text-align:center">固态硬盘</td>
+<td style="text-align:center">intel 660P 1T</td>
+<td style="text-align:center">535</td>
+</tr>
+<tr>
+<td style="text-align:center">内存</td>
+<td style="text-align:center">酷兽 ddr4 2666 16G（2条）</td>
+<td style="text-align:center">412</td>
+</tr>
+<tr>
+<td style="text-align:center">电源</td>
+<td style="text-align:center">全汉 MS600G 全模组</td>
+<td style="text-align:center">650</td>
+</tr>
+<tr>
+<td style="text-align:center">CPU 散热器</td>
+<td style="text-align:center">玄冰 400</td>
+<td style="text-align:center">72</td>
+</tr>
+<tr>
+<td style="text-align:center">机箱</td>
+<td style="text-align:center">凌影</td>
+<td style="text-align:center">59</td>
+</tr>
+<tr>
+<td style="text-align:center">显示器</td>
+<td style="text-align:center">AOC Q2790PQU</td>
+<td style="text-align:center">1350</td>
+</tr>
+<tr>
+<td style="text-align:center">总共</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">5678</td>
+</tr>
+</tbody>
+</table>
+<h3 id="所需软件"><a class="header-anchor" href="#所需软件"></a>所需软件</h3>
+<ul>
+<li>
+<p>Mojave 10.15.6<br>
+<a href="https://cloud.189.cn/t/UzMVZfUFj6za">网盘下载</a></p>
+</li>
+<li>
+<p>balenaEtcher：<br>
+<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">下载地址</a></p>
+</li>
+<li>
+<p>bios65文件：<br>
+<a href="https://www.tonymacx86.com/attachments/be0056-bio-zip.392463/">下载地址</a></p>
+</li>
+<li>
+<p>nuc8 安装软件包：<br>
+<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">安装软件合集</a></p>
+<p><a href="https://www.lanzous.com/b737011/">蓝奏云</a> 提取码：i21t</p>
+<p><a href="https://pan.baidu.com/s/1vdqQQkDnfmJY-Oweede5xw">百度云</a> 提取码：r7xs</p>
+</li>
+<li>
+<p>EFI文件</p>
+<p><a href="https://gitee.com/wangdudyb/Asrock-Z390">gitee地址</a></p>
+<p><a href="https://www.lanzoux.com/b073x7nuj">蓝奏云</a>   密码:<strong>elam</strong></p>
+</li>
+</ul>
+<h3 id="安装过程"><a class="header-anchor" href="#安装过程"></a>安装过程</h3>
+<ol>
+<li>在Windows下插入U盘，启动balenaEtcher，“<code>select image</code>”选择“<code>Mojave 10.15.6</code>”镜像,选择U盘，点击“<code>Flash</code>”即可</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Ud374038a4ed24b6ea6f233a7d6bf499bj.png" alt="etcher"></p>
+<h3 id="显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"><a class="header-anchor" href="#显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"></a>显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）</h3>
+<p>Windows系统下，用【管理员身份】打开【CMD】窗口，输入以下命令：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">c:\&gt;<span class="title">diskpart</span></span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">disk</span>           # 磁盘列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">disk</span> <span class="title">n</span>       # 选择<span class="title">EFI</span>分区所在的磁盘，<span class="title">n</span>为磁盘号</span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">partition</span>      # 磁盘分区列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">partition</span> <span class="title">n</span>  # 选择<span class="title">EFI</span>分区，<span class="title">n</span>为<span class="title">EFI</span>分区号</span></span><br><span class="line"><span class="function"><span class="title">set</span> <span class="title">id</span>=&quot;<span class="title">ebd0a0a2</span>-<span class="title">b9e5</span>-4433-87<span class="title">c0</span>-68<span class="title">b6b72699c7</span>&quot;	# 设置为基本数据分区</span></span><br><span class="line"><span class="function"><span class="title">assign</span> <span class="title">letter</span>=<span class="title">X</span>     # <span class="title">x</span>为<span class="title">EFI</span>分区盘符</span></span><br><span class="line"><span class="function"><span class="title">exit</span>				# 退出<span class="title">diskpart</span></span></span><br></pre></td></tr></table></figure>
+<h5 id="分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"><a class="header-anchor" href="#分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"></a>分区显示完后，将在<code>GitHub</code>上下载文件里的<code>OC文件夹</code>替换<code>U盘efi分区下的OC文件夹</code>即可。</h5>
+<h3 id="使用OC-UEFI在MSI上引导macOS安装程序"><a class="header-anchor" href="#使用OC-UEFI在MSI上引导macOS安装程序"></a>使用OC UEFI在MSI上引导macOS安装程序</h3>
+<ol>
+<li>将U盘插入需要安装系统的电脑</li>
+<li>选择« Boot macOS Install from install_osx »，按« Enter » 键即可</li>
+<li>出现安装界面，选择【<code>磁盘工具</code>】将你的SSD，格式化为【<code>APFS</code>】格式</li>
+<li>选择“<code>安装mac OS</code>”，安装系统即可【<code>重启后，请再次执行步骤2</code>】</li>
+<li>安装成功后，进入系统</li>
+<li><a href="https://chengxuxiaohei.cn/mac-software-anzhuang.html">mac安装OC Configurator教程</a></li>
+<li>Mac下打开 <code>OC Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wangdudyb/cdn-blog/raw/master/github/images/mac/clover.jpg" alt="Clover Configurator"></p>
+<ol start="9">
+<li>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</li>
+<li>将U盘里的【<code>BOOT</code>】文件夹和【<code>OC</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li>
+<li>直接使用社主【<code>GitHub上的OC文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>OC</code>】文件夹下，替换即可。</li>
+</ol>
+<h3 id="不足之处"><a class="header-anchor" href="#不足之处"></a>不足之处</h3>
+<ol>
+<li>无线网没用到，直接用的有线</li>
+<li>没有麦克风，只能输出音频</li>
+<li>蓝牙不能用</li>
+</ol>
+<h3 id="体验效果"><a class="header-anchor" href="#体验效果"></a>体验效果</h3>
+<ol>
+<li>运行流畅​</li>
+<li>icloud也可以使用（心里美滋滋😃 ）</li>
+</ol>
+<h3 id="安装视频："><a class="header-anchor" href="#安装视频："></a>安装视频：</h3>
+
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=65290789&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
+    </iframe>
+</div>
+<h3>成功视频</h3>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1st4y197d8&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
+    </iframe>
+</div>
+
+<h3 id="最后"><a class="header-anchor" href="#最后"></a>最后</h3>
+<h5 id="如有不懂之处，可在下方留言"><a class="header-anchor" href="#如有不懂之处，可在下方留言"></a>如有不懂之处，可在下方留言</h5>
+<h5 id="或者直接联系博主-code-QQ-892457803-code"><a class="header-anchor" href="#或者直接联系博主-code-QQ-892457803-code"></a>或者直接联系博主<code>ＱＱ:892457803</code></h5>
+<a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/" 
+  title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i><span>打赏榜</span></a>
+<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Hdeeaadcd442e40dea16ddf5ce55a6047s.jpeg" alt="好穷啊"></p>
+<h4 id="Star走势图"><a class="header-anchor" href="#Star走势图"></a>Star走势图</h4>
+<p><a href="https://github.com/dongyubin/Asrock-Z390"><img src= "/img/loading.gif" data-lazy-src="https://starchart.cc/dongyubin/Asrock-Z390.svg" alt=""></a></p>
+]]></content>
+      <categories>
+        <category>黑苹果</category>
+        <category>指南</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>微星</tag>
+        <tag>z370</tag>
+        <tag>黑苹果</tag>
+        <tag>指南</tag>
       </tags>
   </entry>
   <entry>
@@ -406,174 +580,10 @@
       </categories>
       <tags>
         <tag>mac</tag>
+        <tag>黑苹果</tag>
+        <tag>指南</tag>
         <tag>华擎</tag>
         <tag>z390</tag>
-        <tag>黑苹果</tag>
-        <tag>指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>指南：MSI Z370 A Pro安装黑苹果的教程，接近完美运行</title>
-    <url>/mac-anzhuang-z370.html</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
-<a id="more"></a>
-<p><a href="https://github.com/dongyubin/msi-z370-a-pro"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/msi-z370-a-pro?style=flat-square" alt="img"></a></p>
-<h3 id="采购硬件设施"><a class="header-anchor" href="#采购硬件设施"></a>采购硬件设施</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">配置</th>
-<th style="text-align:center">型号</th>
-<th style="text-align:center">价格</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">主板</td>
-<td style="text-align:center">MSI Z370 A Pro</td>
-<td style="text-align:center">300</td>
-</tr>
-<tr>
-<td style="text-align:center">显卡</td>
-<td style="text-align:center">蓝宝石 Rx590 8g 超白金</td>
-<td style="text-align:center">1300</td>
-</tr>
-<tr>
-<td style="text-align:center">CPU</td>
-<td style="text-align:center">i5 9600 中文版</td>
-<td style="text-align:center">1000</td>
-</tr>
-<tr>
-<td style="text-align:center">固态硬盘</td>
-<td style="text-align:center">intel 660P 1T</td>
-<td style="text-align:center">535</td>
-</tr>
-<tr>
-<td style="text-align:center">内存</td>
-<td style="text-align:center">酷兽 ddr4 2666 16G（2条）</td>
-<td style="text-align:center">412</td>
-</tr>
-<tr>
-<td style="text-align:center">电源</td>
-<td style="text-align:center">全汉 MS600G 全模组</td>
-<td style="text-align:center">650</td>
-</tr>
-<tr>
-<td style="text-align:center">CPU 散热器</td>
-<td style="text-align:center">玄冰 400</td>
-<td style="text-align:center">72</td>
-</tr>
-<tr>
-<td style="text-align:center">机箱</td>
-<td style="text-align:center">凌影</td>
-<td style="text-align:center">59</td>
-</tr>
-<tr>
-<td style="text-align:center">显示器</td>
-<td style="text-align:center">AOC Q2790PQU</td>
-<td style="text-align:center">1350</td>
-</tr>
-<tr>
-<td style="text-align:center">总共</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">5678</td>
-</tr>
-</tbody>
-</table>
-<h3 id="所需软件"><a class="header-anchor" href="#所需软件"></a>所需软件</h3>
-<ul>
-<li>
-<p>Mojave 10.15.6<br>
-<a href="https://cloud.189.cn/t/UzMVZfUFj6za">网盘下载</a></p>
-</li>
-<li>
-<p>balenaEtcher：<br>
-<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">下载地址</a></p>
-</li>
-<li>
-<p>bios65文件：<br>
-<a href="https://www.tonymacx86.com/attachments/be0056-bio-zip.392463/">下载地址</a></p>
-</li>
-<li>
-<p>nuc8 安装软件包：<br>
-<a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">安装软件合集</a></p>
-<p><a href="https://www.lanzous.com/b737011/">蓝奏云</a> 提取码：i21t</p>
-<p><a href="https://pan.baidu.com/s/1vdqQQkDnfmJY-Oweede5xw">百度云</a> 提取码：r7xs</p>
-</li>
-<li>
-<p>EFI文件</p>
-<p><a href="https://gitee.com/wangdudyb/Asrock-Z390">gitee地址</a></p>
-<p><a href="https://www.lanzoux.com/b073x7nuj">蓝奏云</a>   密码:<strong>elam</strong></p>
-</li>
-</ul>
-<h3 id="安装过程"><a class="header-anchor" href="#安装过程"></a>安装过程</h3>
-<ol>
-<li>在Windows下插入U盘，启动balenaEtcher，“<code>select image</code>”选择“<code>Mojave 10.15.6</code>”镜像,选择U盘，点击“<code>Flash</code>”即可</li>
-</ol>
-<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Ud374038a4ed24b6ea6f233a7d6bf499bj.png" alt="etcher"></p>
-<h3 id="显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"><a class="header-anchor" href="#显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"></a>显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）</h3>
-<p>Windows系统下，用【管理员身份】打开【CMD】窗口，输入以下命令：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">c:\&gt;<span class="title">diskpart</span></span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">disk</span>           # 磁盘列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">disk</span> <span class="title">n</span>       # 选择<span class="title">EFI</span>分区所在的磁盘，<span class="title">n</span>为磁盘号</span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">partition</span>      # 磁盘分区列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">partition</span> <span class="title">n</span>  # 选择<span class="title">EFI</span>分区，<span class="title">n</span>为<span class="title">EFI</span>分区号</span></span><br><span class="line"><span class="function"><span class="title">set</span> <span class="title">id</span>=&quot;<span class="title">ebd0a0a2</span>-<span class="title">b9e5</span>-4433-87<span class="title">c0</span>-68<span class="title">b6b72699c7</span>&quot;	# 设置为基本数据分区</span></span><br><span class="line"><span class="function"><span class="title">assign</span> <span class="title">letter</span>=<span class="title">X</span>     # <span class="title">x</span>为<span class="title">EFI</span>分区盘符</span></span><br><span class="line"><span class="function"><span class="title">exit</span>				# 退出<span class="title">diskpart</span></span></span><br></pre></td></tr></table></figure>
-<h5 id="分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"><a class="header-anchor" href="#分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"></a>分区显示完后，将在<code>GitHub</code>上下载文件里的<code>OC文件夹</code>替换<code>U盘efi分区下的OC文件夹</code>即可。</h5>
-<h3 id="使用OC-UEFI在MSI上引导macOS安装程序"><a class="header-anchor" href="#使用OC-UEFI在MSI上引导macOS安装程序"></a>使用OC UEFI在MSI上引导macOS安装程序</h3>
-<ol>
-<li>将U盘插入需要安装系统的电脑</li>
-<li>选择« Boot macOS Install from install_osx »，按« Enter » 键即可</li>
-<li>出现安装界面，选择【<code>磁盘工具</code>】将你的SSD，格式化为【<code>APFS</code>】格式</li>
-<li>选择“<code>安装mac OS</code>”，安装系统即可【<code>重启后，请再次执行步骤2</code>】</li>
-<li>安装成功后，进入系统</li>
-<li><a href="https://chengxuxiaohei.cn/mac-software-anzhuang.html">mac安装OC Configurator教程</a></li>
-<li>Mac下打开 <code>OC Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li>
-</ol>
-<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wangdudyb/cdn-blog/raw/master/github/images/mac/clover.jpg" alt="Clover Configurator"></p>
-<ol start="9">
-<li>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</li>
-<li>将U盘里的【<code>BOOT</code>】文件夹和【<code>OC</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li>
-<li>直接使用社主【<code>GitHub上的OC文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>OC</code>】文件夹下，替换即可。</li>
-</ol>
-<h3 id="不足之处"><a class="header-anchor" href="#不足之处"></a>不足之处</h3>
-<ol>
-<li>无线网没用到，直接用的有线</li>
-<li>没有麦克风，只能输出音频</li>
-<li>蓝牙不能用</li>
-</ol>
-<h3 id="体验效果"><a class="header-anchor" href="#体验效果"></a>体验效果</h3>
-<ol>
-<li>运行流畅​</li>
-<li>icloud也可以使用（心里美滋滋😃 ）</li>
-</ol>
-<h3 id="安装视频："><a class="header-anchor" href="#安装视频："></a>安装视频：</h3>
-
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?aid=65290789&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
-    </iframe>
-</div>
-<h3>成功视频</h3>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1st4y197d8&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
-    </iframe>
-</div>
-
-<h3 id="最后"><a class="header-anchor" href="#最后"></a>最后</h3>
-<h5 id="如有不懂之处，可在下方留言"><a class="header-anchor" href="#如有不懂之处，可在下方留言"></a>如有不懂之处，可在下方留言</h5>
-<h5 id="或者直接联系博主-code-QQ-892457803-code"><a class="header-anchor" href="#或者直接联系博主-code-QQ-892457803-code"></a>或者直接联系博主<code>ＱＱ:892457803</code></h5>
-<a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/" 
-  title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i><span>打赏榜</span></a>
-<p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Hdeeaadcd442e40dea16ddf5ce55a6047s.jpeg" alt="好穷啊"></p>
-<h4 id="Star走势图"><a class="header-anchor" href="#Star走势图"></a>Star走势图</h4>
-<p><a href="https://github.com/dongyubin/Asrock-Z390"><img src= "/img/loading.gif" data-lazy-src="https://starchart.cc/dongyubin/Asrock-Z390.svg" alt=""></a></p>
-]]></content>
-      <categories>
-        <category>黑苹果</category>
-        <category>指南</category>
-      </categories>
-      <tags>
-        <tag>mac</tag>
-        <tag>黑苹果</tag>
-        <tag>指南</tag>
-        <tag>微星</tag>
-        <tag>z370</tag>
       </tags>
   </entry>
   <entry>
@@ -3259,9 +3269,9 @@ FFmpeg 预设丰富<br>
       <tags>
         <tag>mac</tag>
         <tag>1</tag>
-        <tag>windows</tag>
         <tag>图床</tag>
         <tag>分享</tag>
+        <tag>windows</tag>
       </tags>
   </entry>
   <entry>
