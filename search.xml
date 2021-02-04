@@ -848,12 +848,12 @@
     <url>/nuc-catalina-bug.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
 <a id="more"></a>
-<h5 id="最近苹果推出了新的系统Catalina，小黑也跟潮流的更新了，不知为啥我的不能从Mojave直接下载更新，只能重新写了个U盘，然后安装Catalina（无需格盘），按照mojave的安装方式直接升级即可成功。"><a class="header-anchor" href="#最近苹果推出了新的系统Catalina，小黑也跟潮流的更新了，不知为啥我的不能从Mojave直接下载更新，只能重新写了个U盘，然后安装Catalina（无需格盘），按照mojave的安装方式直接升级即可成功。"></a>最近苹果推出了新的系统Catalina，小黑也跟潮流的更新了，不知为啥我的不能从Mojave直接下载更新，只能重新写了个U盘，然后安装<a href="https://pan.baidu.com/s/1-LY_gKLsustF97MsyQARlQ">Catalina</a>（无需格盘），按照mojave的安装方式直接升级即可成功。</h5>
-<h5 id="使用后感觉比测试版流畅了许多，bug也没有那么多了，Catalina-code-不再支持32位应用-code-可能有许多小伙伴的软件就凭空消失了，这不是bug，只是不兼容了。"><a class="header-anchor" href="#使用后感觉比测试版流畅了许多，bug也没有那么多了，Catalina-code-不再支持32位应用-code-可能有许多小伙伴的软件就凭空消失了，这不是bug，只是不兼容了。"></a>使用后感觉比测试版流畅了许多，bug也没有那么多了，Catalina<code>不再支持32位应用</code>,可能有许多小伙伴的软件就凭空消失了，这不是bug，只是不兼容了。</h5>
-<h4 id="Catalina没有音频的问题"><a class="header-anchor" href="#Catalina没有音频的问题"></a>Catalina没有音频的问题</h4>
-<h5 id="有的小伙伴升级后，音频没有了输入-输出设备，只需要更新小黑-code-GitHub上的Catalina的EFI文件即可使用了。-code"><a class="header-anchor" href="#有的小伙伴升级后，音频没有了输入-输出设备，只需要更新小黑-code-GitHub上的Catalina的EFI文件即可使用了。-code"></a>有的小伙伴升级后，音频没有了输入/输出设备，只需要更新小黑<code>GitHub上的Catalina的EFI文件即可使用了。</code></h5>
+<p>最近苹果推出了新的系统Catalina，小黑也跟潮流的更新了，不知为啥我的不能从Mojave直接下载更新，只能重新写了个U盘，然后安装<a href="https://chengxuxiaohei.cn/gzh/mac/mac-jx-download.html">Catalina</a>（无需格盘），按照mojave的安装方式直接升级即可成功。</p>
+<p>使用后感觉比测试版流畅了许多，bug也没有那么多了，Catalina<code>不再支持32位应用</code>,可能有许多小伙伴的软件就凭空消失了，这不是bug，只是不兼容了。</p>
+<h3 id="Catalina没有音频的问题"><a class="header-anchor" href="#Catalina没有音频的问题"></a>Catalina没有音频的问题</h3>
+<p>有的小伙伴升级后，音频没有了输入/输出设备，只需要更新小黑<code>GitHub上的Catalina的EFI文件即可使用了。</code></p>
 <h3 id="安装卡在forcing-cs-runtime-for-entitlement-com-apple-rootless-install（或者类似代码的）"><a class="header-anchor" href="#安装卡在forcing-cs-runtime-for-entitlement-com-apple-rootless-install（或者类似代码的）"></a>安装卡在forcing cs_runtime for entitlement:com.apple.rootless.install（或者类似代码的）</h3>
-<h3 id="解决办法："><a class="header-anchor" href="#解决办法："></a>解决办法：</h3>
+<h4 id="解决办法："><a class="header-anchor" href="#解决办法："></a>解决办法：</h4>
 <ol>
 <li>在clover页面（选择<code>图标logo页面</code>）选择<code>option</code></li>
 <li>在<code>pci devices</code>回车</li>
@@ -861,7 +861,7 @@
 <li>找到<code>retuen</code>,一直回车键到<code>选logo的界面</code></li>
 </ol>
 <h3 id="v如果卡“IOUSBHost-Interface-0x1-00000384-matching-deferred-by-IOUSBHos-tHIDDev-ice”"><a class="header-anchor" href="#v如果卡“IOUSBHost-Interface-0x1-00000384-matching-deferred-by-IOUSBHos-tHIDDev-ice”"></a>-v如果卡“IOUSBHost Interface (0x1 00000384) : matching deferred by IOUSBHos tHIDDev ice”</h3>
-<h3 id="解决办法"><a class="header-anchor" href="#解决办法"></a>解决办法</h3>
+<h4 id="解决办法"><a class="header-anchor" href="#解决办法"></a>解决办法</h4>
 <p>删除<code>CLOVER/kexts/Other</code>里面的<code>USBInjectAll.kext</code>的驱动就解决该问题了。</p>
 ]]></content>
       <categories>
@@ -1394,13 +1394,13 @@
     <url>/nuc-jzf-jjbf.html</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p>
 <a id="more"></a>
-<h4 id="黑苹果开机有时会出现-code-Error-allocating-0x11c8d-pages-at-0x0000000-每个人的都不同-alloc-type-2-code-错误，每次还得强制重启，让人很烦😫"><a class="header-anchor" href="#黑苹果开机有时会出现-code-Error-allocating-0x11c8d-pages-at-0x0000000-每个人的都不同-alloc-type-2-code-错误，每次还得强制重启，让人很烦😫"></a>黑苹果开机有时会出现<code>Error allocating 0x11c8d pages at 0x0000000???(每个人的都不同) alloc type 2</code> 错误，每次还得强制重启，让人很烦😫</h4>
-<h4 id="博主也尝试了很多的办法，但是就是没用，又是一个不小心发现了一个解决办法，赶紧尝试了一下，不试不知道，一试果然解决了。😆"><a class="header-anchor" href="#博主也尝试了很多的办法，但是就是没用，又是一个不小心发现了一个解决办法，赶紧尝试了一下，不试不知道，一试果然解决了。😆"></a>博主也尝试了很多的办法，但是就是没用，又是一个不小心发现了一个解决办法，赶紧尝试了一下，不试不知道，一试果然解决了。😆</h4>
+<p>黑苹果开机有时会出现<code>Error allocating 0x11c8d pages at 0x0000000???(每个人的都不同) alloc type 2</code> 错误，每次还得强制重启，让人很烦😫</p>
+<p>博主也尝试了很多的办法，但是就是没用，又是一个不小心发现了一个解决办法，赶紧尝试了一下，不试不知道，一试果然解决了。😆</p>
 <h3 id="错误截图："><a class="header-anchor" href="#错误截图："></a>错误截图：</h3>
 <p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wangdudyb/cdn-blog/raw/master/github/images/mac/jjfcw.jpg" alt="禁止符错误"></p>
-<h3 id="解决步骤："><a class="header-anchor" href="#解决步骤："></a>解决步骤：</h3>
+<h4 id="解决步骤："><a class="header-anchor" href="#解决步骤："></a>解决步骤：</h4>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">把bios更新到最新的版本的</span><br><span class="line">把drivers64UEFI目录中AptioMemoryFix<span class="number">-64.</span>efi替换为OsxAptioFix2Drv-free2000.efi</span><br><span class="line">clover里边设置slide=<span class="number">0</span></span><br></pre></td></tr></table></figure>
-<h3 id="相关文件下载地址"><a class="header-anchor" href="#相关文件下载地址"></a>相关文件下载地址</h3>
+<h4 id="相关文件下载地址"><a class="header-anchor" href="#相关文件下载地址"></a>相关文件下载地址</h4>
 <p><a href="http://www.mediafire.com/file/aks1kkyj6l1xf9n/OsxAptioFix2Drv-free2000.efi.zip">OsxAptioFix2Drv-free2000.efi</a></p>
 ]]></content>
       <categories>
