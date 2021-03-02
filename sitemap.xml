@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chengxuxiaohei.cn/mac-anzhuang-z390.html</loc>
+    
+    <lastmod>2021-03-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/mac-anzhuang-z370.html</loc>
+    
+    <lastmod>2021-03-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/win/win-cmder.html</loc>
+    
+    <lastmod>2021-03-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/mac-all-bug.html</loc>
     
     <lastmod>2021-03-02</lastmod>
@@ -247,13 +268,6 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/mac-anzhuang-z370.html</loc>
-    
-    <lastmod>2021-01-07</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chengxuxiaohei.cn/wordpress/wp-art-npm.html</loc>
     
     <lastmod>2021-01-06</lastmod>
@@ -345,13 +359,6 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/mac-anzhuang-z390.html</loc>
-    
-    <lastmod>2021-01-05</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chengxuxiaohei.cn/mac-anzhuang-nuc6.html</loc>
     
     <lastmod>2020-10-15</lastmod>
@@ -362,13 +369,6 @@
     <loc>https://chengxuxiaohei.cn/link/index.html</loc>
     
     <lastmod>2020-08-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/win/win-cmder.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
     
   </url>
   
@@ -1012,34 +1012,6 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/tags/git/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/GitHub/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/Gitee/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chengxuxiaohei.cn/tags/hexo/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
@@ -1062,6 +1034,34 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/tags/revolvermaps/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/git/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/GitHub/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/Gitee/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1159,6 +1159,27 @@
   </url>
   
   <url>
+    <loc>https://chengxuxiaohei.cn/tags/github/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/gitee/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/tags/%E7%A0%81%E4%BA%91/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chengxuxiaohei.cn/tags/web/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
@@ -1181,27 +1202,6 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/tags/css/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/github/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/gitee/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/tags/%E7%A0%81%E4%BA%91/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1693,14 +1693,14 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/win/%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/win/%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1735,7 +1735,7 @@
   </url>
   
   <url>
-    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/linux/</loc>
+    <loc>https://chengxuxiaohei.cn/categories/mac/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1743,13 +1743,6 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/git/</loc>
-    <lastmod>2021-03-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chengxuxiaohei.cn/categories/mac/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1771,6 +1764,13 @@
   
   <url>
     <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/web/</loc>
+    <lastmod>2021-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chengxuxiaohei.cn/categories/%E6%95%99%E7%A8%8B/linux/</loc>
     <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

@@ -605,7 +605,7 @@
     <link href="https://chengxuxiaohei.cn/win/win-cmder.html"/>
     <id>https://chengxuxiaohei.cn/win/win-cmder.html</id>
     <published>2020-07-19T01:00:00.000Z</published>
-    <updated>2020-08-14T08:35:45.988Z</updated>
+    <updated>2021-03-02T07:02:33.464Z</updated>
     
     <content type="html"><![CDATA[<h3 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h3><ul><li><a href="https://github.com/cmderdev/cmder/releases/">cmder</a></li></ul><h3 id="软件配置"><a class="header-anchor" href="#软件配置"></a>软件配置</h3><h4 id="配置环境变量"><a class="header-anchor" href="#配置环境变量"></a>配置环境变量</h4><ol><li>右击<strong>此电脑</strong>，点击<strong>属性</strong></li><li>点击<strong>高级系统设置</strong>，再点击<strong>环境变量</strong></li><li>在<strong>系统变量</strong>找到<strong>Path</strong>，将cmder文件夹加入即可</li></ol><h4 id="配置右键快捷启动"><a class="header-anchor" href="#配置右键快捷启动"></a>配置右键快捷启动</h4><ol><li>以<strong>管理员</strong>身份打开<strong>cmd</strong>，输入以下命令即可添加右键菜单：</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cmder.exe /REGISTER ALL</span><br></pre></td></tr></table></figure><h4 id="其他配置"><a class="header-anchor" href="#其他配置"></a>其他配置</h4><p>将Cmder默认的命令提示符<code>&quot;λ&quot;</code>改为<code>“$”</code>，<br>在<code>cmder\vendor</code>中的<code>clink.lua</code>内做如下修改&quot;λ&quot;替换成&quot;$&quot;</p>]]></content>
     
