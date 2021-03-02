@@ -6,7 +6,7 @@
   <link href="https://chengxuxiaohei.cn/atom.xml" rel="self"/>
   
   <link href="https://chengxuxiaohei.cn/"/>
-  <updated>2021-02-03T02:13:39.878Z</updated>
+  <updated>2021-03-02T03:54:13.205Z</updated>
   <id>https://chengxuxiaohei.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>黑苹果安装问题集锦</title>
+    <link href="https://chengxuxiaohei.cn/mac-all-bug.html"/>
+    <id>https://chengxuxiaohei.cn/mac-all-bug.html</id>
+    <published>2021-03-01T02:00:00.000Z</published>
+    <updated>2021-03-02T03:54:13.205Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p><a id="more"></a><h3 id="1、OpenCore引导菜单添加Windows引导项"><a class="header-anchor" href="#1、OpenCore引导菜单添加Windows引导项"></a>1、OpenCore引导菜单添加Windows引导项</h3><ol><li>使用<a href="https://chengxuxiaohei.cn/gzh/mac/mac-anzhuang-software.html">OCC</a></li><li>在<code>Misc</code>-<code>BlessOverride</code>添加<code>\EFI\Microsoft\Boot\bootmgfw.efi</code></li></ol><h3 id="2、OC-configuration-requires-vault-but-no-vault-procide"><a class="header-anchor" href="#2、OC-configuration-requires-vault-but-no-vault-procide"></a>2、OC:configuration requires vault but no vault procide</h3><ol><li>建议用 <strong>propertree</strong> 或其他编辑config，OpenCore的文件结构变化很快，OpenCore Configurator.app 不能完全跟上</li><li>Misc-其他设置Security 下 — Vault 设置成 Optional</li><li>新的OC config中，Vault 属性代替 RequireSignature和RequireVault，如果你的是老版本还有RequireSignature和RequireVault，请把这两项设置为False禁用</li></ol><h3 id="3、OCS-No-schema-for-xxxxx-at-xx-index！"><a class="header-anchor" href="#3、OCS-No-schema-for-xxxxx-at-xx-index！"></a>3、OCS: No schema for xxxxx at xx index！</h3><p>使用ProperTree.app或者Xcode.app打开config.plist配置文件，找到for xxxxx at中间的xxxxx名称。直接删除即可。</p><h3 id="4、OCB：OcScanForBootEntries-failure-–-Not-Found-Halting-on-critical-error"><a class="header-anchor" href="#4、OCB：OcScanForBootEntries-failure-–-Not-Found-Halting-on-critical-error"></a>4、OCB：OcScanForBootEntries failure – Not Found Halting on critical error</h3><p>config.plist -&gt;Misc -&gt; Security -&gt; ScanPolicy -&gt; 0</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg&quot; alt=&quot;黑苹果&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="黑苹果" scheme="https://chengxuxiaohei.cn/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+    <category term="指南" scheme="https://chengxuxiaohei.cn/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="黑苹果" scheme="https://chengxuxiaohei.cn/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+    <category term="mac" scheme="https://chengxuxiaohei.cn/tags/mac/"/>
+    
+    <category term="Catalina" scheme="https://chengxuxiaohei.cn/tags/Catalina/"/>
+    
+  </entry>
   
   <entry>
     <title>Win下载神器：Internet Download Manager v6.38</title>
@@ -141,6 +168,38 @@
   </entry>
   
   <entry>
+    <title>「MacOS」CrossOver 20.0.4 中文破解版 (快速运行Windows软件)</title>
+    <link href="https://chengxuxiaohei.cn/gzh/mac/mac-co.html"/>
+    <id>https://chengxuxiaohei.cn/gzh/mac/mac-co.html</id>
+    <published>2021-01-22T01:00:00.000Z</published>
+    <updated>2021-02-03T02:12:57.705Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tva3.sinaimg.cn/large/006xxuvply1gmwk0bwww3j3074074q2y.jpg" alt=""></p><blockquote><p>CrossOver 是一款在Mac上运行Microsoft Windows软件，而无需购买Windows许可证，重新引导或使用虚拟机。CrossOver Mac使从扩展坞本地启动Windows应用程序变得容易，并将Mac操作系统功能（例如跨平台复制和粘贴以及共享文件系统）集成到Windows程序中。</p><p>易于安装！使用我们的CrossTie技术可以安装许多Windows标题。如果您已安装CrossOver并已安装Windows软件，则只需单击我们的兼容性数据库中的按钮，CrossOver就会自动为您安装应用程序！</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://tva1.sinaimg.cn/large/006xxuvply1gmwk0fp23ej31uw1acadq.jpg" alt=""></p><h2 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h2><p>关注公众号：<strong>文武科技社</strong><br>回复关键词：<strong>CO</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://tva3.sinaimg.cn/large/006xxuvply1gmwk0bwww3j3074074q2y.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+</summary>
+      
+    
+    
+    
+    <category term="公众号" scheme="https://chengxuxiaohei.cn/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+    
+    <category term="mac" scheme="https://chengxuxiaohei.cn/tags/mac/"/>
+    
+    <category term="软件" scheme="https://chengxuxiaohei.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="Windows" scheme="https://chengxuxiaohei.cn/tags/Windows/"/>
+    
+    <category term="CrossOver" scheme="https://chengxuxiaohei.cn/tags/CrossOver/"/>
+    
+  </entry>
+  
+  <entry>
     <title>「MacOS」Folx Pro 5.24 中文破解版 (好用的下载工具)</title>
     <link href="https://chengxuxiaohei.cn/gzh/mac/mac-folx.html"/>
     <id>https://chengxuxiaohei.cn/gzh/mac/mac-folx.html</id>
@@ -200,38 +259,6 @@
     <category term="iMazing" scheme="https://chengxuxiaohei.cn/tags/iMazing/"/>
     
     <category term="itunes" scheme="https://chengxuxiaohei.cn/tags/itunes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「MacOS」CrossOver 20.0.4 中文破解版 (快速运行Windows软件)</title>
-    <link href="https://chengxuxiaohei.cn/gzh/mac/mac-co.html"/>
-    <id>https://chengxuxiaohei.cn/gzh/mac/mac-co.html</id>
-    <published>2021-01-22T01:00:00.000Z</published>
-    <updated>2021-02-03T02:12:57.705Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tva3.sinaimg.cn/large/006xxuvply1gmwk0bwww3j3074074q2y.jpg" alt=""></p><blockquote><p>CrossOver 是一款在Mac上运行Microsoft Windows软件，而无需购买Windows许可证，重新引导或使用虚拟机。CrossOver Mac使从扩展坞本地启动Windows应用程序变得容易，并将Mac操作系统功能（例如跨平台复制和粘贴以及共享文件系统）集成到Windows程序中。</p><p>易于安装！使用我们的CrossTie技术可以安装许多Windows标题。如果您已安装CrossOver并已安装Windows软件，则只需单击我们的兼容性数据库中的按钮，CrossOver就会自动为您安装应用程序！</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://tva1.sinaimg.cn/large/006xxuvply1gmwk0fp23ej31uw1acadq.jpg" alt=""></p><h2 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h2><p>关注公众号：<strong>文武科技社</strong><br>回复关键词：<strong>CO</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://tva3.sinaimg.cn/large/006xxuvply1gmwk0bwww3j3074074q2y.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-</summary>
-      
-    
-    
-    
-    <category term="公众号" scheme="https://chengxuxiaohei.cn/categories/%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
-    
-    
-    <category term="mac" scheme="https://chengxuxiaohei.cn/tags/mac/"/>
-    
-    <category term="软件" scheme="https://chengxuxiaohei.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-    <category term="Windows" scheme="https://chengxuxiaohei.cn/tags/Windows/"/>
-    
-    <category term="CrossOver" scheme="https://chengxuxiaohei.cn/tags/CrossOver/"/>
     
   </entry>
   
@@ -517,9 +544,9 @@
     <link href="https://chengxuxiaohei.cn/gzh/mac/mac-pd.html"/>
     <id>https://chengxuxiaohei.cn/gzh/mac/mac-pd.html</id>
     <published>2021-01-08T01:00:00.000Z</published>
-    <updated>2021-01-08T09:21:36.709Z</updated>
+    <updated>2021-03-01T09:29:59.595Z</updated>
     
-    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tvax3.sinaimg.cn/large/006xxuvply1gmcrzxthv8j3074074t8p.jpg" alt=""></p><blockquote><p>Parallels Desktop Business Edition 15 for mac破解版 (pd虚拟机) 是mac上最强大也是最好用的虚拟机软件，parallels desktop mac 15 可以显着降低磁盘，内存和CPU使用率，而且针对Windows 10更新进行了优化，更新了超过50个新功能，可以让您更充分地利用你的Mac，无需重启即可运行多个操作系统，完美支持最新的 macOS 10.15x 系统。<br><img src= "/img/loading.gif" data-lazy-src="https://tva3.sinaimg.cn/large/006xxuvply1gmcs00x4qrj31400p0dli.jpg" alt=""></p></blockquote><h3 id="v16-1-2-49151"><a class="header-anchor" href="#v16-1-2-49151"></a>v16.1.2 (49151)</h3><blockquote><p>Parallels Desktop 16 for 16.1.2 (49151) 的此次更新解决了整体稳定性与安全性方面的问题，同时修复了以下缺陷，并做出了一些改进：</p></blockquote><ul><li>解决了 Windows 在使用与 Intel 集成的 GPU 5xxx/5xx 的 Macs 上暂停的问题。</li><li>解决了在 Autodesk AutoCAD 中查看 .dwg 文件时遇到的图形问题。</li><li>解决了无法使用 Mac 的应用程序打开虚拟机文件的问题。</li></ul><h2 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h2><p>关注公众号：<strong>文武科技社</strong><br>回复关键词：<strong>PD</strong></p>]]></content>
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://tvax3.sinaimg.cn/large/006xxuvply1gmcrzxthv8j3074074t8p.jpg" alt=""></p><blockquote><p>Parallels Desktop Business Edition 15 for mac破解版 (pd虚拟机) 是mac上最强大也是最好用的虚拟机软件，parallels desktop mac 15 可以显着降低磁盘，内存和CPU使用率，而且针对Windows 10更新进行了优化，更新了超过50个新功能，可以让您更充分地利用你的Mac，无需重启即可运行多个操作系统，完美支持最新的 macOS 10.15x 系统。<br><img src= "/img/loading.gif" data-lazy-src="https://tva3.sinaimg.cn/large/006xxuvply1gmcs00x4qrj31400p0dli.jpg" alt=""></p></blockquote><h3 id="v16-1-2-49151"><a class="header-anchor" href="#v16-1-2-49151"></a>v16.1.2 (49151)</h3><blockquote><p>Parallels Desktop 16 for 16.1.2 (49151) 的此次更新解决了整体稳定性与安全性方面的问题，同时修复了以下缺陷，并做出了一些改进：</p></blockquote><ul><li>解决了 Windows 在使用与 Intel 集成的 GPU 5xxx/5xx 的 Macs 上暂停的问题。</li><li>解决了在 Autodesk AutoCAD 中查看 .dwg 文件时遇到的图形问题。</li><li>解决了无法使用 Mac 的应用程序打开虚拟机文件的问题。</li></ul><h3 id="Parallels-Desktop-运行windows-10-不能访问Mac共享目录解决方法"><a class="header-anchor" href="#Parallels-Desktop-运行windows-10-不能访问Mac共享目录解决方法"></a>Parallels Desktop 运行windows 10 不能访问Mac共享目录解决方法</h3><p>在安装完Parallels Tools后，提示重启系统，然后进入系统下面的 <strong>C:\Program Files (x86)\Parallels\Parallels Tools</strong> 目录，找到<strong>PTIAgent.exe</strong>文件，右键选择 <strong>管理员模式</strong> 运行，按提示安装重启后，即可正常访问Mac的共享目录了。</p><h2 id="下载地址"><a class="header-anchor" href="#下载地址"></a>下载地址</h2><p>关注公众号：<strong>文武科技社</strong><br>回复关键词：<strong>PD</strong></p>]]></content>
     
     
       
@@ -606,37 +633,6 @@
     <category term="cmd" scheme="https://chengxuxiaohei.cn/tags/cmd/"/>
     
     <category term="Windows" scheme="https://chengxuxiaohei.cn/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>指南：MSI Z370 A Pro安装黑苹果的教程，接近完美运行</title>
-    <link href="https://chengxuxiaohei.cn/mac-anzhuang-z370.html"/>
-    <id>https://chengxuxiaohei.cn/mac-anzhuang-z370.html</id>
-    <published>2020-07-18T01:00:00.000Z</published>
-    <updated>2021-01-07T03:48:39.054Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg" alt="黑苹果"></p><a id="more"></a><p><a href="https://github.com/dongyubin/msi-z370-a-pro"><img src= "/img/loading.gif" data-lazy-src="https://img.shields.io/github/stars/dongyubin/msi-z370-a-pro?style=flat-square" alt="img"></a></p><h3 id="采购硬件设施"><a class="header-anchor" href="#采购硬件设施"></a>采购硬件设施</h3><table><thead><tr><th style="text-align:center">配置</th><th style="text-align:center">型号</th><th style="text-align:center">价格</th></tr></thead><tbody><tr><td style="text-align:center">主板</td><td style="text-align:center">MSI Z370 A Pro</td><td style="text-align:center">300</td></tr><tr><td style="text-align:center">显卡</td><td style="text-align:center">蓝宝石 Rx590 8g 超白金</td><td style="text-align:center">1300</td></tr><tr><td style="text-align:center">CPU</td><td style="text-align:center">i5 9600 中文版</td><td style="text-align:center">1000</td></tr><tr><td style="text-align:center">固态硬盘</td><td style="text-align:center">intel 660P 1T</td><td style="text-align:center">535</td></tr><tr><td style="text-align:center">内存</td><td style="text-align:center">酷兽 ddr4 2666 16G（2条）</td><td style="text-align:center">412</td></tr><tr><td style="text-align:center">电源</td><td style="text-align:center">全汉 MS600G 全模组</td><td style="text-align:center">650</td></tr><tr><td style="text-align:center">CPU 散热器</td><td style="text-align:center">玄冰 400</td><td style="text-align:center">72</td></tr><tr><td style="text-align:center">机箱</td><td style="text-align:center">凌影</td><td style="text-align:center">59</td></tr><tr><td style="text-align:center">显示器</td><td style="text-align:center">AOC Q2790PQU</td><td style="text-align:center">1350</td></tr><tr><td style="text-align:center">总共</td><td style="text-align:center"></td><td style="text-align:center">5678</td></tr></tbody></table><h3 id="所需软件"><a class="header-anchor" href="#所需软件"></a>所需软件</h3><ul><li><p>Mojave 10.15.6<br><a href="https://cloud.189.cn/t/UzMVZfUFj6za">网盘下载</a></p></li><li><p>balenaEtcher：<br><a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">下载地址</a></p></li><li><p>bios65文件：<br><a href="https://www.tonymacx86.com/attachments/be0056-bio-zip.392463/">下载地址</a></p></li><li><p>nuc8 安装软件包：<br><a href="https://wangdudyb.gitee.io/blog/mac/mac-anzhuang-software.html">安装软件合集</a></p><p><a href="https://www.lanzous.com/b737011/">蓝奏云</a> 提取码：i21t</p><p><a href="https://pan.baidu.com/s/1vdqQQkDnfmJY-Oweede5xw">百度云</a> 提取码：r7xs</p></li><li><p>EFI文件</p><p><a href="https://gitee.com/wangdudyb/Asrock-Z390">gitee地址</a></p><p><a href="https://www.lanzoux.com/b073x7nuj">蓝奏云</a>   密码:<strong>elam</strong></p></li></ul><h3 id="安装过程"><a class="header-anchor" href="#安装过程"></a>安装过程</h3><ol><li>在Windows下插入U盘，启动balenaEtcher，“<code>select image</code>”选择“<code>Mojave 10.15.6</code>”镜像,选择U盘，点击“<code>Flash</code>”即可</li></ol><p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Ud374038a4ed24b6ea6f233a7d6bf499bj.png" alt="etcher"></p><h3 id="显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"><a class="header-anchor" href="#显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）"></a>显示EFI分区（此处也可以使用DiskGenius工具来查看U盘下的EFI分区）</h3><p>Windows系统下，用【管理员身份】打开【CMD】窗口，输入以下命令：</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">c:\&gt;<span class="title">diskpart</span></span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">disk</span>           # 磁盘列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">disk</span> <span class="title">n</span>       # 选择<span class="title">EFI</span>分区所在的磁盘，<span class="title">n</span>为磁盘号</span></span><br><span class="line"><span class="function"><span class="title">list</span> <span class="title">partition</span>      # 磁盘分区列表</span></span><br><span class="line"><span class="function"><span class="title">select</span> <span class="title">partition</span> <span class="title">n</span>  # 选择<span class="title">EFI</span>分区，<span class="title">n</span>为<span class="title">EFI</span>分区号</span></span><br><span class="line"><span class="function"><span class="title">set</span> <span class="title">id</span>=&quot;<span class="title">ebd0a0a2</span>-<span class="title">b9e5</span>-4433-87<span class="title">c0</span>-68<span class="title">b6b72699c7</span>&quot;# 设置为基本数据分区</span></span><br><span class="line"><span class="function"><span class="title">assign</span> <span class="title">letter</span>=<span class="title">X</span>     # <span class="title">x</span>为<span class="title">EFI</span>分区盘符</span></span><br><span class="line"><span class="function"><span class="title">exit</span># 退出<span class="title">diskpart</span></span></span><br></pre></td></tr></table></figure><h5 id="分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"><a class="header-anchor" href="#分区显示完后，将在-code-GitHub-code-上下载文件里的-code-OC文件夹-code-替换-code-U盘efi分区下的OC文件夹-code-即可。"></a>分区显示完后，将在<code>GitHub</code>上下载文件里的<code>OC文件夹</code>替换<code>U盘efi分区下的OC文件夹</code>即可。</h5><h3 id="使用OC-UEFI在MSI上引导macOS安装程序"><a class="header-anchor" href="#使用OC-UEFI在MSI上引导macOS安装程序"></a>使用OC UEFI在MSI上引导macOS安装程序</h3><ol><li>将U盘插入需要安装系统的电脑</li><li>选择« Boot macOS Install from install_osx »，按« Enter » 键即可</li><li>出现安装界面，选择【<code>磁盘工具</code>】将你的SSD，格式化为【<code>APFS</code>】格式</li><li>选择“<code>安装mac OS</code>”，安装系统即可【<code>重启后，请再次执行步骤2</code>】</li><li>安装成功后，进入系统</li><li><a href="https://chengxuxiaohei.cn/mac-software-anzhuang.html">mac安装OC Configurator教程</a></li><li>Mac下打开 <code>OC Configurator</code>(在<code>软件包</code>里),左侧列表里选择<code>Mount EFI</code>，如下图：</li></ol><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/wangdudyb/cdn-blog/raw/master/github/images/mac/clover.jpg" alt="Clover Configurator"></p><ol start="9"><li>点击【<code>Efi Partitions</code>】下的【<code>Mount Partition</code>】，输入密码，点击【<code>Open Partition</code>】，打开EFI文件夹</li><li>将U盘里的【<code>BOOT</code>】文件夹和【<code>OC</code>】文件夹拷贝到【<code>步骤9</code>】的EFI文件夹下即可（这样启动系统就再也不用插U盘了）</li><li>直接使用社主【<code>GitHub上的OC文件夹</code>】拷贝到【<code>步骤9</code>】的EFI文件夹下的【<code>OC</code>】文件夹下，替换即可。</li></ol><h3 id="不足之处"><a class="header-anchor" href="#不足之处"></a>不足之处</h3><ol><li>无线网没用到，直接用的有线</li><li>没有麦克风，只能输出音频</li><li>蓝牙不能用</li></ol><h3 id="体验效果"><a class="header-anchor" href="#体验效果"></a>体验效果</h3><ol><li>运行流畅​</li><li>icloud也可以使用（心里美滋滋😃 ）</li></ol><h3 id="安装视频："><a class="header-anchor" href="#安装视频："></a>安装视频：</h3><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=65290789&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>    </iframe></div><h3>成功视频</h3><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?bvid=BV1st4y197d8&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>    </iframe></div><h3 id="最后"><a class="header-anchor" href="#最后"></a>最后</h3><h5 id="如有不懂之处，可在下方留言"><a class="header-anchor" href="#如有不懂之处，可在下方留言"></a>如有不懂之处，可在下方留言</h5><h5 id="或者直接联系博主-code-QQ-892457803-code"><a class="header-anchor" href="#或者直接联系博主-code-QQ-892457803-code"></a>或者直接联系博主<code>ＱＱ:892457803</code></h5><a class="btn-beautify button--animated red center larger" href="https://wangdudyb.gitee.io/blog/donate/"   title="打赏榜"><i class="far fa-hand-point-right fa-fw"></i><span>打赏榜</span></a><p><img src= "/img/loading.gif" data-lazy-src="https://ae01.alicdn.com/kf/Hdeeaadcd442e40dea16ddf5ce55a6047s.jpeg" alt="好穷啊"></p><h4 id="Star走势图"><a class="header-anchor" href="#Star走势图"></a>Star走势图</h4><p><a href="https://github.com/dongyubin/Asrock-Z390"><img src= "/img/loading.gif" data-lazy-src="https://starchart.cc/dongyubin/Asrock-Z390.svg" alt=""></a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://pic.rmb.bdstatic.com/2d0fae09224780bdb81d9341ea5a8bb2.jpeg&quot; alt=&quot;黑苹果&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="黑苹果" scheme="https://chengxuxiaohei.cn/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
-    
-    <category term="指南" scheme="https://chengxuxiaohei.cn/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/%E6%8C%87%E5%8D%97/"/>
-    
-    
-    <category term="mac" scheme="https://chengxuxiaohei.cn/tags/mac/"/>
-    
-    <category term="黑苹果" scheme="https://chengxuxiaohei.cn/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
-    
-    <category term="指南" scheme="https://chengxuxiaohei.cn/tags/%E6%8C%87%E5%8D%97/"/>
-    
-    <category term="微星" scheme="https://chengxuxiaohei.cn/tags/%E5%BE%AE%E6%98%9F/"/>
-    
-    <category term="z370" scheme="https://chengxuxiaohei.cn/tags/z370/"/>
     
   </entry>
   
