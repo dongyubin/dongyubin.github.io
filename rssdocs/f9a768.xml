@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>1Link.Fun 科技周刊</title>
+        <link>https://1link.fun/</link>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue83/</id>
+            <title>1link.fun 科技周刊 | 第 83 期</title>
+            <link>https://1link.fun/blog/issue/issue83/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue83/</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 16 Jan 2024 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <压缩, ASCII码, 无损压缩算法, png图片>
+<br>
+<br>
+总结: <一种有趣的英文文本压缩方法，通过将每个字符转换为ASCII码，然后将这些数字作为灰度图的像素值，并应用无损压缩算法将其转换为PNG格式。最终发现，使用这种方法压缩的PNG图片大小比直接使用ZIP压缩文本文件要小。还原时只需读取PNG图片的每个字节，然后将ASCII码转换回文本。>
+
+关键词: <实时3D太空模拟器, 桌面软件, 交互, 3D宇宙>
+<br>
+<br>
+总结: <一款桌面软件（适用于Windows和Mac），能够实时模拟可交互的3D宇宙。>
+
+关键词: <跨平台软件商店, 网页游戏, 网页工具, 跨平台, JSPaint>
+<br>
+<br>
+总结: <一家专门为网页游戏和网页工具设计的跨平台软件商店，内置许多游戏和一些工具软件（如JSPaint）。安装后可离线使用，Mac版本使用体验良好，且安装包小，可能不是简单的Electron套壳。>
+
+关键词: <太阳能板, 撒哈拉沙漠, 全球气候, 模拟, 太阳能电池板>
+<br>
+<br>
+总结: <研究人员通过计算机模拟提出覆盖撒哈拉沙漠20%面积的巨型太阳能电池板阵列。由于太阳能电池板吸收的热量比沙子多，当成百万块电池板聚集在一起时，可能改变整个区域的温度，进而影响全球气候模式。>
+
+关键词: <英语, 第二人称, 正式尊称, 尊称, thou, You>
+<br>
+<br>
+总结: <中文中的“您”是“你”的尊称，而在英语中，第二人称的正式尊称就是“You”；“You”是“thou”的复数形式，本身就是尊称，而“thou”这个单数形式已经不再广泛使用。>
+
+关键词: <AI枕头, 检测, 鼾声, 充气, 打鼾>
+<br>
+<br>
+总结: <一款AI枕头，能够检测到鼾声后自动充气，使头部转向一侧，改变睡姿以打开气道，从而消除打鼾。>
+
+关键词: <浏览器, 超级马里奥64, 3D游戏, 复刻>
+<br>
+<br>
+总结: <在浏览器中重新制作的经典超级马里奥64游戏，具有流畅的3D游戏体验。>
+
+关键词: <磁力链接, 种子文件, NodeJS模块, POC项目, 分布式包管理>
+<br>
+<br>
+总结: <一个POC项目，利用NodeJS的自定义Hook实现了从磁力链接或种子文件中导入NodeJS模块，实现了分布式包管理。>
+
+关键词: <MD5, 散列算法, 不安全, 电子证据, 计算Hash>
+<br>
+<br>
+总结: <MD5被认为是不安全的散列算法，不推荐在编程中使用，但国际刑事法院仍在使用MD5对电子证据计算Hash。>
+
+关键词: <镜子测试, 自我识别能力, 动物, 标记>
+<br>
+<br>
+总结: <镜子测试是一种确定非人类动物是否具有自我识别能力的方法，通过在动物身上放置标记，观察动物是否调整自己的身体以更好地观察标记，或尝试触摸或移除标记来判断。目前有9种动物通过了镜子测试。> </div>
+                        <hr>
+                    
+                    <h3 id="压缩文本的新方法httpsshksprmobiblog202401compressing-text-into-images"><a href="https://shkspr.mobi/blog/2024/01/compressing-text-into-images/">压缩文本的新方法</a></h3>
+<p>一个有趣的压缩英文文本的方法：把每个字符转成 ASCII 码，然后把这些数字当做一个灰度图的每个像素值，然后应用图片无损压缩算法把格式转成 png，最终发现png图片的大小，比用 zip 直接压缩文本文件还要小一些。</p>
+<p>还原的时候，只需要读取png图片的每个字节，再把 ASCII 转成文本就可以了。</p>
+<h3 id="实时-3d-太空模拟器httpscelestiaprojectspacegalleryhtml"><a href="https://celestiaproject.space/gallery.html">实时 3D 太空模拟器</a></h3>
+<p>一个桌面软件（Win + Mac），可以实时模拟可交互的 3D 宇宙。</p>
+<h3 id="跨平台软件商店httpsextstore"><a href="https://ext.store/">跨平台软件商店</a></h3>
+<p>一个专门为网页游戏和网页工具而设计的跨平台软件商店，里面内置很多游戏和一些工具软件（比如 JSPaint）安装之后可以离线使用，试用了一会 Mac 版本， 还可以， 而且安装包很小，应该不是单纯的 Electron 套壳。</p>
+<h3 id="把20的撒哈拉沙漠用太阳能板覆盖可能会对全球气候产生影响httpstechxplorecomnews2024-01-future-gigantic-solar-farms-impactamp"><a href="https://techxplore.com/news/2024-01-future-gigantic-solar-farms-impact.amp">把20%的撒哈拉沙漠用太阳能板覆盖，可能会对全球气候产生影响</a></h3>
+<p>研究人员用计算机模拟在撒哈拉沙漠覆盖20%面积的巨型太阳能电池板阵列，由于太阳能电池板吸收的热量比沙子多（虽然一小部分转换成了电能，但是大部分都被电池板吸收了），当数百万块电池板聚集在一起时，整个区域会变暖。这种热量源可能会改变全球气候模式。</p>
+<h3 id="英语里有第二人称的正式尊称叫法吗httpsenglishstackexchangecomquestions9780did-english-ever-have-a-formal-version-of-you"><a href="https://english.stackexchange.com/questions/9780/did-english-ever-have-a-formal-version-of-you">英语里有第二人称的正式（尊称）叫法吗？</a></h3>
+<p>中文中“您”是“你”的尊称，英语中有类似的叫法吗？答案是：You 就是第二人称的尊称，You 是 thou 的复数形式，本来就是尊称， 而 thou 这个单数形式已经不再被广泛使用了。</p>
+<h3 id="ai-枕头可以防止打鼾httpswwwtechradarcomhealth-fitnessmattressesthis-ai-powered-pillow-has-a-smart-way-of-shutting-up-snorers"><a href="https://www.techradar.com/health-fitness/mattresses/this-ai-powered-pillow-has-a-smart-way-of-shutting-up-snorers">AI 枕头可以防止打鼾</a></h3>
+<p>AI 枕头检测到鼾声之后会自动充气，让头部转向一侧，这个睡姿可以打开气道，消除打鼾。</p>
+<h3 id="在浏览器里玩超级马里奥httpsprobablykamgithubiomario64webgl"><a href="https://probablykam.github.io/Mario64webgl/">在浏览器里玩超级马里奥</a></h3>
+<p>浏览器里复刻的经典超级马里奥64 游戏，很流畅的 3D 游戏。</p>
+<h3 id="从磁力链接种子文件导入-nodejs-modulehttpsevanhahncomnode-torrent-import"><a href="https://evanhahn.com/node-torrent-import/">从磁力链接/种子文件导入 NodeJS module</a></h3>
+<p>一个 POC 项目，利用 NodeJS 的自定义 Hook 实现了从磁力链接或者种子文件中导入 NodeJS 模块, 实现分布式包管理</p>
+<h3 id="md5-的奇特案例httpskatelynsillscomlawthe-curious-case-of-md5"><a href="https://katelynsills.com/law/the-curious-case-of-md5/">MD5 的奇特案例</a></h3>
+<p>MD5 已经被认为是不安全的散列算法，编程中早就不推荐使用了，但是国际刑事法院还在用 MD5 对电子证据计算 Hash。</p>
+<h3 id="哪些动物通过了镜子测试httpswwwanimalcognitionorg20150415list-of-animals-that-have-passed-the-mirror-test"><a href="https://www.animalcognition.org/2015/04/15/list-of-animals-that-have-passed-the-mirror-test/">哪些动物通过了镜子测试</a></h3>
+<p>镜子测试是一种确定非人类动物是否具有自我识别能力的方法，实验人员会在动物身上放上一个标记（贴纸，油漆，染料等），然后把动物放在一面镜子前， 如果动物调整自己的身体以便能够更好的观察到标记，或者尝试去触摸或者移除标记，则测试通过。</p>
+<p>目前一共 9 种动物通过了镜子测试。</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue82/</id>
+            <title>1link.fun 科技周刊 | 第 82 期</title>
+            <link>https://1link.fun/blog/issue/issue82/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue82/</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 08 Jan 2024 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <MidJourney, Google 表格, 艺术家, 抓取>
+<br>
+<br>
+总结: MidJourney被指控抓取16000名艺术家的作品进行训练。艺术家曝光了开发人员的聊天截图和Google表格链接，其中开发人员称抓取了众多艺术家的名字和风格，创建了一个表格，呼吁其他人共同完善列表。表格很快被限制访问，内容主要涉及艺术家的名字和风格，引发关注。
+
+关键词: <Windows XP 2024 版本, UI风格, 概念版, 简洁流畅>
+<br>
+<br>
+总结: Windows XP 2024 版本展示了对Windows XP系统的热爱，通过概念版呈现了安装、开机、开始菜单、文件浏览器等场景的设计，融合了新UI的美观与XP系统的简洁。尽管只是概念，但吸引了用户对简洁流畅操作的喜爱。
+
+关键词: <阿波罗 11 号, 假想月球生命, 防御措施, 隔离实验室>
+<br>
+<br>
+总结: 阿波罗11号任务后，宇航员被隔离21天，以防潜在的月球生物入侵。文章探讨了对假想月球生命的防御概念，描述了花费数百万美元建造隔离实验室和制定规章制度的历史。
+
+关键词: <大脑醒来, 去甲肾上腺素, 波动, 碎片化睡眠>
+<br>
+<br>
+总结: 研究表明，大脑中去甲肾上腺素水平在睡眠中波动，导致大脑反复醒来。波动幅度越大，小鼠的记忆力越好。这表明通过微调人类大脑中的去甲肾上腺素可以改善睡眠质量，揭示了碎片化睡眠是正常现象。
+
+请注意，文本中的其他信息超过了8句话的要求，因此未被包括在总结中。 </div>
+                        <hr>
+                    
+                    <h3 id="midjourney被指控抓取16000名艺术家的作品进行训练httpswwwartnewscomart-newsnewsmidjourney-ai-artists-database-1234691955"><a href="https://www.artnews.com/art-news/news/midjourney-ai-artists-database-1234691955/">MidJourney被指控抓取16000名艺术家的作品进行训练</a></h3>
+<p>艺术家贴出了几张 MidJourney 开发人员聊天的截图和一个 Google 表格的链接，截图中开发人员说他们抓取了很多艺术家的名字和风格， 创建了一个 Google 表格，并号召其他人一起完善这个列表，“多多补充，不怕重复（因为他们会去重）“</p>
+<p>很快， 这个 Google 表格就被限制访问了（webarchive上还能看到）</p>
+<blockquote>
+<p>我看了一下那个表格，主要是艺术家的名字和风格，还有一些好像是作品的名称，但是没看到哪里说这些作品用来做训练了，感兴趣的自己再去研究一下吧。</p>
+</blockquote>
+<h3 id="windows-xp-2024-版本httpsoverclock3dnetnewssoftwarewindows-xp-2024-edition-is-everything-i-want-from-a-new-os"><a href="https://overclock3d.net/news/software/windows-xp-2024-edition-is-everything-i-want-from-a-new-os/">Windows XP 2024 版本</a></h3>
+<p>Windows 10， Windows 11 还有接下来要到来的 Windows 12 都对 UI 风格，交互方式，元素动画进行了不同程度的更新，但是更新来更新去，用户还是喜欢 Windows XP 系统的简洁和流畅，于是有人就做了一个概念版 Windows XP 2024 版本，展示了从安装，开机，开始菜单，文件浏览器等精心设计的场景，既有新 UI 的美观，又有 XP 系统的简洁，简直是完美， 可惜这只是一个概念。</p>
+<p>原链接有 YTB 视频, B 站有人搬运，自行搜索一下。</p>
+<h3 id="阿波罗-11-号防御假想月球生命的措施httpseukaryotewritesblogcom20240106defending-against-hypothetical-moon-life-during-apollo-11"><a href="https://eukaryotewritesblog.com/2024/01/06/defending-against-hypothetical-moon-life-during-apollo-11/">阿波罗 11 号防御假想月球生命的措施</a></h3>
+<p>当人类第一次从外天体返回地球之后，宇航员被隔离了 21 天， 以防止潜在的月球生物入侵，这篇文章讲了对于假想的月球生物入侵这一概念， 如何花费了几百万美元建造隔离实验室以及建立规章制度的历史。</p>
+<h3 id="你的大脑每天晚上会醒来100次httpsbigthinkcomneuropsychbrain-wake-up-sleep"><a href="https://bigthink.com/neuropsych/brain-wake-up-sleep/">你的大脑每天晚上会“醒来”100次</a></h3>
+<p>一项针对小鼠的研究表明，大脑中的【去甲肾上腺素】水平会随着睡眠而波动，导致睡觉时反复醒来，而且波动幅度越大的小鼠，记忆力越好。
+研究人员认为，这表明通过微调人类大脑中的去甲肾上腺素可以得到更好的睡眠质量，也表明碎片化睡眠其实是正常的现象。</p>
+<h3 id="机器人学会煮咖啡httpstwittercomfigure_robotstatus1743985067989352827"><a href="https://twitter.com/Figure_robot/status/1743985067989352827">机器人学会煮咖啡</a></h3>
+<p>一家创业公司说自家的机器人通过观看 10 个小时人类操作咖啡机煮咖啡的视频， 就学会了如何煮咖啡，甚至还学会了处理操作中的异常情况。</p>
+<h3 id="mozilla-socialhttpsmozillasocialpubliclocal"><a href="https://mozilla.social/public/local">Mozilla Social</a></h3>
+<p>Mozilla 运营了自己的 Mastodon 服务器，代码开源，还准备出安卓客户端，目前处于 Beta 阶段，不过国内不能访问 ;-)</p>
+<h3 id="10-亿行挑战httpswwwmorlingdevblogone-billion-row-challenge"><a href="https://www.morling.dev/blog/one-billion-row-challenge/">10 亿行挑战</a></h3>
+<p>一个代码挑战，你的目标是从一个 10亿行的文本文件中读取每行的温度信息（气象站名称：温度），你的代码最终的输出应该是这些气象站按字母顺序排序的同时，计算出每个气象站的最低，平均，最高温度。</p>
+<p>试着写出你的程序，看看最快能跑到多少。</p>
+<h3 id="免费-ui-设计资源httpswwwuidesigndailycom"><a href="https://www.uidesigndaily.com/">免费 UI 设计资源</a></h3>
+<p>这个网站有非常多的 UI 设计资源，你可以免费下载使用 （Figma, Sketch, Adobe XD 等格式都有）</p>
+<p>关键有一点，你甚至可以自己拿去卖这些设计图，具体可以看 License 页面。</p>
+<blockquote>
+<p>如果你是看到这篇文章，通过卖设计图赚了点钱，来我<a href="https://1link.fun/blog/sponsor">douyin橱窗</a>买点东西就行了 ;-)</p>
+</blockquote>
+<h3 id="一维吃豆人游戏httpsabagamesgithubiocrisp-game-lib-11-gamespakupaku"><a href="https://abagames.github.io/crisp-game-lib-11-games/?pakupaku">一维吃豆人游戏</a></h3>
+<p>一个简单好玩又有点上瘾的小游戏，把经典的吃豆人变成了一维游戏。</p>
+<h3 id="极简临时邮箱httpsemailml"><a href="https://email.ml">极简临时邮箱</a></h3>
+<p>一个用 CloudFlare 实现的极简临时邮箱，多个域名可选，一小时有效期。</p>
+<blockquote>
+<p>注：国内网络无法使用</p>
+</blockquote>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue81/</id>
+            <title>1link.fun 科技周刊 | 第 81 期</title>
+            <link>https://1link.fun/blog/issue/issue81/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue81/</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 01 Jan 2024 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 新年周刊, 特斯拉自动驾驶仪, 生成式AI, AI爬虫列表
+<br>
+<br>
+总结: 2024 年第一篇周刊祝读者新年快乐！柏林工业大学研究人员成功入侵特斯拉自动驾驶仪，解锁了一些高级功能，包括座椅加热和Elon Mode。生成式AI引发版权问题，MidJourney v6生成与电影剧照相似的图片。AI爬虫列表提供已知的爬虫UA，用于防止网站被爬取。另外，还介绍了猜颜色的十六进制游戏、生命粒子模拟器项目、免费游戏icon元素、3D版新宿站地图、使用振动分子摧毁99%的癌细胞的方法以及计算机领域经典人物Alice和Bob的历史。电子土壤能通过电刺激植物根部促进生长。 </div>
+                        <hr>
+                    
+                    <blockquote>
+<p>2024 年第一篇周刊，祝读者朋友们新年快乐！</p>
+</blockquote>
+<h3 id="研究人员入侵特斯拉自动驾驶仪以解锁埃隆模式httpscybernewscomtechberlin-researchers-hacked-tesla-autopilot"><a href="https://cybernews.com/tech/berlin-researchers-hacked-tesla-autopilot/">研究人员入侵特斯拉自动驾驶仪以解锁“埃隆模式”</a></h3>
+<p>柏林工业大学通过制造电压故障获取到了特斯拉汽车的 root 权限，有了权限之后，他们可以免费获得之前需要花钱订阅才有的功能，比如座椅加热，还能拿到系统的秘钥信息。
+还解锁了所谓的 Elon Mode，这个模式下的 FSD 不需要人的参与或者监控就能运行。</p>
+<p>不过这个攻击模式需要你具备一定的专业知识，并且能够拆掉再安装特斯拉的电路板，只是一种研究手动，还不实用。</p>
+<p><a href="https://media.ccc.de/v/37c3-12144-back_in_the_driver_s_seat_recovering_critical_data_from_tesla_autopilot_using_voltage_glitching#t=1374">这里</a> 是研究人员针对这起攻击测试做的视频，包括原理和过程。</p>
+<h3 id="生成式-ai-真的不侵犯版权吗httpsgarymarcussubstackcompan-artist-fights-back-and-midjourney"><a href="https://garymarcus.substack.com/p/an-artist-fights-back-and-midjourney">生成式 AI 真的不侵犯版权吗？</a></h3>
+<p>从理论上来说，生成式 AI 只是学习它看到的东西，提取特征，并不会拷贝训练数据。但是最近有人用最新版的 MidJourney v6 加上简单的提示词就得到了和小丑、蝙蝠侠电影剧照非常相似的图片，似乎揭示了一些隐藏的秘密。</p>
+<h3 id="ai-爬虫列表httpsdarkvisitorscom"><a href="https://darkvisitors.com/">AI 爬虫列表</a></h3>
+<p>这个网站列出已知的 AI 爬虫的 UA 列表，如果你不想你的网站被 AI 爬虫抓取，可以把这些 UA 放到你的 robots.txt 里。</p>
+<h3 id="猜颜色的十六进制httpshexcodlecom"><a href="https://hexcodle.com/">猜颜色的十六进制</a></h3>
+<p>对颜色敏感可以来玩一玩，游戏会给出一个颜色，你需要输入十六进制代码来尽可能的匹配。</p>
+<h3 id="生命粒子模拟器httpsgithubcomhunar4321particle-life"><a href="https://github.com/hunar4321/particle-life">生命粒子模拟器</a></h3>
+<p>这个项目非常棒，它创建了 4 种颜色的粒子，并且给每个粒子都加上了简单的力学定理，然后只需要随机生成这些粒子并且给足够的时间，你就能看到很多类似细胞、生命之类的东西。</p>
+<p>项目中有 ytb 视频链接。</p>
+<h3 id="免费游戏-icon-元素httpsgame-iconsnet"><a href="https://game-icons.net/">免费游戏 icon 元素</a></h3>
+<p>这个网站提供 4000 多个高质量的 icon 元素，你可以拿来用到你的游戏中。</p>
+<h3 id="3d-版新宿站地图httpssatoshi7190githubioshinjuku-indoor-threejs-demo"><a href="https://satoshi7190.github.io/Shinjuku-indoor-threejs-demo/">3D 版新宿站地图</a></h3>
+<p>一个很酷的 3D 地图，根据新宿站的地图数据画出了从 B3 到 4 层的新宿站。</p>
+<h3 id="使用振动分子摧毁99的癌细胞httpswwwsciencealertcomscientists-destroy-99-of-cancer-cells-in-the-lab-using-vibrating-molecules"><a href="https://www.sciencealert.com/scientists-destroy-99-of-cancer-cells-in-the-lab-using-vibrating-molecules">使用振动分子摧毁99%的癌细胞</a></h3>
+<p>科学家用近红外光刺激氨基花青分子使它们同步振动，从而破坏癌细胞的细胞膜。这种分子通常用来检测癌细胞，它能够把自己附着在细胞膜的表面。</p>
+<p>从实验结果来看，这种方法还是很有用的。</p>
+<h3 id="alice-and--bobhttpcryptocouplecom"><a href="http://cryptocouple.com/">Alice and  Bob</a></h3>
+<p>程序员或者学过计算机，加密的人不可能不知道 Alice 和 Bob 这两个经典的人物，可以称得上是计算机领域的 Li Lei 和 Han Meimei 了, 这篇文章介绍了这两个人物的历史。</p>
+<h3 id="电子土壤能加速种子生长httpswwwearthcomnewselectronic-soil-boosts-crop-growth-by-over-50"><a href="https://www.earth.com/news/electronic-soil-boosts-crop-growth-by-over-50/">电子土壤能加速种子生长</a></h3>
+<p>把种子种在新型基质上能够加速成长超过 50%，这种新型基质是有纤维素和一种导电聚合物组成的，这种基质可以通过电刺激植物的根部达到促进生长的效果。</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/bye2023/</id>
+            <title>2024 - 新年快乐！</title>
+            <link>https://1link.fun/blog/bye2023/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/bye2023/</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 29 Dec 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 2023年, 周刊, 短视频剪辑, 火乐剪辑
+<br>
+<br>
+总结: 在2023年的最后一个工作日，作者祝愿大家新年快乐，并感慨周刊坚持了一年，期待明年继续为读者带来有趣的内容。作者透露最近开始尝试新的副业——短视频剪辑，并认为在这个短视频时代，文字和图文不如短视频和直播的用户基数大。这个尝试既是作者个人的探索，也是为有类似想法的朋友提供一条路线。作者计划从零粉丝开始，实践短视频剪辑，定期向朋友们报告进展。同时，作者邀请大家关注其抖音账号“火乐剪辑”并欢迎骚扰。账号还开通了商品橱窗，提供之前周刊测评的产品，并表示有需求的朋友可以在橱窗下单，作者将获得少量佣金。最后，作者再次祝大家新年快乐，并期待明年的见面。 </div>
+                        <hr>
+                    
+                    <p>在 2023 年最后一个工作日, 祝大家新年快乐!</p>
+<p>不知不觉, 周刊又坚持了一年, 希望明年继续给大家带来有趣的内容.</p>
+<p>明年见!</p>
+<hr />
+<p>最近开始尝试新的副业: 短视频剪辑.</p>
+<blockquote>
+<p>其实周刊, 小红书也算一种副业, 但是在这个短视频时代, 文字和图文终究不如短视频和直播用户基数大.</p>
+</blockquote>
+<p>算是一个尝试, 也算是给有这个想法的朋友探探路, 到底从 0 粉丝开始，做短视频剪辑能不能有收益, 能有多少收益, 等我实践实践, 定期再给朋友们汇报.</p>
+<p>欢迎大家关注我的抖音账号: <strong>火乐剪辑</strong> (这是我的个人账号, 删掉了之前发的一些生活片段, 所以算是从 0 起步), 欢迎骚扰.</p>
+<p><img alt="" src="https://jsd.cdn.zzko.cn/gh/jwenjian/imgs@master/img/image.6muvm89l74s0.jpg" /></p>
+<p>这个账号也开通了商品橱窗, 里面挂了之前周刊测评过的 <a href="https://1link.fun/blog/review/jieli/">杰利热敏纸专用涂改液 - 快递面单、外卖小票隐私消除神器</a> , 有需求的朋友们可以在橱窗里下单, 我会有少量佣金.</p>
+<p>再次祝大家新年快乐, 我们明年见!</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue80/</id>
+            <title>1link.fun 科技周刊 | 第 80 期</title>
+            <link>https://1link.fun/blog/issue/issue80/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue80/</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 24 Dec 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <GPT-4, DALLE 3, 传声筒游戏, JWST望眼镜>
+<br>
+<br>
+总结: <GPT-4 和 DALLE 3 参与的传声筒游戏，通过循环生成图像和描述，展示了创意和技术的结合。JWST望眼镜拍摄的2023年最佳照片呈现宇宙的神奇之美。Text to CAD 网站允许根据文本提示生成3D CAD模型。交互式读arXiv的论文通过将论文网址改为talk2arxiv.org，实现与论文的问答交互。GitHub年度总结视频版可生成个性化GitHub年度总结专属视频。2023年谷歌浏览器最佳扩展包括12个扩展，其中推荐安装Boxel 3D。TextDiffuser-2是一个开源大模型，专注于文字的渲染，展示强大的文本呈现能力。有趣的研究发现，闻女性眼泪可以降低男性的攻击性。AI生成歌曲网站可根据文本提示生成歌曲，展示出令人惊艳的音乐创作。RFC 9330是IETF关于构建低延迟、低丢包、可拓展吞吐量服务端架构的信息性规范。> </div>
+                        <hr>
+                    
+                    <h3 id="gpt-4-和-dalle-3-玩传声筒游戏httpsimage-telephonestreamlitappseed_imagewindows_xp_20231213iteration2"><a href="https://image-telephone.streamlit.app/?seed_image=windows_xp_20231213&amp;iteration=2">GPT-4 和 DALLE 3 玩传声筒游戏</a></h3>
+<p>游戏规则就是先给一张图片让 GPT-4 生成图片描述,再把描述扔给 DALLE 3 画图, 再把 DALLE 3 的图扔给 GPT-4 生成描述 &hellip; 循环往复, 看看最后生成的图长什么样.</p>
+<p>网站上有很多例子以及每次循环时生成的图, 非常好玩</p>
+<h3 id="2023-年-jwst-望眼镜拍到的最好的-15-张照片httpsbigthinkcomstarts-with-a-bangtop-jwst-images-2023"><a href="https://bigthink.com/starts-with-a-bang/top-jwst-images-2023/">2023 年 JWST 望眼镜拍到的最好的 15 张照片</a></h3>
+<p>宇宙是一个神奇的地方。在JWST令人难以置信的红外线注视下，它比以往任何时候都更能成为焦点。(机翻, 都是图, 看就完事了)</p>
+<h3 id="text-to-cadhttpstext-to-cadzoodevdashboard"><a href="https://text-to-cad.zoo.dev/dashboard">Text to CAD</a></h3>
+<p>这个网站可以根据文本提示生成 CAD 模型, 可以在线预览和下载为常见的 3D 格式</p>
+<h3 id="交互式读-arxiv-的论文httpswwwtalk2arxivorgpdf170603762pdf"><a href="https://www.talk2arxiv.org/pdf/1706.03762.pdf">交互式读 arXiv 的论文</a></h3>
+<p>把 arxiv.org 上论文 pdf 的网址改成 talk2arxiv.org 就可以和论文进行问答式的交互.</p>
+<p>代码是<a href="https://github.com/evanhu1/talk2arxiv">开源的</a></p>
+<h3 id="github-年度总结视频版httpsgithubunwrappedcom"><a href="https://githubunwrapped.com/">GitHub 年度总结视频版</a></h3>
+<p>这个页面可以生成你的 GitHub 年度总结专属视频, 只需要输入你的用户名即可, 如果你想要统计你的私有仓库, 你还需要登录你的 GitHub 账号.</p>
+<p>视频可下载到本地. 挺好玩的.</p>
+<h3 id="2023-谷歌浏览器最佳扩展httpschromewebstoregooglecomcollection2023_favorites"><a href="https://chromewebstore.google.com/collection/2023_favorites">2023 谷歌浏览器最佳扩展</a></h3>
+<p>谷歌浏览器 2023 年最佳扩展, 共 12 个, 可以去挑选你自己需要的安装.</p>
+<p>推荐安装 Boxel 3D 这个扩展, 是一个很好玩的游戏.</p>
+<p>如果你网络有问题, 可以搜索一下周刊之前推荐过的下载谷歌浏览器扩展的网站, 下载下来手动安装 (id 是 mjjgmlmpeaikcaajghilhnioimmaibon)</p>
+<h3 id="textdiffuser-2释放语言模型在文本呈现方面的强大功能httpsjingyechengithubiotextdiffuser2"><a href="https://jingyechen.github.io/textdiffuser2/">TextDiffuser-2：释放语言模型在文本呈现方面的强大功能</a></h3>
+<p>开源大模型, 专注于文字的渲染, 从官方示例可以看到效果还是很好的, 官网上有 Demo 可以自己尝试.</p>
+<h3 id="闻女性的眼泪可以降低男性的攻击性httpsnewatlascomsciencechemosignals-womens-tears-reduces-male-aggression-decreases-brain-activity"><a href="https://newatlas.com/science/chemosignals-womens-tears-reduces-male-aggression-decreases-brain-activity/">闻女性的眼泪可以降低男性的攻击性</a></h3>
+<p>一项有趣的研究发现, 闻女性眼泪会显着降低男性的攻击性，并减少与攻击相关的大脑网络的活动。</p>
+<p>文中提到另一篇<a href="https://www.cell.com/current-biology/fulltext/S0960-9822(22)01132-0">研究</a>,表明狗狗的眼泪可以表达快乐的情绪</p>
+<h3 id="ai-生成歌曲httpswwwsunoai"><a href="https://www.suno.ai/">AI 生成歌曲</a></h3>
+<p>从文本提示生成一段歌曲, 我被这个 AI 生成的歌曲质量震惊了, 我用 &ldquo;Chinese song about happy new year&rdquo; 这个提示词生成了一个中文歌曲, 竟然莫名的好听.</p>
+<p>免费计划有生成数量限制, 但是歌曲不能商用, 行业使用需要订阅才可以.</p>
+<h3 id="rfc-9330httpswwwietforgrfcrfc9330pdf"><a href="https://www.ietf.org/rfc/rfc9330.pdf">RFC 9330</a></h3>
+<p>IETF 关于构建低延迟, 低丢包, 可拓展吞吐量的服务端架构的&quot;规范&quot;.</p>
+<p>这个规范只是信息性的, 不是某种形式上的规范</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue79/</id>
+            <title>1link.fun 科技周刊 | 第 79 期</title>
+            <link>https://1link.fun/blog/issue/issue79/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue79/</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 19 Dec 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: Figgie, 股票交易模拟, 公共领域, 米老鼠
+<br>
+<br>
+总结: Figgie 是一款扑克牌游戏，模拟股票交易，玩家根据规则进行报价和出价，可通过在线页面邀请朋友一起玩。杜克大学的文章分析了米老鼠即将进入公共领域的影响。此外，还有关于利用谷歌地图生成3D模型、Base 32编码解释、BrainGPT读心术、在命令行里下雪等有趣的主题。 </div>
+                        <hr>
+                    
+                    <h3 id="用一副扑克牌模拟股票交易httpsfiggiecomhow-to-play"><a href="https://figgie.com/how-to-play">用一副扑克牌模拟股票交易</a></h3>
+<p>Figgie 是一个扑克牌游戏, 模拟的是公开喊价的商品交易模式, 4 - 5 名玩家根据游戏规则进行 4 分钟的报价 / 出价, 4 分钟结束后即可分出胜负.</p>
+<p>有在线页面, 你可以创建一局游戏, 邀请你的朋友一起来玩.</p>
+<p>游戏规则看起来不复杂, 不过可能要多玩几局才能找到技巧.</p>
+<h3 id="米老鼠迪士尼公共领域的三角恋httpsweblawdukeeducspdmickey"><a href="https://web.law.duke.edu/cspd/mickey/">米老鼠,迪士尼,公共领域的三角恋</a></h3>
+<p>杜克大学的一篇长文, 分析在 2024 年 1 月 1 日即将进入公共领域的米老鼠 1.0 版本将会产生什么样的变化, 其中还解释了商标 / 版权 / 公共领域等知识, 推荐看看.</p>
+<h3 id="把谷歌地图任意位置变成-3d-模型httpsgithubcomomarshehatagoogle-earth-as-gltf"><a href="https://github.com/OmarShehata/google-earth-as-gltf">把谷歌地图任意位置变成 3D 模型</a></h3>
+<p>这个 Github 项目利用谷歌地图 API 根据输入的经纬度获取 3D 信息然后转换成 3D 模型, 可下载为 gITF 格式文件.</p>
+<p>使用时需要自己准备具有相应谷歌地图 API 权限的 API Key. </p>
+<h3 id="base-32--base-2n-编码是如何工作的httpsptrchmcompostsbase32-explained"><a href="https://ptrchm.com/posts/base32-explained/">Base 32 / Base 2^n 编码是如何工作的</a></h3>
+<p>非常详细的解释了 Base32 编码解码是如何工作的.</p>
+<h3 id="braingpt---读心术httpswwwiflsciencecomnew-mind-reading-braingpt-turns-thoughts-into-text-on-screen-72054"><a href="https://www.iflscience.com/new-mind-reading-braingpt-turns-thoughts-into-text-on-screen-72054">BrainGPT - 读心术</a></h3>
+<p>脑电波 + GPT = 读心术?
+研究人员测试了一种新型读心术, 实验人员带上帽子默读书籍, 大模型根据脑电波预测读到的内容, 虽然只有 40% 的正确率, 但是优势在于这种方式不需要在人脑中植入任何设备.</p>
+<p>一个细节是这种形式对于动词的预测正确率比名词更高, 研究人员认为&quot;&hellip;这是因为当大脑处理这些单词时，语义上相似的单词可能会产生相似的脑电波模式&hellip;&quot;</p>
+<h3 id="在你的命令行里下雪httpsgithubcomsonteksnowmachine"><a href="https://github.com/sontek/snowmachine">在你的命令行里下雪</a></h3>
+<p>安装这个 Python 包, 执行之后可以在你的命令行里生成一个闪烁的圣诞树和飘落的雪花.</p>
+<h3 id="如何用-2s-克隆一个正在运行的-vmhttpscodesandboxiobloghow-we-clone-a-running-vm-in-2-seconds"><a href="https://codesandbox.io/blog/how-we-clone-a-running-vm-in-2-seconds">如何用 2s 克隆一个正在运行的 vm</a></h3>
+<p>CodeSandbox 的一篇文章, 介绍了他们如何用一个 MicroVM 的技术只用 2s 时间就可以克隆一个正在运行的 vm.</p>
+<p>克隆意味着首先保存运行中 vm 的状态, 包括内存, 然后再启动一个新的克隆 vm, 这些操作都要在 2s 之内完成.</p>
+<h3 id="不点-star-就不处理你的-issuehttpsgithubcomdaeuniversedaeissues368"><a href="https://github.com/daeuniverse/dae/issues/368">不点 star 就不处理你的 issue</a></h3>
+<p>一个 GitHub 的开源项目, 给仓库加上了一个 issue 机器人, 只要发现提 issue 的用户没有点 star, 就打上 wontfix 的标签并且评论说不点 star 就不处理, 只有用户点了 star, 再回复 understood 才会开始处理这个 issue</p>
+<p>这种方式有点&hellip;</p>
+<h3 id="被子越厚睡的越香httpspubmedncbinlmnihgov36184925"><a href="https://pubmed.ncbi.nlm.nih.gov/36184925/">被子越厚,睡的越香</a></h3>
+<p>研究者发现, 盖重量相当于体重 12% 的被子有助于褪黑素的分泌, 相比于盖体重2.4% 的被子来说, 一个小时的时间里, 褪黑素的分泌量要高 32%</p>
+<h3 id="随机生成一幅中国山水画httpsgithubcomlingdong-shan-shui-inf"><a href="https://github.com/LingDong-/shan-shui-inf">随机生成一幅中国山水画</a></h3>
+<p>这个开源项目可以随机生成一幅横卷中国山水画, 代码是用 JS 编写, 利用数学函数模拟山水的形状, 最终输出成 SVG 格式.</p>
+<p>点<a href="https://lingdong-.github.io/shan-shui-inf/">这里</a>看效果</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue78/</id>
+            <title>1link.fun 科技周刊 | 第 78 期</title>
+            <link>https://1link.fun/blog/issue/issue78/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue78/</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 09 Dec 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <赞助 &amp; 支持, 广告拦截, GIF 图像格式, 服务器访问, OpenAI Q*, 单字母域名, 海底电缆, 5号电池, emoji 艺术图, AI 玩超级马里奥>
+<br>
+<br>
+总结: 
+最近整理了一个 [赞助 & 支持](https://1link.fun/blog/sponsor) 页面, 坚持更新不易, 希望得到读者朋友持续地支持.
+
+[开源免费全平台广告拦截](https://github.com/anfragment/zen) 是一款支持 Windows, Mac, Linux (GNOME) 的广告拦截软件, 原理是在本地运行代理服务器，拦截广告和隐私追踪的url，需要在电脑上安装CA证书。
+
+[深入了解 GIF 图像格式](https://medium.com/@happybits/how-hackerman-would-create-an-image-just-by-typing-zeros-and-ones-a-deep-dive-into-gif-file-32bada0926c0) 的文章通过字节方式解析GIF图像格式，逐字节创建一个GIF图。
+
+[你的电脑是怎么访问到我的服务器的](https://how-did-i-get-here.net/) 网页显示从你的IP地址出发，经过哪些网络节点，最终到达目标服务器。
+
+[关于 OpenAI Q* 项目的疯狂谣言背后的真实研究](https://www.understandingai.org/p/how-to-think-about-the-openai-q-rumors) 揭示了OpenAI Q*项目的研究，该项目据称能解决数学问题，这是一个重大技术突破。
+
+[x.com 是推特, 其他的 a-z.com 是什么?](https://nerology.substack.com/p/xcom-is-twitter-but-what-are-a-zcom) 文章列出了单字母域名现在的使用情况，包括a-z.com, a-z.org, a-z.co。
+
+[3800公里的电缆将把太阳能/风能从摩洛哥送到英国](https://spectrum.ieee.org/underwater-power-cable) 讲述了Xlinks公司计划在摩洛哥建设太阳能/风能发电设备，并通过海底电缆将清洁能源送到英国，该项目的优点是线路不需要沿途欧洲国家的批准。
+
+[5号电池驱动的笔记本电脑](https://lunduke.locals.com/post/4952673/laptops-powered-by-aa-batteries-seriously) 介绍了几款由5号电池驱动的笔记本电脑。
+
+[emoji 变 AI 艺术图](https://www.tryemoji.com/) 网站可以将emoji表情变成AI艺术图，支持各种风格。
+
+[AI 玩超级马里奥打破快速通关记录](https://www.youtube.com/watch?v=OQitI066aI0) 视频展示了作者通过训练AI在超级马里奥中打破快速通关记录，还有其他有趣的AI训练视频。 </div>
+                        <hr>
+                    
+                    <blockquote>
+<p>最近整理了一个 <a href="https://1link.fun/blog/sponsor">赞助 &amp; 支持</a> 页面, 坚持更新不易, 希望得到读者朋友持续地支持.</p>
+</blockquote>
+<h3 id="开源免费全平台广告拦截httpsgithubcomanfragmentzen"><a href="https://github.com/anfragment/zen">开源免费全平台广告拦截</a></h3>
+<p>支持 Windows, Mac, Linux (GNOME) 的广告拦截软件, 内置常见过滤规则, 可以在系统级过滤广告, 我在我的 Mac 上测试了一下, 效果和手动安装 adblock 和 ublock 插件差不多.</p>
+<p>原理就是在本地运行一个代理服务器, 代理你电脑上所有的请求, 然后根据规则拦截广告和隐私追踪的 url.</p>
+<p>注意: 这种方式就注定要在你电脑上安装一个 CA 证书, 自行决定是否要使用.</p>
+<h3 id="深入了解-gif-图像格式httpsmediumcomhappybitshow-hackerman-would-create-an-image-just-by-typing-zeros-and-ones-a-deep-dive-into-gif-file-32bada0926c0"><a href="https://medium.com/@happybits/how-hackerman-would-create-an-image-just-by-typing-zeros-and-ones-a-deep-dive-into-gif-file-32bada0926c0">深入了解 GIF 图像格式</a></h3>
+<p>这篇文章带你一个字节一个字节的解析 GIF 图像格式, 通过字节的方式创建一个 GIF 图.</p>
+<h3 id="你的电脑是怎么访问到我的服务器的httpshow-did-i-get-herenet"><a href="https://how-did-i-get-here.net/">你的电脑是怎么访问到我的服务器的</a></h3>
+<p>这个网页可以显示从你的 IP 地址出来, 经过哪些网络节点, 最终到达目标服务器.</p>
+<h3 id="关于-openai-q-项目的疯狂谣言背后的真实研究httpswwwunderstandingaiorgphow-to-think-about-the-openai-q-rumors"><a href="https://www.understandingai.org/p/how-to-think-about-the-openai-q-rumors">关于 OpenAI Q* 项目的疯狂谣言背后的真实研究</a></h3>
+<p>前段时间 OpenAI CEO 闹剧之后, 有谣言说 OpenAI 产生了巨大技术突破, 有可能威胁到人类的安全, 其实指的就是代号 Q* 的项目, 说 Q* 可以解决数学问题(即使是它没学过的数学问题), 这是一个巨大进步, 以前 Q* 只是处理文字, 对于具体数学问题自己还没有能力去推理和解决, 另外就是 AI 也没有一个&quot;磁盘&quot;去存储运算过程中的中间状态, 所有的一切数学问题都得靠推理.</p>
+<p>这篇文章主要讲关于 Q* 以及这个技术突破背后的研究.</p>
+<h3 id="xcom-是推特-其他的-a-zcom-是什么httpsnerologysubstackcompxcom-is-twitter-but-what-are-a-zcom"><a href="https://nerology.substack.com/p/xcom-is-twitter-but-what-are-a-zcom">x.com 是推特, 其他的 a-z.com 是什么?</a></h3>
+<p>文章列出了单字母域名现在的使用情况, 包括 a-z.com, a-z.org, a-z.co</p>
+<h3 id="3800公里的电缆将把太阳能风能从摩洛哥送到英国httpsspectrumieeeorgunderwater-power-cable"><a href="https://spectrum.ieee.org/underwater-power-cable">3800公里的电缆将把太阳能/风能从摩洛哥送到英国</a></h3>
+<p>Xlinks 公司计划在摩洛哥建造太阳能 / 风能发电设备, 再铺设 3800 公里海底电缆将清洁能源送到英国.</p>
+<p>这个项目的优点就是电缆会被铺设在海底 700 米处, 线路不需要沿途欧洲国家的批准.</p>
+<p>输送过来的电能预计在 2029 年可以占英国总电能的 5-8%</p>
+<h3 id="5号电池驱动的笔记本电脑httpslundukelocalscompost4952673laptops-powered-by-aa-batteries-seriously"><a href="https://lunduke.locals.com/post/4952673/laptops-powered-by-aa-batteries-seriously">5号电池驱动的笔记本电脑</a></h3>
+<p>这个文章介绍几款由 5 号电池驱动的笔记本电脑.</p>
+<h3 id="emoji-变-ai-艺术图httpswwwtryemojicom"><a href="https://www.tryemoji.com/">emoji 变 AI 艺术图</a></h3>
+<p>这个网站可以把 emoji 表情变成 AI 艺术图, 风格非常可爱, 还支持各种风格.</p>
+<h3 id="ai-玩超级马里奥打破快速通关记录httpswwwyoutubecomwatchvoqiti066ai0"><a href="https://www.youtube.com/watch?v=OQitI066aI0">AI 玩超级马里奥打破快速通关记录</a></h3>
+<p>这个 Youtube 视频非常好玩, 作者训练了一个 AI 来玩超级马里奥, 给他一些奖励和惩罚机制, 让它操作马里奥快速跑向终点, 经过很多轮的训练, 最终效果还是很好的.</p>
+<p>另外一个<a href="https://www.youtube.com/watch?v=pJPdW8WWAso&amp;list=LL&amp;index=3">好玩的 Youtube 视频</a>是训练几个 AI 进行百米赛跑, 风格各异的 AI 根据奖励/惩罚机制最终完成了百米跑.</p>
+<p>还有一个是<a href="https://www.youtube.com/watch?v=9JW41BNH9CM&amp;list=LL&amp;index=2">训练 AI 玩乒乓球游戏</a></p>
+<h3 id="有味觉和嗅觉的机器人httpsblogarduinocc20231128tast-e-is-an-animatronic-robot-head-with-a-sense-of-taste-and-smell"><a href="https://blog.arduino.cc/2023/11/28/tast-e-is-an-animatronic-robot-head-with-a-sense-of-taste-and-smell/">有味觉和嗅觉的机器人</a></h3>
+<p>味觉是根据色度计测量特定味道化合物的颜色来实现的, 嗅觉则是一些现成的传感器.</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue77/</id>
+            <title>1link.fun 科技周刊 | 第 77 期</title>
+            <link>https://1link.fun/blog/issue/issue77/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue77/</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 01 Dec 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <赞助 & 支持, AI 帮你作画, GPT-4 的图灵测试, TXT DNS 记录的有趣用法, 魔改儿童早教玩具支持 ChatGPT, cc0 协议高质量插画, ChatGPT 泄露真实电话号码和邮箱地址, 运行 LLM 最简单的方式, CT 扫描区分真假 AirPods, 北京互联网法院认为作者对 AI 生成的图片有著作权>
+<br>
+<br>
+总结: 
+最近整理了一个赞助 & 支持页面, 希望读者朋友持续地支持。文章涵盖了多个主题，包括AI帮你作画、GPT-4的图灵测试结果、TXT DNS记录的有趣用法、魔改儿童早教玩具支持ChatGPT、cc0协议高质量插画、ChatGPT泄露真实电话号码和邮箱地址的问题、运行LLM最简单的方式、CT扫描区分真假AirPods以及北京互联网法院认为作者对AI生成的图片有著作权。其中，一些项目展示了技术的创新应用，而另一些则涉及到安全和法律层面的问题。 </div>
+                        <hr>
+                    
+                    <blockquote>
+<p>最近整理了一个 <a href="https://1link.fun/blog/sponsor">赞助 &amp; 支持</a> 页面, 坚持更新不易, 希望得到读者朋友持续地支持.</p>
+</blockquote>
+<h3 id="ai-帮你作画httpsdrawfastio"><a href="https://drawfast.io">AI 帮你作画</a></h3>
+<p>你只需要描述你想要画的内容, 然后随手涂鸦, AI 就能帮你生成一张画作.</p>
+<h3 id="gpt-4-的图灵测试httpsarxivorgabs231020216"><a href="https://arxiv.org/abs/2310.20216">GPT-4 的图灵测试</a></h3>
+<p>研究团队用 GPT-4 进行图灵测试, 结果显示 GPT-4 并没有通过图灵测试, 成绩是 41% 的测试通过率, 小于 63% 这个基线(超过这个值就可以认为通过了图灵测试), 而 GPT-3.5 的成绩则更糟, 只有 14%</p>
+<h3 id="txt-dns-记录的有趣用法httpsthoughtsthedenshpostsdns-txt-record-fun"><a href="https://thoughts.theden.sh/posts/dns-txt-record-fun/">TXT DNS 记录的有趣用法</a></h3>
+<p>DNS 的 TXT 记录允许你添加一段文本, 文章作者利用这个特性找到了一些有趣的玩法, 比如传递一句话消息甚至还可以当密码管理器来用(当然是先用主密钥加密然后把密文存上去, 用的时候用 dig 命令拿到密文, 再用主密钥解密)</p>
+<h3 id="魔改儿童早教玩具支持-chatgpthttpsdocsfolotoycomzhdocsfaq"><a href="https://docs.folotoy.com/zh/docs/faq">魔改儿童早教玩具支持 ChatGPT</a></h3>
+<p>一个很有趣的项目, 作者自己魔改了儿童早教玩具 &ldquo;火火兔&rdquo; 早教机, 让它能够与服务器交互实现与 ChatGPT 对话的功能, B 站有<a href="https://www.bilibili.com/video/BV1zh4y1D7Sv/?vd_source=e04a0097a0346829958f003b20a300a5">成品效果</a>, 还是非常酷的</p>
+<h3 id="cc0-协议高质量插画httpswwwtranshumansxyz"><a href="https://www.transhumans.xyz/">cc0 协议高质量插画</a></h3>
+<p><img alt="image" src="https://jsd.cdn.zzko.cn/gh/jwenjian/imgs@master/20231201/image.6emat3co5k0.jpg" /></p>
+<p>一个 &lt;超人类&gt; 主题的高质量插画集, cc0 协议, 可个人和商用.</p>
+<h3 id="chatgpt-泄露真实电话号码和邮箱地址httpswwwlowyatnet2023311934chatgpt-reveals-emails-phone-numbers"><a href="https://www.lowyat.net/2023/311934/chatgpt-reveals-emails-phone-numbers/">ChatGPT 泄露真实电话号码和邮箱地址</a></h3>
+<p>有人又找到了新的方式来 &ldquo;攻击&rdquo; ChatGPT 了, 而且这次的提示词异常简单, 就是让 ChatGPT 不停地 <strong>重复</strong> 一个单词, 起初 ChatGPT 会按照指令重复, 几个回合下来突然开始返回自己的训练数据, 其中就包含电话号码和邮箱地址.</p>
+<h3 id="运行-llm-最简单的方式httpssimonwillisonnet2023nov29llamafile"><a href="https://simonwillison.net/2023/Nov/29/llamafile/">运行 LLM 最简单的方式</a></h3>
+<p>这可以说是在自己电脑上运行 LLM 最简单的方式了, 因为有人把 LLM 运行所需要的所有东西做成了一个文件, 你只需要下载这个文件(几个 g 的大小), 赋予可执行权限, 直接运行即可.</p>
+<p>然后你就能在浏览器打开网页和 LLM 对话了, 而且这个 LLM 还支持图片, 可以说是 GPT-4V 的平替.</p>
+<h3 id="ct-扫描区分真假-airpodshttpswwwlumafieldcomarticlereal-vs-fake-apple-products-through-industrial-ct-airpods-pro-macbook-magsafe-charger"><a href="https://www.lumafield.com/article/real-vs-fake-apple-products-through-industrial-ct-airpods-pro-macbook-magsafe-charger">CT 扫描区分真假 AirPods</a></h3>
+<p><img alt="image" src="https://jsd.cdn.zzko.cn/gh/jwenjian/imgs@master/20231201/image.2oz2372dt0o0.jpg" /></p>
+<p>假 AirPods 从外观上很难区分, 但是也就仅仅在外观上能做点功夫了, CT 扫描看到内部的结构就知道假 AirPods 和真品到底有多少差距了.</p>
+<h3 id="北京互联网法院认为作者对-ai-生成的图片有著作权httpsmpweixinqqcomswu3-gufvmjvjkjobqqq7vq"><a href="https://mp.weixin.qq.com/s/Wu3-GuFvMJvJKJobqqq7vQ">北京互联网法院认为作者对 AI 生成的图片有著作权</a></h3>
+<p>一位小红书博主使用 stable Diffusion 模型自己生成了一张照片发到小红书上, 之后被百家号博主去掉水印后发到自己的文章中, 于是小红书博主告百家号博主侵权.</p>
+<p>北京互联网法院一审判定侵权成立, 判决书中说:</p>
+<blockquote>
+<p>人们利用人工智能模型生成图片时&hellip;&hellip;本质上<strong>仍然是人利用工具进行创作</strong>， 即整个创作过程中进行智力投入的是人而非人工智能模型。鼓励创作，被公认为著作权制度的核心目的&hellip;&hellip;<strong>人工智能生成图片，只要能体现出人的独创性智力投入，就应当被认定为作品，受到著作权法保护</strong>。</p>
+</blockquote>
+<p>推荐读一下判决书全文.</p>
+<h3 id="代码能工作比可阅读性更重要httpsolanodev2023-11-30-code-is-run-more-than-read"><a href="https://olano.dev/2023-11-30-code-is-run-more-than-read/">代码能工作比可阅读性更重要</a></h3>
+<p>这是原标题的直译, 但是文章的观点很有道理, 也就是认为:</p>
+<p>挣钱(biz) &gt; 用户(user) &gt; 运维(ops) &gt; 开发(dev)</p>
+<p>而就写代码而言, 维护者(maintainer) &gt; 作者 (author)</p>
+<p>从这个观点延伸下去, 那么:</p>
+<p>无法维护的代码其实就是: author &gt; maintainer
+不能用的软件就是: dev &gt; user 
+代码在我电脑上能跑: dev &gt; ops</p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a> | <a href="https://1link.fun/sponsor">赞助 &amp; 支持</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/sponsor/</id>
+            <title>赞助 &amp; 支持</title>
+            <link>https://1link.fun/blog/sponsor/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/sponsor/</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 27 Nov 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <科技周刊, 冠名周刊, 抖音商品橱窗, 百亿补贴 * 3, 精神股东>
+<br>
+<br>
+总结: <本周刊是一位个人用心打造的科技周刊，每周分享10个有趣的科技链接。周刊的维护者感谢支持，提供了多种赞助方式，包括冠名周刊、抖音商品橱窗、百亿补贴活动等。赞助者可通过邮件联系，并提供产品名称、链接、文字描述等信息。另外，精神股东可以通过转发支持周刊的内容。具体赞助方式和效果不做保证。> </div>
+                        <hr>
+                    
+                    <h3 id="写在前面">写在前面</h3>
+<p>本周刊不卖课, 不贩卖焦虑, 一人用心打造有趣的科技周刊，每周分享 10 个有趣的链接，在这个短视频快时代下坚持做一个互联网科技“杂志”。</p>
+<p>目前以及以后，本周刊都由我一人维护，导致每周都会花费大量闲暇时间从信息源中挑选出 10 个链接整理成一期周刊，坚持不易，感谢支持。</p>
+<p>周刊的赞助方式主打一个随心意, 如果你有需求, 有能力并且认为周刊给你提供了些许快乐, 可以考虑如下赞助方式:</p>
+<h4 id="冠名周刊">冠名周刊</h4>
+<p>冠名周刊, 顾名思义就是给某一期周刊冠名, 具体形式参见: <a href="https://1link.fun/blog/issue/issue67/">第 67 期</a></p>
+<p>你需要提供:</p>
+<ul>
+<li>产品名称</li>
+<li>链接</li>
+<li>文字描述(也可有一张图片)</li>
+</ul>
+<p>如果你有需求, 请发邮件到<a href="mailto:wenjian.jiang@foxmail.com">这里</a></p>
+<blockquote>
+<p>注意: 不保证推广效果</p>
+</blockquote>
+<h3 id="抖音商品橱窗">抖音商品橱窗</h3>
+<p>我在自己的抖音号 <strong>火乐剪辑</strong> 上开通了橱窗功能， 推荐一些好用的商品， 感兴趣有需求的朋友可以在橱窗里下单， 我会有少量佣金。</p>
+<p><img alt="" src="https://jsd.cdn.zzko.cn/gh/jwenjian/imgs@master/img/image.6muvm89l74s0.jpg" /></p>
+<h4 id="百亿补贴--3">百亿补贴 * 3</h4>
+<p>没错, 就这么直接, 具体方式就是通过下方我的链接进入拼多多, 淘宝聚划算, 京东百亿补贴活动, 我会从你的订单中获得少量佣金(大约是订单金额的 1%)</p>
+<ul>
+<li><a href="https://1link.fun/pdd">https://1link.fun/pdd 拼多多百亿补贴</a></li>
+<li><a href="https://1link.fun/tb">https://1link.fun/tb 聚划算百亿补贴</a></li>
+<li><a href="https://1link.fun/jd">https://1link.fun/jd 京东百亿补贴</a></li>
+</ul>
+<blockquote>
+<p>注意: 不负责商品售后 ;-)</p>
+</blockquote>
+<h4 id="精神股东">精神股东</h4>
+<p>如果你喜欢某一期周刊内容, 随手转发就是精神上的支持.</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://1link.fun/blog/issue/issue76/</id>
+            <title>1link.fun 科技周刊 | 第 76 期</title>
+            <link>https://1link.fun/blog/issue/issue76/</link>
+            <guid isPermaLink="false">https://1link.fun/blog/issue/issue76/</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Nov 2023 00:00:00 +0000</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <Unsplash awards 2023, 对话式 AI, navigator 对象, Swift 3 移除了 ++, 一个失败的 AI 女友产品, 工程师共享屏幕导致起诉, 无意义的词语生成 NSFW 图片, Music Wordle>
+<br>
+<br>
+总结: 
+- Unsplash awards 2023 展示年度奖项，是年底各种奖项和报告中的第一个。
+- 对话式 AI 被认为是教育的绝佳工具，能够解决传统教育方式的一些问题，使知识更容易被理解。
+- navigator 对象的 API getBattery() 可以显示设备电量，通过简单的代码实现，但不支持 Firefox 浏览器。
+- Swift 3 移除了 ++, -- 操作符，认为这两个操作符复杂且不利于初学者掌握。
+- 一个以 ChatGPT API 为基础的失败的 AI 女友产品，最初用于语音聊天，但用户更多地将其当作 AI 女友使用，导致项目无盈利并被放弃。
+- 工程师共享屏幕导致英伟达涉嫌窃取商业机密而被起诉的案例，强调共享屏幕的潜在风险。
+- 无意义的词语可以绕过 AI 图片生成模型的敏感词过滤器，生成 NSFW 图片的问题引起关注。
+- Music Wordle 是一个有趣的音乐游戏，通过听旋律猜测音符，共有 6 次机会。 </div>
+                        <hr>
+                    
+                    <h3 id="unsplash-awards-2023httpsawardsunsplashcom2023three-d"><a href="https://awards.unsplash.com/2023/#/three-d">Unsplash awards 2023</a></h3>
+<p>又到年底了，各种奖项和报告陆续出来， 这是我今年看到的第一个年度奖项，看就完事了。</p>
+<h3 id="对话式-ai-是教育的绝佳工具httpstwittercomvishnuhxstatus1728520353897460018"><a href="https://twitter.com/vishnuhx/status/1728520353897460018">对话式 AI 是教育的绝佳工具</a></h3>
+<p>这篇推文表达了一个观点, 通过传统的文章和视频, 你只能尝试理解其中的知识, 但是一个文章和视频做的再好, 不可能兼顾所有水平的读者, 也不可能列出所有可能有利于读者理解的参考链接, 另外, 一个最致命的问题是, 用户没有办法对内容提出问题并得到快速的解答.</p>
+<p>但是对话式 AI 完美的解决这个问题, 通过对话式 AI, 你可以快速的了解任何你想了解的知识, 尤其是对于那些跨专业的知识来说.</p>
+<h3 id="这个页面能显示你的电量httpsdeepesh-01githubiobattery_indicator"><a href="https://deepesh-01.github.io/battery_indicator/">这个页面能显示你的电量</a></h3>
+<p><code>navigator</code> 对象有一个 API <code>getBattery()</code>, 可以返回当前设备的电池状态(是否正在充电以及当前电量的百分比), 这个页面就是用这个 API 实现的, 代码非常简单.</p>
+<blockquote>
+<p>暂时不支持 Firefox 浏览器访问</p>
+</blockquote>
+<h3 id="swift-3-移除了------操作符httpsgithubcomappleswift-evolutionblobmainproposals0004-remove-pre-post-inc-decrementmd"><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0004-remove-pre-post-inc-decrement.md">Swift 3 移除了 ++ , &ndash; 操作符</a></h3>
+<p><code>++</code>, <code>--</code> 操作符可以对整型变量进行自增自检操作, 比如  <code>i++</code>, <code>++i</code>, <code>i--</code>, <code>--i</code>, 但是 Swift 的这提案认为这两个操作符本身比较复杂, 不利于初学者掌握, 综合了这两个操作符的利弊之后, 建议直接移除掉对这两个操作符的支持.</p>
+<h3 id="一个失败的-ai-女友产品和我学到的东西httpsmazzzystargithubio20231116ai-girlfriend-product"><a href="https://mazzzystar.github.io/2023/11/16/ai-girlfriend-product/">一个失败的 AI 女友产品和我学到的东西</a></h3>
+<p>作者利用 ChatGPT 的 API 做出了一个&lt;西部世界&gt;里的机器人角色: Dolores, 让用户可以和 Dolores 语音聊天, 最开始的初衷是 AI 朋友, 但是后来的数据统计分析发现, 更多的男性用户把她当成 AI 女友来用, 并且尝试了很多 NSFW 的对话.</p>
+<p>同时由于采用的是订阅制而不是按量付费, 导致 API 使用费用比较高, 项目也基本没有盈利, 最终作者放弃了这个产品.</p>
+<p>但是在这个过程中, 也学到了很多东西.</p>
+<p>推荐看看.</p>
+<h3 id="工程师共享屏幕导致英伟达因涉嫌窃取商业机密而被起诉httpswwwthevergecom2023112323973673valeo-nvidia-autonomous-driving-software-ip-theft-lawsuit"><a href="https://www.theverge.com/2023/11/23/23973673/valeo-nvidia-autonomous-driving-software-ip-theft-lawsuit">工程师共享屏幕导致英伟达因涉嫌窃取商业机密而被起诉</a></h3>
+<p>这个事有点意思, 一位前 Valeo 员工离职前下载了公司的源代码和文档, 离职后加入了 Nvidia. 之后, Valeo 和 Nvidia 公司在其中一个项目上有合作, 两家公司的工程师通过 Teams 会议进行沟通, 其中一次会上, 这位前 Valeo 员工 &amp; 现 Nvidia 员工在共享他的屏幕时, 不小心漏出了这些下载的代码和文档, 被现 Valeo 员工发现并截图.</p>
+<p>现在 Valeo 正在起诉 Nvidia 从窃取的源代码和文档中收益..</p>
+<p>emm&hellip; 共享屏幕要小心呀</p>
+<h3 id="无意义的词语可以让-dalle--stable-diffusion-生成-nsfw-图片httpsspectrumieeeorgdall-e"><a href="https://spectrum.ieee.org/dall-e">无意义的&quot;词语&quot;可以让 DALLE / Stable Diffusion 生成 NSFW 图片</a></h3>
+<p>公开的 AI 图片生成模型, 比如 DALLE 和 Stable Diffusion 都配有敏感词过滤器, 会拒绝绘制 NSFW 的图片, 有研究小组发现可以用一些没有意义上的&quot;单词&quot;绕过这些限制.</p>
+<p>这些单词既不在敏感词列表里, 又不知道是什么原因让模型能够生成 NSFW 图片.</p>
+<h3 id="music-wordlehttpswwwperfectpitchpuzzlecom"><a href="https://www.perfectpitchpuzzle.com/">Music Wordle</a></h3>
+<p><img alt="image" src="https://jsd.cdn.zzko.cn/gh/jwenjian/imgs@master/20231126/image.1iaizaj93bog.jpg" /></p>
+<p>一个非常好玩的 Music Wordle 游戏, 听旋律, 猜音符. 一共 6 次机会.</p>
+<h3 id="谷歌地图-ui-设计师谈最近的-ui-更新httpstwittercomelizlarakistatus1727351922254852182"><a href="https://twitter.com/elizlaraki/status/1727351922254852182">谷歌地图 UI 设计师谈最近的 UI 更新</a></h3>
+<p>作者作为 15 年前谷歌地图 UI 设计师(共 2 人)之一, 对谷歌地图最近推出的新 UI 感到不满, 认为新 UI 做了很多事情来提高可读性, 但是却没有走对方向, 要想提高地图可读性, 要谨慎的添加遮挡地图的东西, 只保留重要的元素, 把一些不常用的按钮和图标挪走.</p>
+<h3 id="可穿戴人工喉httpswwwtsinghuaeducninfo1182102550htm"><a href="https://www.tsinghua.edu.cn/info/1182/102550.htm">可穿戴人工喉</a></h3>
+<p>最近微博上看到蔡磊(原京东副总裁, 患渐冻症)试用清华团队研发的可穿戴人工喉的视频, 还是很震撼的.</p>
+<blockquote>
+<p>新一代石墨烯人工喉可以基本恢复患者的语言交流能力，识别一名喉切除术患者模糊说出的日常词汇，准确率超过90%。甚至不同频率的耳语，尖叫和咳嗽都可以被该设备记录，编码，并进行分类，“解码”出不同种类的聋哑人“语言”，经过训练后，有望实现“吟诗作唱”的梦想。</p>
+</blockquote>
+<p>链接是今年 4 月 3 号, 清华网站上的一篇新闻稿, 感兴趣的可以看看这篇 <a href="https://www.nature.com/articles/s42256-023-00616-6">Nature论文</a> 和这篇<a href="https://zhuanlan.zhihu.com/p/609758850">知乎文章</a></p>
+<hr />
+<p><a href="https://happyfire.zhubai.love/">邮箱/微信订阅</a> | <a href="https://1link.fun/index.xml">RSS 订阅</a> | <a href="https://www.xiaohongshu.com/user/profile/5db7ad40000000000100bfd5?xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1678024783">小红书</a> | <a href="https://mastodon.world/@1link">Mastodon</a></p>
+<p><a href="https://www.xiaohongshu.com/vendor/6427c250970ed30001de5f88?naviHidden=yes&amp;xhsshare=CopyLink&amp;appuid=5db7ad40000000000100bfd5&amp;apptime=1681731067">小红书店铺</a>中上新一些有趣的订制品(9.9), 感兴趣且有余力的朋友可以支持一下, 感谢 🙏🏻</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
