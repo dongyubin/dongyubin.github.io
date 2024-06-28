@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/ 
+Allow: /about/ 
+Allow: /movies/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://blog.wangdu.site/sitemap.xml
+Sitemap: https://blog.wangdu.site/baidusitemap.xml
+Sitemap: https://blog.wangdu.site/search.xml
